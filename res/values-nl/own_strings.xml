@@ -1041,5 +1041,11 @@
       <!-- Status bar - Clock -->
       <string name="clock_color_title">Kleur</string>
       <string name="status_bar_clock_style_reset">Reset kleur</string>
-      <string name="status_bar_clock_style_reset_message">Klok kleur resetten?</string>    
+      <string name="status_bar_clock_style_reset_message">Klok kleur resetten?</string> 
+      <string name="clock_font_style_title">Lettertype</string>
+      <string name="clock_font_bold">Dikgedrukt</string>
+      <string name="clock_font_condensed">Geconcentreerd</string>
+      <string name="clock_font_light">Light</string>
+      <string name="clock_font_light_italic">Ligt schuin</string>
+      <string name="clock_font_normal">Normaal</string>   
 </resources>
