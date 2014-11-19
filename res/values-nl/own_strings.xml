@@ -1130,4 +1130,14 @@
     <string name="timeout_1500">1,5 sec</string>
     <string name="timeout_1000">1 sec</string>
     <string name="timeout_500">0,5 sec</string>
+    <string name="title_keyboard_input">Geafanceerde opties</string>
+    <string name="disable_fullscreen_keyboard_title">Weiger fullscreen keyboard</string>
+    <string name="disable_fullscreen_keyboard_summary">Landscape keyboard zal nooit het hele scherm in beslag nemen.</string>
+    <string name="keyboard_rotation_toggle_title">Automatische keyboard rotatie</string>
+    <string name="keyboard_rotation_toggle_summary">Forceeer auto-rotatie wanneer keyboard zichtbaar is</string>
+    <string name="keyboard_rotation_timeout_title">Auto-rotatie timeout</string>
+    <string name="keyboard_rotation_timeout_summary">Schakeld auto-rotatie sensor <xliff:g id="rotate_timeout">%1$s</xliff:g> seconden uit nadat keyboard weg is</string>
+    <string name="keyboard_rotation_dialog">Dit zorgt ervoor dat de auto-rotatie sensor uitgeschakeld is wanneer het keyboard zichtbaar is. Werkt niet als auto-rotatie al uitgeschakeld is.</string>
+    <string name="show_enter_key_title">Laat Enter toets zien</string>
+    <string name="show_enter_key_summary">Forceer de enter toets in plaats van emotie toets</string>
 </resources>
