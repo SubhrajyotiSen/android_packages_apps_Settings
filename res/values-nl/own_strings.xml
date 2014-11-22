@@ -1125,5 +1125,9 @@
     <string name="listview_overshoot_interpolator">Voorbijschieten</string>
     <string name="listview_anticipate_overshoot_interpolator">Vooruit en shiet voorbij</string>
     <string name="listview_bounce_interpolator">Stuiteren</string>   
-    
+    <string name="kill_app_longpress_timeout_title">Lang indrukken timeout</string>
+    <string name="timeout_2000">2 sec (Standaard)</string>
+    <string name="timeout_1500">1,5 sec</string>
+    <string name="timeout_1000">1 sec</string>
+    <string name="timeout_500">0,5 sec</string>
 </resources>
