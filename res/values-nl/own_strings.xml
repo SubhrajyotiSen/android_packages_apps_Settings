@@ -1526,6 +1526,12 @@
       <string name="recent_app_sidebar_label_color_title">Label kleur</string>
       <string name="recent_app_sidebar_bg_color_title">Achtergrond kleur</string>
       <string name="recent_app_sidebar_scale_title">Grote</string>
-
       <string name="lockscreen_blur_enabled_title">Vergrendel sherm vervaging</string> 
+      <!-- Sound settings -->
+      <string name="advanced_sound_title">Geafanceerde opties</string>
+      <string name="sound_title">Geluid</string>
+      <!-- Camera sound switch -->
+      <string name="camera_sounds_title">Camera sluiter geluid</string>
+      <string name="camera_sounds_summary">Schakel systeem camera geluid in/uit</string>
+      <string name="camera_sound_warning_dialog_text">Pas op! Dit geluid uitschakelen kan verboden zijn in sommige landen.</string>
 </resources>
