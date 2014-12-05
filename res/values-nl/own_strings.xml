@@ -884,4 +884,13 @@
     <string name="network_traffic_color_style">Kleur style style</string>
     <string name="network_traffic_color_reset">Reset kleur</string>
     <string name="network_traffic_color_reset_message">Kleuren naar standaard waardes herstellen?</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Druk op de nieuwe kleur om toe te passen</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Instellen</string>
+    <string name="color_default">Standaard</string>
+
 </resources>
