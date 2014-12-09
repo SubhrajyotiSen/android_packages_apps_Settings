@@ -22,5 +22,10 @@
                 android:entries="@array/toast_animation_entries"
                 android:entryValues="@array/toast_animation_values"
                 android:persistent="false" />
-
+		
+		<PreferenceScreen
+				android:id="@+id/listview"
+				android:fragment="com.android.settings.own.Listview"
+				android:title="@string/listview_category" />
+				
 </PreferenceScreen>

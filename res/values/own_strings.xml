@@ -1660,4 +1660,29 @@
     <string name="enable_task_manager_title">Task Manager</string>
     <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area.\nChanging this option will trigger SystemUI restart!</string>
 
+    <!-- ListView animation -->
+    <string name="listview_category">ListView Animation</string>
+    <string name="listview_animation_title">ListView Animation</string>
+    <string name="listview_off">Off</string>
+    <string name="listview_wave_left">Wave (Left)</string>
+    <string name="listview_wave_right">Wave (Right)</string>
+    <string name="listview_alpha">Alpha</string>
+    <string name="listview_scale">Scale</string>
+    <string name="listview_stack_top">Stack (Top)</string>
+    <string name="listview_stack_bottom">Stack (Bottom)</string>
+    <string name="listview_unfold">Unfold</string>
+    <string name="listview_fold">Fold</string>
+    <string name="listview_translate_left">Translate (Left)</string>
+    <string name="listview_translate_right">Translate (Right)</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">ListView Interpolator</string>
+    <string name="listview_accelerate_interpolator">accelerate</string>
+    <string name="listview_decelerate_interpolator">decelerate</string>
+    <string name="listview_accelerate_decelerate_interpolator">accelerate decelerate</string>
+    <string name="listview_anticipate_interpolator">anticipate</string>
+    <string name="listview_overshoot_interpolator">overshoot</string>
+    <string name="listview_anticipate_overshoot_interpolator">anticipate overshoot</string>
+    <string name="listview_bounce_interpolator">bounce</string>    
+
 </resources>
