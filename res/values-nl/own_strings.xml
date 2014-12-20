@@ -1478,4 +1478,22 @@
       <string name="pa_pie_always_right_summary">Pie zal altijd rechts zijn als toestel in landschap modes is (Horizontaal)</string>
       <string name="reset_own">OwnROM</string>
       <string name="reset_android">Android</string>
+      <!-- Doze options -->
+      <string name="display_category_doze_options_title">Omgevings scherm</string>
+      <string name="doze_settings_title">Geavanceerde doze opties</string>
+      <string name="doze_timeout_summary">Tijd dat het scherm aan blijft na een notificatie</string>
+      <string name="doze_trigger_pickup_title">Scherm aan bewegings trigger</string>
+      <string name="doze_trigger_pickup_summary_on">Doze zal getriggerd worden bij bewegings activiteit</string>
+      <string name="doze_trigger_pickup_summary_off">Doze zal niet getriggerd worden bij bewegings activiteit</string>
+      <string name="doze_trigger_sigmotion_title">Gewichtige bewegings trigger</string>
+      <string name="doze_trigger_sigmotion_summary_on">Doze zal getriggerd worden bij lichte bewegings activiteit</string>
+      <string name="doze_trigger_sigmotion_summary_off">Doze zal niet getriggerd worden bij lichte bewegings activiteit</string>
+      <string name="doze_trigger_notification_title">Notificatie trigger</string>
+      <string name="doze_trigger_notification_summary_on">Doze zal getriggerd worden als er een notificatie is</string>
+      <string name="doze_trigger_notification_summary_off">Doze zal niet getriggerd worden als er een notificatie is</string>
+      <string name="doze_schedule_title">Doze schema</string>
+      <string name="doze_schedule_summary_on">Vooraf ingestelde doze intervallen waarin doze opnieuw zictbaar word ( [1s,10s,30s,60s,120s]) (Standaard)</string>
+      <string name="doze_schedule_summary_off">Doze zal alleen eens per notificatie getriggerd worden</string>
+      <string name="doze_brightness_title">Doze helderheid</string>
+      <string name="doze_brightness_summary">Helderheid van Doze notificatie scherm (% van max toegestaande helderheid)</string>
 </resources>
