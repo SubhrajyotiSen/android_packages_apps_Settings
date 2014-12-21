@@ -37,6 +37,12 @@
                 android:fragment="com.android.settings.ButtonSettings"
                 />
 
+        <!-- App circle bar -->
+        <PreferenceScreen
+                android:key="app_circle_bar"
+                android:fragment="com.android.settings.own.AppCircleBar"
+                android:title="@string/app_circle_bar_title"/>
+
         <!-- Recent Apps Panel Settings -->        
         <PreferenceScreen
                 android:id="@+id/own_recents_settings"
