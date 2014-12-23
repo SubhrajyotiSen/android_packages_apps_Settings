@@ -1894,4 +1894,7 @@
     <string name="cpu_info">CPU</string>
     <string name="mem_info">RAM</string>
 
+    <!-- Viper4Android -->
+    <string name="viper_title">Viper4Android</string>
+
 </resources>
