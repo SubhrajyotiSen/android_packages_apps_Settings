@@ -1878,4 +1878,13 @@
     <string name="factory_reset_erase_sd_card_summary">Erase all data on the SD card, including music and photos</string>
     <string name="factory_reset_warning_text_reset_now">RESET NOW</string>
     <string name="factory_reset_warning_text_message">All your accounts, apps, app data, and system settings will be removed from this device. This cannot be reversed.</string>
+
+    <!-- StatusBar Clock Font style -->
+    <string name="clock_font_style_title">Clock font style</string>
+    <string name="clock_font_bold">Bold</string>
+    <string name="clock_font_condensed">Condensed</string>
+    <string name="clock_font_light">Light</string>
+    <string name="clock_font_light_italic">Light italic</string>
+    <string name="clock_font_normal">Normal</string>
+
 </resources>
