@@ -513,6 +513,7 @@
 	  <string name="power_menu_bug_report_title">Foutrapport</string>
 	  <string name="power_menu_sound_title">Geluidspaneel</string>
 	  <string name="power_menu_bug_report_disabled">Foutrapportage is uitgeschakeld in de opties voor ontwikkelaars</string>
+      <string name="powermenu_screenshot_delay_title">Stel screenshot vertraging in</string>
 	  <!-- tap-to-sleep -->
 	  <string name="double_tap_to_sleep_title">Dubbeltikken voor slaapstand</string>
 	  <string name="double_tap_to_sleep_summary">Dubbeltikken op de statusbalk voor slaapstand</string>
