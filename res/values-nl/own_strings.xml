@@ -1019,5 +1019,9 @@
      <!-- Battery saver color -->
      <string name="battery_saver_color_title">Waarschuwings kleur</string>
      <string name="battery_saver_color_summary">Schakel oranje kleur in op navigatie en statusbalk als besparings modes zijn ingeschakeld</string>
-
+      <!-- Color Picker -->
+      <string name="dialog_color_picker">Kleuren kiezer</string>
+      <string name="press_color_to_apply">Druk op kleur om toe te passen</string>
+      <string name="set">Pas toe</string>
+      <string name="color_default">Standaard</string>
 </resources>
