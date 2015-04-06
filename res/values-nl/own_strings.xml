@@ -1024,4 +1024,19 @@
       <string name="press_color_to_apply">Druk op kleur om toe te passen</string>
       <string name="set">Pas toe</string>
       <string name="color_default">Standaard</string>
+      <!--Status bar date -->
+      <string name="status_bar_clock_category">Klok</string>
+      <string name="status_bar_date_title">Datum</string>
+      <string name="status_bar_date_none">Verborgen (Standaard)</string>
+      <string name="status_bar_date_small">Klein</string>
+      <string name="status_bar_date_normal">Normaal</string>
+      <string name="status_bar_date_format_title">Datum formaat</string>
+      <string name="status_bar_date_style">Datum style</string>
+      <string name="status_bar_date_style_normal">Normaal</string>
+      <string name="status_bar_date_style_lowercase">Kleine letters</string>
+      <string name="status_bar_date_style_uppercase">Grote letters</string>
+      <string name="status_bar_date_format_custom">Custom java formaat</string>
+      <string name="status_bar_date_string_edittext_title">Moet in datum formaat bijv. dd/mm/yy</string>
+      <string name="status_bar_date_string_edittext_summary">Voer formaat in</string>
+    
 </resources>
