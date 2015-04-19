@@ -67,5 +67,15 @@
     <!-- DSLV colors -->
     <color name="dslv_icon_dark">#80000000</color>
     <color name="dslv_float_cackground_color">#ffe1e1e0</color>
-
+	
+	<!-- Color Picker -->
+    <color name="white">#ffffffff</color>
+    <color name="divider">#1fffffff</color>
+    <color name="ripple_material_dark">#4dffffff</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="primary">#ff2196F3</color>
+    <color name="primary_dark">#ff1976D2</color>
+    <color name="accent">#ff2196F3</color>
+    <color name="background">#ff1b1f23</color>
+    
 </resources>

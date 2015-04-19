@@ -25,4 +25,10 @@
 
     <dimen name="phone_width">320dp</dimen>
     <dimen name="phone_height">420dp</dimen>
+    
+    <!-- Edit text -->
+    <dimen name="edit_text_inset_horizontal_material">4dp</dimen>
+    <dimen name="edit_text_inset_top_material">10dp</dimen>
+    <dimen name="edit_text_inset_bottom_material">7dp</dimen>
+    
 </resources>
