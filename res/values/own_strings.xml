@@ -1555,6 +1555,7 @@
     <!-- Tiles -->
     <string name="qs_notifications_tile">Notifications</string>
     <string name="qs_power_menu_tile">Power menu</string>
+	<string name="qs_navbar_tile">Navigation Bar</string>
 
     <!-- Navigation bar -->
     <string name="reset">Reset</string>
