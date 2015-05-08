@@ -1417,4 +1417,5 @@
   <string name="notification_icon_color_mode_greyscale_title">Als de icoon een GrayScale icoon is</string>
   <string name="notification_bg_color_mode_no_color_title">Als de icoon geen eigen kleur heeft</string>
   <string name="notification_color_mode_always_title">Altijd</string>
+  <string name="notification_drawer_clear_all_icon_color_title">Verwijder alles icoon</string>
 </resources>
