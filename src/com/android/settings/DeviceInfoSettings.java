@@ -64,7 +64,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String LOG_TAG = "DeviceInfoSettings";
     private static final String FILENAME_PROC_VERSION = "/proc/version";
     private static final String FILENAME_MSV = "/sys/board_properties/soc/msv";
-    private static final String PROPERTY_CMLICENSE_URL = "ro.cmlegal.url";
+    private static final String PROPERTY_OWNLICENSE_URL = "ro.ownlegal.url";
 
     private static final String KEY_CONTAINER = "container";
     private static final String KEY_REGULATORY_INFO = "regulatory_info";
@@ -90,7 +90,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MOD_VERSION = "mod_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
     private static final String KEY_CM_UPDATES = "cm_updates";
-    private static final String KEY_CM_LICENSE = "cmlicense";
+    private static final String KEY_CM_LICENSE = "ownlicense";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -296,10 +296,10 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 }
             }
         } else if (preference.getKey().equals(KEY_CM_LICENSE)) {
-            String userCMLicenseUrl = SystemProperties.get(PROPERTY_CMLICENSE_URL);
+            String userOWNLicenseUrl = SystemProperties.get(PROPERTY_OWNLICENSE_URL);
             final Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.addCategory(Intent.CATEGORY_DEFAULT);
-            intent.setData(Uri.parse(userCMLicenseUrl));
+            intent.setData(Uri.parse(userOWNLicenseUrl));
             try {
                 startActivity(intent);
             } catch (Exception e) {

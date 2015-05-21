@@ -88,10 +88,10 @@
                 <intent android:action="android.settings.LICENSE" />
             </PreferenceScreen>
 
-            <!-- CM License information -->
+            <!-- own License information -->
             <PreferenceScreen
-                    android:key="cmlicense"
-                    android:title="@string/cmlicense_title" />
+                    android:key="ownlicense"
+                    android:title="@string/ownlicense_title" />
 
             <!-- Terms and conditions -->
             <PreferenceScreen
