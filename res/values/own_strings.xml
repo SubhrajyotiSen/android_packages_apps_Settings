@@ -27,6 +27,10 @@
 
     <!-- Launch Dev Tools -->
     <string name="development_tools_title">Development tools</string>
+    
+    <!-- OwnSettings -->
+    <string name="own_settings_title">OwnSettings</string>
+    <string name="own_cat_title">Categories</string>
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
