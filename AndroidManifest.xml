@@ -649,6 +649,8 @@
                 android:value="true" />
         </activity>
 
+        <activity android:name=".own.Density" />
+    
         <activity android:name="Settings$HomeSettingsActivity"
                 android:label="@string/home_settings"
                 android:taskAffinity="">
