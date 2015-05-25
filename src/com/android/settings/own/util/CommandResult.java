@@ -1,4 +1,4 @@
-ackage com.android.settings.own.util;
+package com.android.settings.own.util;
 
 import android.os.Environment;
 import android.os.Parcel;
