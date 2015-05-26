@@ -837,24 +837,4 @@
   <string name="preview_version_title">Versie</string>
   <string name="preview_country_title">Land</string>
   <string name="preview_carrier_title">Provider</string>
-  <string name="dpi">DPI</string>
-  <string name="su_dialog_error_title">Waarschuwing</string>
-  <string name="su_dialog_error_message">Er is een Fout opgetreden.\n\nCheck of u Roottoegang heeft.</string>
-  <string name="lcd_density_title"><i><b>LCD Density</b></i></string>
-  <string name="lcd_density_category">Opties</string>
-  <string name="follow_through_summary">Het veranderen van LCD Density kan er toe lijden dat apps niet meer werken en/of dat de Playstore apps laat zien die niet werken op uw toestel.</string>
-  <string name="stock_density_title">Terug naar standaart waardes</string>
-  <string name="stock_density_summary">Tablets gebruiken 160 dpi terwijl high-end toestellen 320 of 480 dpi gebruiken. Oudere toestellen gebruiken 240 dpi</string>
-  <string name="stock_density_changed_summary">"Density ingesteld op: "</string>
-  <string name="reboot_title">Herstart uw toestel</string>
-  <string name="reboot_summary">Herstarten is nodig om veranderingen te zien.</string>
-  <string name="custom_density_title">Verander in elke gewenste dpi</string>
-  <string name="custom_density_summary_invalid">"ONGELDIGE DENSITY!"</string>
-  <string name="custom_density">custom</string>
-  <string name="set_custom_density_title">Stel custom density in</string>
-  <string name="set_custom_density_set">Stel in</string>
-  <string name="custom_density_dialog_title">WAARSCHUWING!</string>
-  <string name="custom_density_dialog_summary">Het veranderen van LCD Density kan er toe lijden dat apps niet meer werken en/of dat de Playstore apps laat zien die niet werken op uw toestel.</string>
-  <string name="custom_density_dialog_button_got">Gezien!</string>
-  <string name="custom_density_dialog_button_reboot">Herstart nu</string>
 </resources>
