@@ -899,7 +899,7 @@
 
     <string name="usb_sdcard_title">Mass storage (UMS)</string>
     <string name="usb_sdcard_summary">Lets you transfer files between your computer and SD card by mounting it as a flash device</string>
-    <string name="usb_not_connected">USB not connected</string>
+    <string name="usb_not_connected">USB is now disconnected</string>
 
     <string name="external_storage_turn_on">External storage has been turned on</string>
     <string name="external_storage_turn_off">External storage has been turned off</string>
@@ -1054,6 +1054,7 @@
     <string name="qs_tile_usb_tether">USB tethering</string>
     <string name="qs_tile_heads_up">Heads up</string>
     <string name="qs_tile_ambient_display">Ambient display</string>
+    <string name="qs_tile_sync">Sync</string>
 
     <string name="qs_main_tiles_title">Enlarge first row</string>
     <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
@@ -1165,7 +1166,7 @@
     <string name="category_interface">Interface</string>
     <string name="category_calibration">Calibration</string>
     <string name="display_and_lights">Display &amp; lights</string>
-    <string name="notification_manager">Notification manager</string>
+    <string name="notification_manager">Notifications</string>
     <string name="lockscreen_settings">Lock screen</string>
     <string name="category_lights">Lights</string>
     <string name="power_usage_history_title">Battery usage</string>
@@ -1243,27 +1244,5 @@
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>    
-
-    <!-- Density changer -->
-    <string name="dpi">DPI</string>
-    <string name="su_dialog_error_title">Warning</string>
-    <string name="su_dialog_error_message">An error occurred.\n\nPlease check for root access. To activate go into superuser settings and enable root access.</string>
-    <string name="lcd_density_title"><i><b>LCD Density</b></i></string>
-    <string name="lcd_density_category">Options</string>
-    <string name="follow_through_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device</string>
-    <string name="stock_density_title">Change to stock values</string>
-    <string name="stock_density_summary">Tablets generally use 160 dpi while high end devices use 320 or 480 dpi. Older devices use 240 dpi</string>
-    <string name="stock_density_changed_summary">"Density set to: "</string>
-    <string name="reboot_title">Reboot your device</string>
-    <string name="reboot_summary">You need to reboot your device for your change to take effect</string>
-    <string name="custom_density_title">Change to whatever you like</string>
-    <string name="custom_density_summary_invalid">"INVALID DENSITY!"</string>
-    <string name="custom_density">custom</string>
-    <string name="set_custom_density_title">Set custom density</string>
-    <string name="set_custom_density_set">Set</string>
-    <string name="custom_density_dialog_title">WARNING!</string>
-    <string name="custom_density_dialog_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device"</string>
-    <string name="custom_density_dialog_button_got">Got it!</string>
-    <string name="custom_density_dialog_button_reboot">Reboot now</string>
 
 </resources>
