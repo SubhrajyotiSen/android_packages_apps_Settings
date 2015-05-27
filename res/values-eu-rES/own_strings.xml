@@ -699,7 +699,6 @@
   <string name="unlock_scramble_pin_layout_summary">PIN zenbakiaren antolaketa nahastu gailua desblokeatzean</string>
   <string name="link_volume_option_title">Lotu dei doinuaren eta jakinarazpenen bolumenak</string>
   <string name="notification_volume_option_title">Jakinarazpenen bolumena</string>
-  <string name="notification_drawer_title">Jakinarazpenen tiradera</string>
   <string name="quick_pulldown_title">Hedapen azkarra</string>
   <string name="quick_pulldown_summary">Jakinarazpen barraren %1$s ertzak ezarpen azkarren taula hedatuko du</string>
   <string name="quick_pulldown_summary_left">Ezkerra</string>
