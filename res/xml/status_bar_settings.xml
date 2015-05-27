@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright (C) 2014-2015 The CyanogenMod Project
+     Copyright (C) 2014-2015 The OwnDroid Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -64,5 +64,11 @@
         android:title="@string/status_bar_notif_count_title"
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="false" />
+
+    <PreferenceScreen
+		android:key="network_traffic_state"
+		android:fragment="com.android.settings.own.NetworkTraffic"
+		android:summary="@string/network_traffic_summary"
+		android:title="@string/network_traffic_title" />
 
 </PreferenceScreen>
