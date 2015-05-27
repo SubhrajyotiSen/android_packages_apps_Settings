@@ -29,4 +29,3 @@ keep class com.android.settings.own.**
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
   *** onClick*(...);
-}
