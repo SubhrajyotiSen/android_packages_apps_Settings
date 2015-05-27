@@ -691,7 +691,6 @@
   <string name="ownlicense_title">OwnROM lizentzia</string>
   <string name="settings_ownlicense_activity_title">OwnROM lizentzia</string>
   <string name="notification_drawer_title">Jakinarazpen eremua</string>
-  <string name="settings_cmlicense_activity_title">CyanogenMod lizentzia</string>
   <string name="lockpattern_settings_enable_error_path_title">Erakutsi eredu errorea</string>
   <string name="lockpattern_settings_enable_dots_title">Erakutsi ereduaren puntuak</string>
   <string name="unlock_quick_unlock_control_title">Desblokeo azkarra</string>
