@@ -893,7 +893,7 @@
     <string name="set">Instellen</string>
     <string name="color_default">Standaard</string>
     <string name="ani_settings_title">Animatie Instellingen</string>
-    <string name="toast_animation_title">Toast animatioes</string>
+    <string name="toast_animation_title">Toast animaties</string>
     <string name="toast_animation_summary">Selecteer en preview systeem toast animaties</string>
     <string name="toast_none_animation">Geen</string>
     <string name="toast_default_animation">Standaard</string>
