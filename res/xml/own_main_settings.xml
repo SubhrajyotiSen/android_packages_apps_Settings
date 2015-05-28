@@ -37,6 +37,12 @@
                 android:fragment="com.android.settings.own.AniSettings"
                 />      
 
-</PreferenceCategory>
+        <!-- Change Log -->
+		<PreferenceScreen android:key="changelog"
+				android:title="@string/changelog_title"
+				android:fragment="com.android.settings.own.ChangeLog" 
+				/>
+     
+	</PreferenceCategory>
 
 </PreferenceScreen>

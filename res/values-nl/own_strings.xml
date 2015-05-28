@@ -909,4 +909,9 @@
     <string name="toast_GrowFadeCenter_animation">Groeiende fade centrum</string>
     <string name="toast_GrowFadeBottom_animation">Groeiende fade bodem</string>
     <string name="toast_Translucent_animation">Translucente animatie</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_loading">Changelog laden...</string>
+    <string name="changelog_error">Het lukt niet de changelog te laden</string>
+    <string name="changelog_unknown">Onbekend</string>
+    <string name="changelog_version">Versie</string>
 </resources>
