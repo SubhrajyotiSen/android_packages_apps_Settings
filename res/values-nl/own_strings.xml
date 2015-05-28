@@ -892,5 +892,21 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Instellen</string>
     <string name="color_default">Standaard</string>
-
+    <string name="ani_settings_title">Animatie Instellingen</string>
+    <string name="toast_animation_title">Toast animatioes</string>
+    <string name="toast_animation_summary">Selecteer en preview systeem toast animaties</string>
+    <string name="toast_none_animation">Geen</string>
+    <string name="toast_default_animation">Standaard</string>
+    <string name="toast_fade_animation">Fade animatie</string>
+    <string name="toast_SlideRight_animation">Slide rechts</string>
+    <string name="toast_SlideLeft_animation">Slide links</string>
+    <string name="toast_Xylon_animation">Xylon animatie</string>
+    <string name="toast_Toko_animation">Toko animatie</string>
+    <string name="toast_Tn_animation">Tn animatie</string>
+    <string name="toast_Honami_animation">Honami animatie</string>
+    <string name="toast_FastFade_animation">Snelle fade</string>
+    <string name="toast_GrowFade_animation">Groeiende fade</string>
+    <string name="toast_GrowFadeCenter_animation">Groeiende fade centrum</string>
+    <string name="toast_GrowFadeBottom_animation">Groeiende fade bodem</string>
+    <string name="toast_Translucent_animation">Translucente animatie</string>
 </resources>

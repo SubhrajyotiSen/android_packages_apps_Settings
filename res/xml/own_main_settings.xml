@@ -30,6 +30,13 @@
                 android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
                 /> 
 
+		 <!-- Animation Settings -->
+         <PreferenceScreen
+                android:id="@+id/own_ani_settings"
+                android:title="@string/ani_settings_title"
+                android:fragment="com.android.settings.own.AniSettings"
+                />      
+
 </PreferenceCategory>
 
 </PreferenceScreen>
