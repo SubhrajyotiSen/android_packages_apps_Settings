@@ -68,3 +68,4 @@ public class ChangeLog extends Fragment {
 
         return scrollView;
     }
+}
