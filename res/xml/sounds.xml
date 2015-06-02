@@ -95,6 +95,12 @@
                 android:icon="@drawable/ring_notif_increasing"
                 android:dependency="increasing_ring"
                 settings:advanced="true"/>
+        
+        <!-- Live Volume Steps -->        
+        <PreferenceScreen
+                android:key="volume_steps"
+                android:fragment="com.android.settings.own.VolumeSteps"
+                android:title="@string/volume_steps_title" />
 
         <!-- Headset -->
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
