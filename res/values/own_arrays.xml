@@ -577,6 +577,7 @@
         <item>@string/volume_steps_5</item>
     </string-array>
 
+	<!-- Slims Lockscreen Shortcut -->
     <!-- Icon type for lockscreen shorcut. -->
     <string-array name="icon_types">
         <item>@string/shortcuts_icon_default</item>
@@ -937,6 +938,17 @@
         <item>@string/shortcut_action_ring_vib_silent</item>
         <item>@string/shortcut_action_wake_device</item>
         <item>@string/shortcut_action_none</item>
+    </string-array>
+    <string-array name="lockscreen_shortcuts_launch_type_entries" translatable="false">
+        <item>@string/lockscreen_shortcuts_single_tap</item>
+        <item>@string/lockscreen_shortcuts_double_tap</item>
+        <item>@string/lockscreen_shortcuts_longpress</item>
+    </string-array>
+
+    <string-array name="lockscreen_shortcuts_launch_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 
 	<!-- Themes -->
