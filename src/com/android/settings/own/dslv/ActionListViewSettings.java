@@ -54,7 +54,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.android.internal.util.own.ActionConfig;
-import com.android.internal.util.own.ActionConstants;
+import com.android.internal.util.own.OwnActionConstants;
 import com.android.internal.util.own.ActionHelper;
 import com.android.internal.util.own.ImageHelper;
 import com.android.internal.util.own.DeviceUtils;
@@ -406,7 +406,7 @@ public class ActionListViewSettings extends ListFragment implements
                 deleteIconFileIfPresent(actionConfig, true);
                 actionConfig.setClickAction(action);
                 actionConfig.setClickActionDescription(description);
-                actionConfig.setIcon(ActionConstants.ICON_EMPTY);
+                actionConfig.setIcon(OwnActionConstants.ICON_EMPTY);
             }
         }
 
@@ -507,8 +507,8 @@ public class ActionListViewSettings extends ListFragment implements
         }
         ActionConfig actionConfig = new ActionConfig(
             action, description,
-            ActionConstants.ACTION_NULL, getResources().getString(R.string.shortcut_action_none),
-            ActionConstants.ICON_EMPTY);
+            OwnActionConstants.ACTION_NULL, getResources().getString(R.string.shortcut_action_none),
+            OwnActionConstants.ICON_EMPTY);
 
             mActionConfigsAdapter.add(actionConfig);
             showDisableMessage(false);
@@ -626,7 +626,7 @@ public class ActionListViewSettings extends ListFragment implements
                         iconUri), 36);
             }
 
-            if (iconUri != null && iconUri.startsWith(ActionConstants.SYSTEM_ICON_IDENTIFIER)) {
+            if (iconUri != null && iconUri.startsWith(OwnActionConstants.SYSTEM_ICON_IDENTIFIER)) {
                 d.setTint(getResources().getColor(R.color.dslv_icon_dark));
             }
             holder.iconView.setImageDrawable(d);
@@ -789,7 +789,7 @@ public class ActionListViewSettings extends ListFragment implements
 
                         for (int i = 0; i < getOwner().mActionDialogValues.length; i++) {
                             if (!getOwner().mActionDialogValues[i]
-                                    .equals(ActionConstants.ACTION_NULL)) {
+                                    .equals(OwnActionConstants.ACTION_NULL)) {
                                 finalEntriesList.add(getOwner().mActionDialogEntries[i]);
                                 finalValuesList.add(getOwner().mActionDialogValues[i]);
                             }
@@ -810,7 +810,7 @@ public class ActionListViewSettings extends ListFragment implements
                     .setItems(finalDialogEntries,
                         new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int item) {
-                            if (finalDialogValues[item].equals(ActionConstants.ACTION_APP)) {
+                            if (finalDialogValues[item].equals(OwnActionConstants.ACTION_APP)) {
                                 if (getOwner().mPicker != null) {
                                     getOwner().mPendingIndex = which;
                                     getOwner().mPendingLongpress = longpress;
@@ -840,7 +840,7 @@ public class ActionListViewSettings extends ListFragment implements
                             switch(which) {
                                 case 0: // Default
                                     getOwner().updateAction(null, null,
-                                        ActionConstants.ICON_EMPTY,
+                                        OwnActionConstants.ICON_EMPTY,
                                         getOwner().mPendingIndex, false);
                                     getOwner().mPendingIndex = -1;
                                     break;
@@ -934,7 +934,7 @@ public class ActionListViewSettings extends ListFragment implements
                 String name = icons.getString(position);
                 int separatorIndex = name.lastIndexOf(File.separator);
                 int periodIndex = name.lastIndexOf('.');
-                return ActionConstants.SYSTEM_ICON_IDENTIFIER
+                return OwnActionConstants.SYSTEM_ICON_IDENTIFIER
                     + name.substring(separatorIndex + 1, periodIndex);
             }
 

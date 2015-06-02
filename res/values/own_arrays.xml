@@ -576,7 +576,7 @@
         <item>@string/volume_steps_7</item>
         <item>@string/volume_steps_5</item>
     </string-array>
-    
+
     <!-- Icon type for lockscreen shorcut. -->
     <string-array name="icon_types">
         <item>@string/shortcuts_icon_default</item>
@@ -743,5 +743,5 @@
         <item>**wake_device**</item>
         <item>**null**</item>
     </string-array>
-
+    
 </resources>
