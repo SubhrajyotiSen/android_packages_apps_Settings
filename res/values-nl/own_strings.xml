@@ -933,4 +933,6 @@
     <string name="theme_auto_switch_mode_error">Veranderen op lichtinval is ingeschakeld. Handmatig veranderen is niet mogelijk.</string>
     <string name="theme_reset_message">Reset naar standaard thema?</string>
     <string name="reset_default_message">Terug naar standaard instellingen?</string>
+    <string name="interface_settings_title">Interface</string>
+    <string name="status_bar_title_summary">Customize de statusbar</string>
 </resources>
