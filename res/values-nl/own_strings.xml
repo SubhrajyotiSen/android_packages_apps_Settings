@@ -932,4 +932,5 @@
     <string name="theme_auto_mode_twilight">Tijdens de dag</string>
     <string name="theme_auto_switch_mode_error">Veranderen op lichtinval is ingeschakeld. Handmatig veranderen is niet mogelijk.</string>
     <string name="theme_reset_message">Reset naar standaard thema?</string>
+    <string name="reset_default_message">Terug naar standaard instellingen?</string>
 </resources>
