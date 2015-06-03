@@ -938,4 +938,22 @@
     <string name="lock_clock_title">Clock widget instellingen</string>
     <string name="lock_clock_summary">Verander hier hoe de Clock Widget wordt weergegeven.</string>
     <string name="qs_notifications_tile">Notificaties</string>
+    <string name="reset">Reset</string>
+    <string name="navbar_enable_bar_title">Schakel on-screen nav bar in</string>
+    <string name="navbar_enable_bar_summary">Shakel on-screen nav bar in, LET OP Schakeld hardware knoppen uit</string>
+    <string name="navbar_style_dimen_title">Nav bar dimensies</string>
+    <string name="navbar_dimensions_reset_message">Reset alle dimensies naar standaard waarden?</string>
+    <string name="navigation_bar_height_title">Nav bar hoogte</string>
+    <string name="navigation_bar_height_summary">Nav bar hoogte in portret mode</string>
+    <string name="navigation_bar_width_title">Nav bar breette</string>
+    <string name="navigation_bar_width_summary">Nav bar hoogte als de bar aan de zijkant is</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (Standaard)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (Standaard)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+
 </resources>
