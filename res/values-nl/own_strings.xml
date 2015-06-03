@@ -937,4 +937,5 @@
     <string name="status_bar_title_summary">Customize de statusbar</string>
     <string name="lock_clock_title">Clock widget instellingen</string>
     <string name="lock_clock_summary">Verander hier hoe de Clock Widget wordt weergegeven.</string>
+    <string name="qs_notifications_tile">Notificaties</string>
 </resources>
