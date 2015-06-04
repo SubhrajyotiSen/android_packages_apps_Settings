@@ -940,7 +940,7 @@
     <string name="qs_notifications_tile">Notificaties</string>
     <string name="reset">Reset</string>
     <string name="navbar_enable_bar_title">Schakel on-screen nav bar in</string>
-    <string name="navbar_enable_bar_summary">Shakel on-screen nav bar in, LET OP Schakeld hardware knoppen uit</string>
+    <string name="navbar_enable_bar_summary">Shakel on-screen nav bar in, Schakeld hardware knoppen uit</string>
     <string name="navbar_style_dimen_title">Nav bar dimensies</string>
     <string name="navbar_dimensions_reset_message">Reset alle dimensies naar standaard waarden?</string>
     <string name="navigation_bar_height_title">Nav bar hoogte</string>
