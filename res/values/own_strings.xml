@@ -1634,7 +1634,7 @@
     <string name="shortcut_action_lastapp">Last app</string>
     <string name="shortcut_action_screenshot">Screenshot</string>
     <string name="shortcut_action_torch">Torch</string>
-
+	<string name="default_string">Default</string>
     <!-- Navigation bar visibility -->
     <string name="navigation_menu_default_jb_behavior">Show on request (default)</string>
     <string name="navigation_menu_never_show">Never show</string>
