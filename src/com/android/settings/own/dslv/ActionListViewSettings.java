@@ -67,7 +67,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import com.android.settings.own.dslv.DragSortListView;
 import com.android.settings.own.dslv.DragSortController;
-import com.android.settings.own.util.ShortcutPickerHelper;
+import com.android.settings.own.utils.ShortcutPickerHelper;
 
 import java.io.File;
 import java.io.FileOutputStream;
