@@ -1103,5 +1103,6 @@
     <string name="lockscreen_shortcuts_single_tap">Click</string>
     <string name="lockscreen_shortcuts_double_tap">Dubbel click</string>
     <string name="lockscreen_shortcuts_longpress">Lang ingedrukt</string>
-    
+    <string name="enable_task_manager_summary">Schakel Task Manager in/uit, zal SystemUI herstarten!</string>
+
 </resources>

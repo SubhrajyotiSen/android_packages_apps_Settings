@@ -20,9 +20,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.telephony.TelephonyManager;
@@ -34,6 +37,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
+import com.android.settings.util.Helpers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,16 +56,22 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 6;
 
+    private static final String PREF_ENABLE_TASK_MANAGER = "enable_task_manager";
+
     private ListPreference mStatusBarClock;
     private ListPreference mStatusBarAmPm;
     private ListPreference mStatusBarBattery;
     private ListPreference mStatusBarBatteryShowPercent;
 
+	private SwitchPreference mEnableTaskManager;
+    
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
+		PreferenceScreen prefs = getPreferenceScreen();
+		
         ContentResolver resolver = getActivity().getContentResolver();
 
         mStatusBarClock = (ListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
@@ -69,6 +79,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBatteryShowPercent =
                 (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
+
+        // Task manager
+        mEnableTaskManager = (SwitchPreference) prefs.findPreference(PREF_ENABLE_TASK_MANAGER);
+        mEnableTaskManager.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
 
         int clockStyle = Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_CLOCK, 1);
@@ -101,6 +116,17 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mStatusBarBatteryShowPercent.setOnPreferenceChangeListener(this);
     }
 
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+       if  (preference == mEnableTaskManager) {
+            boolean enabled = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.ENABLE_TASK_MANAGER, enabled ? 1:0);
+            Helpers.restartSystemUI();        
+		}
+		return super.onPreferenceTreeClick(preferenceScreen, preference);
+	}
+	
     @Override
     public void onResume() {
         super.onResume();

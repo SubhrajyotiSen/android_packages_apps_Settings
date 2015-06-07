@@ -1650,4 +1650,9 @@
     <string name="title_pref_menu_display">Menu visibility</string>
     <string name="summary_pref_menu_display">How and when do you want the menu buttons to appear?</string>
 	<string name="navigation_bar_warning_no_navigation_present">No other navigation is currently enabled. Turning off the navigation bar can result in an unusable device. Do you want to enable pie controls instead?</string>
+
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Task Manager</string>
+    <string name="enable_task_manager_summary">Enable/Disable action for the task manager button in the expanded statusbar area.\nChanging this option will trigger SystemUI restart!</string>
+
 </resources>
