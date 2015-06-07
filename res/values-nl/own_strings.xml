@@ -763,7 +763,7 @@
   <string name="expanded_desktop_style_description">Selecteer een standaardstijl voor het uitgebreid bureaublad</string>
   <string name="expanded_desktop_title">Instellingen uitgebreid bureaublad</string>
   <string name="title_general">Algemeen</string>
-  <string name="lockscreen_targets_message">Snelkoppelingen hoeken van de bodem op het vergrendelingsscherm</string>
+  <string name="lockscreen_targets_message">Snelkoppelingen bodem hoeken vegrendelscherm</string>
   <string name="lockscreen_default_target">Standaard</string>
   <string name="lockscreen_none_target">Geen</string>
   <string name="lockscreen_message">Tik recht of links op een pictogram om de snelkoppeling opnieuw toe te wijzen.</string>
@@ -1096,4 +1096,12 @@
     <string name="shortcut_action_voice_search">Spraakgestuurd zoeken</string>
     <string name="shortcut_action_none">Geen</string>
 	<string name="shortcut_action_required_warning_message">Het is niet mogelijk deze knoppen te verwijderen.</string>
+    <string name="own_lockscreen_title">Lock Screen instellingen</string>
+    <string name="lockscreen_shortcuts_title">Snelkoppelingen</string>
+    <string name="lockscreen_shortcuts_summary">Bekijk of verander de Snelkoppelingen op het vergrendelscherm</string>
+    <string name="lockscreen_shorcuts_launch_type_title">Snelkoppeling open type</string>
+    <string name="lockscreen_shortcuts_single_tap">Click</string>
+    <string name="lockscreen_shortcuts_double_tap">Dubbel click</string>
+    <string name="lockscreen_shortcuts_longpress">Lang ingedrukt</string>
+    
 </resources>
