@@ -785,7 +785,6 @@ public class ActionListViewSettings extends ListFragment implements
                         message = R.string.shortcut_action_warning_message;
                     }
                     return new AlertDialog.Builder(getActivity())
-                    .setTitle(R.string.shortcut_action_warning)
                     .setMessage(message)
                     .setNegativeButton(R.string.dlg_ok,
                         new DialogInterface.OnClickListener() {
@@ -938,7 +937,6 @@ public class ActionListViewSettings extends ListFragment implements
             public IconAdapter() {
                 labels = getResources().getStringArray(R.array.shortcut_icon_picker_labels);
                 icons = getResources().obtainTypedArray(R.array.shortcut_icon_picker_icons);
-                color = getResources().getColor(R.color.dslv_icon_dark);
             }
 
             @Override
