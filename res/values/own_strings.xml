@@ -36,6 +36,7 @@
     <string name="own_lockscreen_title">Lock Screen Settings</string>
     <string name="interface_settings_title">Interface</string>
     <string name="status_bar_title_summary">Customize statusbar</string>
+    <string name="extra_settings_title">Extra</string>
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
