@@ -24,5 +24,10 @@
             android:targetPackage="com.cyanogenmod.lockclock"
             android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
         </PreferenceScreen>
+	
+	<PreferenceScreen
+        android:key="wakelock_blocker"
+        android:fragment="com.android.settings.own.WakeLockBlocker"
+        android:title="@string/wakelock_blocker_title" />    
         
 </PreferenceScreen>
