@@ -1643,10 +1643,15 @@
     <string name="shortcut_action_lastapp">Last app</string>
     <string name="shortcut_action_navbar">Navigation bar</string>
     <string name="shortcut_action_notifications">Notifications</string>
-    <string name="shortcut_action_menu_big">Menu</string>
+    <string name="shortcut_action_menu_big">Menu Big</string>
+    <string name="shortcut_action_menu">Menu</string>
+    <string name="shortcut_action_media_next">Music - next track</string>
+    <string name="shortcut_action_media_play_pause">Music - play/pause</string>
+    <string name="shortcut_action_media_previous">Music - previous track</string>
+    <string name="shortcut_action_wake_device">Wake up device</string>
+    <string name="shortcut_action_qs">Quicksettings panel</string>
 	<string name="default_string">Default</string>
 	<string name="attention">Attention</string>
-    <string name="shortcut_action_qs">Quicksettings panel</string>
     <string name="shortcut_action_smart">Smart pulldown</string>
     <string name="pie_warning_no_navigation_present">No other navigation is currently enabled. Turning off pie controls can result in an unusable device. Do you want to enable navigation bar instead?</string>
     <string name="pie_trigger_warning">Minimum one of the main triggers (bottom, left or right) needs to be enabled.</string>
@@ -1727,7 +1732,8 @@
     <string name="camera_sounds_title">Camera shutter sound</string>
     <string name="camera_sounds_summary">Enable system camera shutter sound</string>
     <string name="camera_sound_warning_dialog_text">Disabling the camera shutter sound is illegal in some areas! Please check the applicable law in your country</string>
-
+	<string name="shortcut_action_camera">Camera</string>
+	
     <!-- Kernel Adiutor -->
     <string name="kernel_adiutor_title">Kernel Adiutor</string>
 
