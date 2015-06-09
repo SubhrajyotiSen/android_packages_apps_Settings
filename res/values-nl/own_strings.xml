@@ -1157,5 +1157,19 @@
     <string name="camera_sounds_title">Camera sluiter geluid</string>
     <string name="camera_sounds_summary">Schakel sluiter geluid in</string>
     <string name="camera_sound_warning_dialog_text">Let op! Kan illegaal zijn in sommige landen.</string>
-
+    <string name="aokp_animation_title">Systeem animaties</string>
+    <string name="aokp_animation_summary">Custom animaties</string>
+    <string name="activity_open_title">Activiteit open</string>
+    <string name="task_open_behind_title">Taak open achter huidige taak</string>
+    <string name="activity_close_title">Activiteit sluit</string>
+    <string name="task_open_title">Taak open</string>
+    <string name="task_close_title">Taak sluit</string>
+    <string name="task_move_to_front_title">Verplaats naar voorgrond</string>
+    <string name="task_move_to_back_title">Verplaats naar achtergrond</string>
+    <string name="wallpaper_open_title">Wallpaper openen</string>
+    <string name="wallpaper_close_title">Wallpaper sluiten</string>
+    <string name="wallpaper_intra_open_title">Wallpaper intern open</string>
+    <string name="wallpaper_intra_close_title">Wallpaper inten sluiten</string>
+    <string name="animation_duration_title">Animatie duur</string>
+    <string name="animation_duration_default">Standaard</string>
 </resources>

@@ -15,17 +15,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/ani_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    
+
+        
+		<PreferenceScreen
+				android:key="aokp_animation"
+				android:title="@string/aokp_animation_title"
+				android:summary="@string/aokp_animation_summary"
+				android:fragment="com.android.settings.own.AnimationControls" 
+				/>
+
+		<PreferenceScreen
+				android:id="@+id/listview"
+				android:fragment="com.android.settings.own.Listview"
+				android:title="@string/listview_category" 
+				/>
+				     
         <ListPreference
                 android:key="toast_animation"
                 android:title="@string/toast_animation_title"
                 android:entries="@array/toast_animation_entries"
                 android:entryValues="@array/toast_animation_values"
-                android:persistent="false" />
-		
-		<PreferenceScreen
-				android:id="@+id/listview"
-				android:fragment="com.android.settings.own.Listview"
-				android:title="@string/listview_category" />
+                android:persistent="false" 
+                />
 				
 </PreferenceScreen>
