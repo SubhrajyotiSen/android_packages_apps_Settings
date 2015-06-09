@@ -1140,4 +1140,5 @@
     <string name="keyboard_rotation_dialog">Dit zorgt ervoor dat de auto-rotatie sensor uitgeschakeld is wanneer het keyboard zichtbaar is. Werkt niet als auto-rotatie al uitgeschakeld is.</string>
     <string name="show_enter_key_title">Laat Enter toets zien</string>
     <string name="show_enter_key_summary">Forceer de enter toets in plaats van emotie toets</string>
+    <string name="notification_manager">Notificatie Instellingen</string>
 </resources>

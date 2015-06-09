@@ -44,6 +44,13 @@
                 android:fragment="com.android.settings.own.LockSettings"
                 />  
 
+        <!-- Notification manager -->
+        <dashboard-tile
+                android:id="@+id/notification_manager"
+                android:title="@string/notification_manager"
+                android:fragment="com.android.settings.notification.NotificationManagerSettings"
+                />
+
 		 <!-- Animation Settings -->
          <PreferenceScreen
                 android:id="@+id/own_ani_settings"
