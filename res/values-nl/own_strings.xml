@@ -1152,4 +1152,10 @@
     <string name="recents_clear_all_location_title">Knop locatie</string>
     <string name="recents_clear_all_location_right">Boven Rechts</string>
     <string name="recents_clear_all_location_left">Boven Links</string>
+    <string name="advanced_sound_title">Geafanceerde geluids instellingen</string>
+    <string name="sound_title">Geluid</string>
+    <string name="camera_sounds_title">Camera sluiter geluid</string>
+    <string name="camera_sounds_summary">Schakel sluiter geluid in</string>
+    <string name="camera_sound_warning_dialog_text">Let op! Kan illegaal zijn in sommige landen.</string>
+
 </resources>

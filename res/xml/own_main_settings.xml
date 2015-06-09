@@ -56,7 +56,14 @@
                 android:id="@+id/own_ani_settings"
                 android:title="@string/ani_settings_title"
                 android:fragment="com.android.settings.own.AniSettings"
-                />   
+                />  
+                 
+        <!-- Sound Settings -->
+        <PreferenceScreen
+                android:id="@+id/own_sound_settings"
+                android:title="@string/advanced_sound_title"
+                android:fragment="com.android.settings.own.SoundSettings" 
+                />
                 
 		 <!-- Extra Settings -->
 		 <PreferenceScreen
