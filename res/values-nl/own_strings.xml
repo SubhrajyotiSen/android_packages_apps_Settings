@@ -1141,4 +1141,10 @@
     <string name="show_enter_key_title">Laat Enter toets zien</string>
     <string name="show_enter_key_summary">Forceer de enter toets in plaats van emotie toets</string>
     <string name="notification_manager">Notificatie Instellingen</string>
+    <string name="wakelock_blocker_summary">Blockeer systeem wakelocks</string>
+    <string name="wakelock_blocker_save">Sla op</string>
+    <string name="wakelock_list_header">Beschikbare wakelocks</string>
+    <string name="wakelock_blocker_reload">Herlaad</string>
+    <string name="wakelock_blocker_warning_title">Pas Op!</string>
+    <string name="wakelock_blocker_warning">Wakelocks blokkeren kan leiden tot instabiliteit, crashes of data verlies</string>
 </resources>
