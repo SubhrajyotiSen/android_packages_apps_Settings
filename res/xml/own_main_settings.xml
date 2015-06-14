@@ -76,7 +76,6 @@
        	<PreferenceScreen
                 android:key="update_settings"
                 android:title="@string/updater_title"
-                android:summary="@string/updater_summary">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.own.ota"
                     android:targetClass="com.own.center.OTACenter" />
