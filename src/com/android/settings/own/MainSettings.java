@@ -22,13 +22,22 @@ import android.content.pm.ResolveInfo;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
+import android.text.TextUtils;
+import android.util.Log;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainSettings extends SettingsPreferenceFragment {
+
+private static final String KEY_UPDATE_SETTINGS = "update_settings";
+private static final String KEY_UPDATE_SETTINGS_PACKAGE_NAME = "com.own.ota";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

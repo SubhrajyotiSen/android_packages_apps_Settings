@@ -1744,4 +1744,7 @@
     <string name="animation_duration_title">Animation duration</string>
     <string name="animation_duration_default">Default</string>
 
+    <!-- OTACenter -->
+    <string name="updater_title">Updates</string>
+    <string name="updater_summary">Check for updates and more</string>
 </resources>
