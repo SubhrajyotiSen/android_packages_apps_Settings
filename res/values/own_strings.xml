@@ -39,6 +39,7 @@
     <string name="extra_settings_title">Extra</string>
     <string name="advanced_sound_title">Advanced Sound Settings</string>
     <string name="sound_title">Sound</string>
+    <string name="recent_panel_settings">Recents Apps Panel</string>
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>

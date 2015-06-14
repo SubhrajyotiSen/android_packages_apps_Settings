@@ -37,6 +37,13 @@
                 android:fragment="com.android.settings.ButtonSettings"
                 />
 
+        <!-- Recent Apps Panel Settings -->        
+        <PreferenceScreen
+                android:id="@+id/own_recents_settings"
+                android:title="@string/recent_panel_settings"
+                android:fragment="com.android.settings.own.RecentsSettings"
+                />  
+
         <!-- Lock Screen Settings -->        
         <PreferenceScreen
                 android:id="@+id/lock_settings"

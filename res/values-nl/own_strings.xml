@@ -1170,4 +1170,5 @@
     <string name="wallpaper_intra_close_title">Wallpaper inten sluiten</string>
     <string name="animation_duration_title">Animatie duur</string>
     <string name="animation_duration_default">Standaard</string>
+    <string name="recent_panel_settings">Recente Apps Scherm</string>
 </resources>

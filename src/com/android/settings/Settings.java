@@ -51,6 +51,7 @@ public class Settings extends SettingsActivity {
     public static class ManageApplicationsActivity extends SettingsActivity { /* empty */ }
     public static class AniSettings extends SettingsActivity { /* empty */ }
     public static class ExtraSettings extends SettingsActivity { /* empty */ }
+    public static class RecentsSettings extends SettingsActivity { /* empty */ }
     public static class AppOpsSummaryActivity extends SettingsActivity {
         @Override
         public boolean isValidFragment(String className) {
