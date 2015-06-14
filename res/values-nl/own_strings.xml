@@ -907,11 +907,6 @@
     <string name="toast_GrowFadeCenter_animation">Groeiende fade centrum</string>
     <string name="toast_GrowFadeBottom_animation">Groeiende fade bodem</string>
     <string name="toast_Translucent_animation">Translucente animatie</string>
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_loading">Changelog laden...</string>
-    <string name="changelog_error">Het lukt niet de changelog te laden</string>
-    <string name="changelog_unknown">Onbekend</string>
-    <string name="changelog_version">Versie</string>
     <string name="volume_steps_title">Volume stappen</string>
     <string name="volume_steps_alarm_title">Volume stappen: Alarm</string>
     <string name="volume_steps_dtmf_title">Volume stappen: DTMF</string>
@@ -1170,4 +1165,6 @@
     <string name="wallpaper_intra_close_title">Wallpaper inten sluiten</string>
     <string name="animation_duration_title">Animatie duur</string>
     <string name="animation_duration_default">Standaard</string>
+=======
+>>>>>>> parent of 58a628e... add changelog to OwnSettings
 </resources>

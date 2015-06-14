@@ -1311,12 +1311,6 @@
     <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
     <string name="toast_Translucent_animation">Translucent animation</string>
 
-	<!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_loading">Loading changelog...</string>
-    <string name="changelog_error">Unable to load changelog</string>
-    <string name="changelog_unknown">Unknown</string>
-    <string name="changelog_version">Version</string>
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string>
