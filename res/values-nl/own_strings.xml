@@ -1134,7 +1134,7 @@
     <string name="timeout_1500">1,5 sec</string>
     <string name="timeout_1000">1 sec</string>
     <string name="timeout_500">0,5 sec</string>
-    <string name="title_keyboard_input">Geafanceerde opties</string>
+    <string name="title_keyboard_input">Geavanceerde opties</string>
     <string name="disable_fullscreen_keyboard_title">Weiger fullscreen keyboard</string>
     <string name="disable_fullscreen_keyboard_summary">Landscape keyboard zal nooit het hele scherm in beslag nemen.</string>
     <string name="show_enter_key_title">Laat Enter toets zien</string>
