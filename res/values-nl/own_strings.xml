@@ -1171,4 +1171,25 @@
     <string name="animation_duration_title">Animatie duur</string>
     <string name="animation_duration_default">Standaard</string>
     <string name="recent_panel_settings">Recente Apps Scherm</string>
+    <string name="recent_panel_slim">Slims recente Apps paneel</string>
+    <string name="recent_panel_slim_summary">Recente apps instellingen</string>
+    <string name="recent_panel_category">Slims recente apps paneel</string>
+    <string name="use_slim_recents_title">Slims recente apps</string>
+    <string name="show_running_tasks_title">Laat alleen geopende apps zien</string>
+    <string name="recents_max_apps_title">Max toegestaande apps</string>
+    <string name="recent_panel_scale_title">Grote</string>
+    <string name="recent_panel_scale_summary">Recente apps paneel grote in percentage</string>
+    <string name="recent_panel_100">100% (standaard)</string>
+    <string name="recent_panel_expanded_mode_title">Uitgebreide modes</string>
+    <string name="recent_panel_expanded_mode_summary">Recente apps uitgebreide preview modes</string>
+    <string name="recent_panel_expanded_mode_auto">Automatisch (standaard)</string>
+    <string name="recent_panel_expanded_mode_always">Altijd</string>
+    <string name="recent_panel_expanded_mode_never">Nooit</string>
+    <string name="recent_panel_show_topmost_title">Laat huidige app zien</string>
+    <string name="recent_panel_show_topmost_summary">Sluit huidige geopende app niet uit</string>
+    <string name="recent_panel_bg_color_title">Paneel achtergrond kluer</string>
+    <string name="recent_card_bg_color_title">App header kluer</string>
+    <string name="recent_card_text_color_title">App header text kluer</string>
+    <string name="recent_panel_lefty_mode_title">Linkse modes</string>
+    <string name="recent_panel_lefty_mode_summary">Laat aan de linker kant van scherm zien</string>
 </resources>
