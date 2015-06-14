@@ -125,12 +125,6 @@
     <PreferenceCategory
             android:key="interface"
             android:title="@string/category_interface">
-        <!-- expanded desktop -->
-        <PreferenceScreen
-                android:key="expanded_desktop"
-                android:title="@string/power_menu_expanded_desktop"
-                android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment"
-                settings:advanced="true"/>
 
         <!-- Day dream -->
         <PreferenceScreen
