@@ -907,11 +907,6 @@
     <string name="toast_GrowFadeCenter_animation">Groeiende fade centrum</string>
     <string name="toast_GrowFadeBottom_animation">Groeiende fade bodem</string>
     <string name="toast_Translucent_animation">Translucente animatie</string>
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_loading">Changelog laden...</string>
-    <string name="changelog_error">Het lukt niet de changelog te laden</string>
-    <string name="changelog_unknown">Onbekend</string>
-    <string name="changelog_version">Versie</string>
     <string name="volume_steps_title">Volume stappen</string>
     <string name="volume_steps_alarm_title">Volume stappen: Alarm</string>
     <string name="volume_steps_dtmf_title">Volume stappen: DTMF</string>
@@ -956,7 +951,7 @@
     <string name="navigation_bar_size_44_dp">44 dp</string>
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
-	<string name="qs_navbar_tile">Navigatie Bar</string>
+    <string name="qs_navbar_tile">Navigatie Bar</string>
     <string name="pie_navigation_title">Pie Navigatie</string>
     <string name="pie_control_title">Pie</string>
     <string name="pie_control_summary">Schakel pie navigatie in</string>
@@ -1014,14 +1009,14 @@
     <string name="shortcut_action_lastapp">Laatste app</string>
     <string name="shortcut_action_screenshot">Screenshot</string>
     <string name="shortcut_action_torch">Zaklamp</string>
-	<string name="default_string">Standaard</string>
+    <string name="default_string">Standaard</string>
     <string name="navigation_menu_default_jb_behavior">Laat alleen zien wanneer nodig (standaard)</string>
     <string name="navigation_menu_never_show">Nooit laten zien</string>
     <string name="navigation_menu_always_show">Altijd laten zien</string>
     <string name="title_pref_menu_display">Menu zichtbaarheid</string>
     <string name="summary_pref_menu_display">Hoe en wanneer wil u de menu knop zien?</string>
-	<string name="attention">Attentie</string>
-	<string name="navigation_bar_warning_no_navigation_present">Er is geen enkele andere vorm van navigatie ingeschakeld. Door uw navigatie bar uit te schakelen kan u toestel onbruikbar worden. Wilt u de PIE navigatie inschakelen?</string>
+    <string name="attention">Attentie</string>
+    <string name="navigation_bar_warning_no_navigation_present">Er is geen enkele andere vorm van navigatie ingeschakeld. Door uw navigatie bar uit te schakelen kan u toestel onbruikbar worden. Wilt u de PIE navigatie inschakelen?</string>
     <string name="pie_warning_no_navigation_present">Er is geen enkele andere vorm van navigatie ingeschakeld. Door PIE uit te schakelen kan u toestel onbruikbar worden. Wilt u de navigatie bar inschakelen?</string>
     <string name="pie_trigger_warning">Minimaal van de triggers (bodem, links of rechts) moet ingeschakeld zijn.</string>
     <string name="shortcut_action_back">Terug</string>
@@ -1101,7 +1096,7 @@
     <string name="shortcut_action_torch">Zaklamp</string>
     <string name="shortcut_action_voice_search">Spraakgestuurd zoeken</string>
     <string name="shortcut_action_none">Geen</string>
-	<string name="shortcut_action_required_warning_message">Het is niet mogelijk deze knoppen te verwijderen.</string>
+    <string name="shortcut_action_required_warning_message">Het is niet mogelijk deze knoppen te verwijderen.</string>
     <string name="own_lockscreen_title">Lock Screen instellingen</string>
     <string name="lockscreen_shortcuts_title">Snelkoppelingen</string>
     <string name="lockscreen_shortcuts_summary">Bekijk of verander de Snelkoppelingen op het vergrendelscherm</string>
@@ -1192,4 +1187,6 @@
     <string name="recent_card_text_color_title">App header text kluer</string>
     <string name="recent_panel_lefty_mode_title">Linkse modes</string>
     <string name="recent_panel_lefty_mode_summary">Laat aan de linker kant van scherm zien</string>
+    <string name="updater_title">Updates</string>
+    <string name="updater_summary">Controleer op beschikbare updates en meer</string>
 </resources>

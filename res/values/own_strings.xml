@@ -1312,12 +1312,6 @@
     <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
     <string name="toast_Translucent_animation">Translucent animation</string>
 
-	<!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_loading">Loading changelog...</string>
-    <string name="changelog_error">Unable to load changelog</string>
-    <string name="changelog_unknown">Unknown</string>
-    <string name="changelog_version">Version</string>
 
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string>
@@ -1776,5 +1770,9 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
+
+    <!-- OTACenter -->
+    <string name="updater_title">Updates</string>
+    <string name="updater_summary">Check for updates and more</string>
 
 </resources>
