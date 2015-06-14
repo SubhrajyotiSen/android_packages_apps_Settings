@@ -35,11 +35,11 @@
     <string name="ani_settings_title">Animation Settings</string>
     <string name="own_lockscreen_title">Lock Screen Settings</string>
     <string name="interface_settings_title">Interface</string>
-    <string name="status_bar_title_summary">Customize statusbar</string>
     <string name="extra_settings_title">Extra</string>
     <string name="advanced_sound_title">Advanced Sound Settings</string>
     <string name="sound_title">Sound</string>
     <string name="recent_panel_settings">Recents Apps Panel</string>
+    <string name="updater_title">Update Center</string>
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
@@ -1770,9 +1770,5 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
-
-    <!-- OTACenter -->
-    <string name="updater_title">Updates</string>
-    <string name="updater_summary">Check for updates and more</string>
 
 </resources>

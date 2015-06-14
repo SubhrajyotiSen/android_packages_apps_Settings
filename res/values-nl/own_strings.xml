@@ -930,7 +930,6 @@
     <string name="theme_reset_message">Reset naar standaard thema?</string>
     <string name="reset_default_message">Terug naar standaard instellingen?</string>
     <string name="interface_settings_title">Interface</string>
-    <string name="status_bar_title_summary">Customize de statusbar</string>
     <string name="lock_clock_title">Clock widget instellingen</string>
     <string name="lock_clock_summary">Verander hier hoe de Clock Widget wordt weergegeven.</string>
     <string name="qs_notifications_tile">Notificaties</string>
@@ -1187,6 +1186,5 @@
     <string name="recent_card_text_color_title">App header text kluer</string>
     <string name="recent_panel_lefty_mode_title">Linkse modes</string>
     <string name="recent_panel_lefty_mode_summary">Laat aan de linker kant van scherm zien</string>
-    <string name="updater_title">Updates</string>
-    <string name="updater_summary">Controleer op beschikbare updates en meer</string>
+    <string name="updater_title">Update Centrum</string>
 </resources>

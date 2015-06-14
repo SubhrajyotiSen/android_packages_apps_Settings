@@ -20,7 +20,6 @@
         <PreferenceScreen
                 android:id="@+id/status_bar_settings"
                 android:title="@string/status_bar_title"
-                android:summary="@string/status_bar_title_summary"
                 android:fragment="com.android.settings.cyanogenmod.StatusBarSettings"
                 />
 
