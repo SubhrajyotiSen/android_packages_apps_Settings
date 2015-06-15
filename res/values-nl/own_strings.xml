@@ -1187,4 +1187,33 @@
     <string name="recent_panel_lefty_mode_title">Linkse modes</string>
     <string name="recent_panel_lefty_mode_summary">Laat aan de linker kant van scherm zien</string>
     <string name="updater_title">Update Centrum</string>
+    <string name="category_heads_up">Heads up notificaties</string>
+    <string name="summary_heads_up_enabled">Pop-up notificaties zijn ingeschakeld</string>
+    <string name="summary_heads_up_disabled">Pop-up notificaties zijn uitgeschakeld</string>
+    <string name="add_heads_up_package">Voeg app toe</string>
+    <string name="add_heads_up_dnd_summary">Laat heads up niet zien in deze apps</string>
+    <string name="add_heads_up_blacklist_summary">Laat geen heads up notificatie zien van deze apps</string>
+    <string name="heads_up_dnd_title">Niet storen</string>
+    <string name="heads_up_disabled_notice">Sta aplicaties toe om een interactive notificatie te laten zien op je scherm, door Heads up in te schakelen</string>
+    <string name="heads_up_dismiss_on_remove_title">Swipe gedrag</string>
+    <string name="heads_up_dismiss_on_remove_summary_enabled">Verberg notificatie ipv verwijderen</string>
+    <string name="heads_up_dismiss_on_remove_summary_disabled">Verberg en verwijder notificatie</string>
+	<string name="heads_up_time_out_summary">Notificatie zal zich <xliff:g id="number">%d</xliff:g> seconde niet laten zien</string>
+    <string name="heads_up_time_out_never_summary">Notificatie zal zich laten zien totdat hij weggeveegd word</string>
+    <string name="heads_up_time_out_2sec">2 seconde</string>
+    <string name="heads_up_time_out_3sec">3 seconde</string>
+    <string name="heads_up_time_out_4sec">4 seconde</string>
+    <string name="heads_up_time_out_5sec">5 seconde</string>
+    <string name="heads_up_time_out_6sec">6 seconde</string>
+    <string name="heads_up_time_out_7sec">7 seconde</string>
+    <string name="heads_up_time_out_8sec">8 seconde</string>
+    <string name="heads_up_time_out_9sec">9 seconde</string>
+    <string name="heads_up_time_out_10sec">10 seconde</string>
+    <string name="heads_up_time_out_never">Nooit</string>
+    <string name="heads_up_touch_outside_title">Buiten touch gedrag</string>
+    <string name="heads_up_touch_outside_summary_enabled">Verberg notificatie wanneer je erbuiten of op de home button drukt</string>
+    <string name="heads_up_touch_outside_summary_disabled">Verberg notificatie niet wanneer je erbuiten of op de home button drukt</string>
+    <string name="show_headsup_button_title">Laat snelle toegang knop zien</string>
+    <string name="show_headsup_button_summary">Laat snelle toegang knop zien in status bar header</string>
+
 </resources>
