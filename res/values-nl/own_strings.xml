@@ -1216,5 +1216,5 @@
     <string name="heads_up_touch_outside_title">Buiten touch gedrag</string>
     <string name="heads_up_touch_outside_summary_enabled">Verberg notificatie wanneer je erbuiten of op de home button drukt</string>
     <string name="heads_up_touch_outside_summary_disabled">Verberg notificatie niet wanneer je erbuiten of op de home button drukt</string>
-
+	<string name="navbar_button_tint_title">Navigation Knoppen Kluer</string> 
 </resources>
