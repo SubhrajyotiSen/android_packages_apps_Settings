@@ -1217,4 +1217,12 @@
     <string name="heads_up_touch_outside_summary_enabled">Verberg notificatie wanneer je erbuiten of op de home button drukt</string>
     <string name="heads_up_touch_outside_summary_disabled">Verberg notificatie niet wanneer je erbuiten of op de home button drukt</string>
 	<string name="navbar_button_tint_title">Navigation Knoppen Kluer</string> 
+    <string name="background_title">Background</string>
+    <string name="icon_title">Iconen</string>
+    <string name="qs_colors_title">Kluer Opties</string>
+    <string name="colors_title">Klueren</string>
+    <string name="qs_transparent_shade_title">Schaduw alpha</string>
+    <string name="qs_transparent_shade_summary">Mogelijkheid om alpha klueren in te stellen zodat het transparant word.</string>
+    <string name="qs_color_switch_title">Custom klueren schakelaar</string>
+    <string name="qs_color_switch_summary">SystemUI zal herstarten!</string>
 </resources>
