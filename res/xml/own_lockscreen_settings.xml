@@ -16,6 +16,12 @@
     android:title="@string/own_lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     
+		<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_anywhere"
+            android:title="@string/double_tap_sleep_anywhere_title"
+            android:summary="@string/double_tap_sleep_anywhere_summary"
+            settings:advanced="true"
+            />
         
          <PreferenceScreen
                  android:key="lockscreen_shortcuts"
