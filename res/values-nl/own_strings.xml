@@ -707,6 +707,8 @@
   <string name="smart_pulldown_dismissable">Geen wegveegbare</string>
   <string name="smart_pulldown_persistent">Geen persistente</string>
   <string name="smart_pulldown_all">Geen van beide</string>
+  <string name="block_on_secure_keyguard_title">Blokkeer op vergrendelscherm</string>
+  <string name="block_on_secure_keyguard_summary">Blokkeer snelle instellingen op vergrendelscherm.</string>
   <string name="status_bar_show_weather_title">Weer weergeven</string>
   <string name="status_bar_show_weather_summary">Het weer weergeven boven het Snelle instellingenpaneel</string>
   <string name="qs_category_title">Snelle instellingenpaneel</string>
