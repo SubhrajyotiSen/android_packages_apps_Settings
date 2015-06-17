@@ -1255,5 +1255,7 @@
     <string name="overscroll_weight_title">Over scroll zwaarte</string>
     <string name="overscroll_weight_summary">Selecteer de zwaarte van de scrollende objecten</string>
     <string name="qs_four_columns_title">Laat 4 teges per rij zien</string>
+    <string name="notification_force_expand_title">Forceer uitgebreide notificaties</string>
+    <string name="notification_force_expand_summary">Forceeer uitgebreide notificaties bij alle apps die dit ondersteunen</string>
 
 </resources>
