@@ -1237,5 +1237,7 @@
     <string name="recents_show_membar_summary">Laat een gehuegen balk zien met het beschikbare werkgeheugen op recente app sherm</string>
     <string name="double_tap_sleep_anywhere_title">Dubbel tikken om slaapstand te activeren</string>
     <string name="double_tap_sleep_anywhere_summary">Dubbel tikken op vergrendelings scherm om toestel te laten slapen</string>
+    <string name="double_tap_sleep_nav_bar_title">Dubbel tikken om slaapstand te activeren</string>
+    <string name="double_tap_sleep_nav_bar_summary">Dubbel tikken op de Navigatie Bar om toestel te laten slapen</string>
 
 </resources>
