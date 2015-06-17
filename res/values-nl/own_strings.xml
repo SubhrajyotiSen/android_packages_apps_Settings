@@ -1240,5 +1240,20 @@
     <string name="double_tap_sleep_nav_bar_title">Dubbel tikken om slaapstand te activeren</string>
     <string name="double_tap_sleep_nav_bar_summary">Dubbel tikken op de Navigatie Bar om toestel te laten slapen</string>
 	<string name="longpress_lock_icon_to_sleep_title">Lange druk op Lock Icoon om te slapen</string>
+    <string name="ui_overscroll_title">Over scroll effecten</string>
+    <string name="overscroll_glow_title">Over scroll kleur</string>
+    <string name="edge_effect_title">Rand Gloei effect</string>
+    <string name="bounce_effect_title">Stuiter effect</string>
+    <string name="none_effect_title">Geen</string>
+    <string name="extra_heavy_title">Extra Zwaar</string>
+    <string name="heavy_title">Zwaar</string>
+    <string name="medium_title">Medium</string>
+    <string name="light_title">Licht</string>
+    <string name="extra_light_title">Extra Licht</string>
+    <string name="overscroll_title">Over scroll effect</string>
+    <string name="overscroll_summary">Kies hoe obljecten er uitzien als ze overshooten</string>
+    <string name="overscroll_weight_title">Over scroll zwaarte</string>
+    <string name="overscroll_weight_summary">Selecteer de zwaarte van de scrollende objecten</string>
+    <string name="qs_four_columns_title">Laat 4 teges per rij zien</string>
 
 </resources>

@@ -20,7 +20,6 @@
 		<PreferenceScreen
 				android:key="aokp_animation"
 				android:title="@string/aokp_animation_title"
-				android:summary="@string/aokp_animation_summary"
 				android:fragment="com.android.settings.own.AnimationControls" 
 				/>
 
@@ -37,5 +36,11 @@
                 android:entryValues="@array/toast_animation_values"
                 android:persistent="false" 
                 />
+
+        <PreferenceScreen
+            android:key="overscroll_effects"
+            android:title="@string/ui_overscroll_title"
+            android:fragment="com.android.settings.own.OverscrollEffects" 
+            />
 				
 </PreferenceScreen>
