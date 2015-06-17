@@ -40,6 +40,7 @@
     <string name="sound_title">Sound</string>
     <string name="recent_panel_settings">Recents Apps Panel</string>
     <string name="updater_title">Update Center</string>
+    <string name="own_stats_title">OwnStats</string>
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>

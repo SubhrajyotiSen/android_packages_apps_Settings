@@ -78,7 +78,16 @@
                 android:title="@string/updater_title">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.own.ota"
-                    android:targetClass="com.own.center.OTACenter" />
+                    android:targetClass="com.own.center.OwnOTA" />
+        </PreferenceScreen>
+
+        <!-- Rom Stats -->
+        <PreferenceScreen
+            android:id="@+id/own_stats_settings"
+            android:title="@string/own_stats_title">
+            <intent android:action="android.intent.action.MAIN"
+					android:targetPackage="android.romstats"
+					android:targetClass="android.romstats.AnonymousStats" />
         </PreferenceScreen>
 
 </PreferenceCategory>
