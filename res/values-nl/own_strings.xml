@@ -701,6 +701,12 @@
   <string name="quick_pulldown_off">Uit</string>
   <string name="quick_pulldown_left">Linkerkant</string>
   <string name="quick_pulldown_right">Rechterkant</string>
+  <string name="smart_pulldown_title">Slim openen</string>
+  <string name="smart_pulldown_summary">Open snelle instellingen als er geen %1$s notificaties zijn</string>
+  <string name="smart_pulldown_off">Uit</string>
+  <string name="smart_pulldown_dismissable">Geen wegveegbare</string>
+  <string name="smart_pulldown_persistent">Geen persistente</string>
+  <string name="smart_pulldown_all">Geen van beide</string>
   <string name="status_bar_show_weather_title">Weer weergeven</string>
   <string name="status_bar_show_weather_summary">Het weer weergeven boven het Snelle instellingenpaneel</string>
   <string name="qs_category_title">Snelle instellingenpaneel</string>
