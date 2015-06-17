@@ -1233,4 +1233,7 @@
     <string name="qs_transparent_shade_summary">Mogelijkheid om alpha klueren in te stellen zodat het transparant word.</string>
     <string name="qs_color_switch_title">Custom klueren schakelaar</string>
     <string name="qs_color_switch_summary">SystemUI zal herstarten!</string>
+    <string name="recents_show_membar_title">Geheugen balk</string>
+    <string name="recents_show_membar_summary">Laat een gehuegen balk zien met het beschikbare werkgeheugen</string>
+
 </resources>

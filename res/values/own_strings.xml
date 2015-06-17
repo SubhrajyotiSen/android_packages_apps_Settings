@@ -1829,4 +1829,8 @@
     <string name="qs_color_switch_title">Custom color switch</string>
     <string name="qs_color_switch_summary">SystemUI will be restarted!</string>
 
+	<!-- Recents RAM Bar -->
+    <string name="recents_show_membar_title">Memory bar</string>
+    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+
 </resources>
