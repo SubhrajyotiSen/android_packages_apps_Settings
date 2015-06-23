@@ -1891,4 +1891,8 @@
     <string name="volume_answer_call_title">Volume key Answer</string>
     <string name="volume_answer_call_summary">Volume up key Answer</string>
 
+    <!-- Status bar ticker -->
+    <string name="status_bar_ticker_title">Notification Ticker</string>
+    <string name="status_bar_ticker_summary">Scroll notification text in the statusbar.</string>
+
 </resources>
