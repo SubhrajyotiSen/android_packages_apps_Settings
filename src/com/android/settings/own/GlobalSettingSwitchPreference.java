@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.own;
 
 import android.content.Context;
 import android.preference.SwitchPreference;
