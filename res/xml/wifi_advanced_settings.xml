@@ -65,8 +65,7 @@
             android:summary="@string/wifi_setting_countrycode_summary"
             android:persistent="false"
             android:entries="@array/wifi_countrycode_entries"
-            android:entryValues="@array/wifi_countrycode_values"
-            />
+            android:entryValues="@array/wifi_countrycode_values" />
 
     <Preference
             android:key="install_credentials"
