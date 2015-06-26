@@ -108,9 +108,10 @@
                 android:defaultValue="false"
                 settings:advanced="true"/>
 
-        <ListPreference
+        <EditTextPreference
                 android:key="lcd_density"
                 android:title="@string/lcd_density"
+                android:inputType="number"
                 android:persistent="false"
                 settings:advanced="true" />
 

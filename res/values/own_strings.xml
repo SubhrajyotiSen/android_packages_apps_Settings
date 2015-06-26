@@ -1069,6 +1069,11 @@
     <string name="qs_tile_ambient_display">Ambient display</string>
     <string name="qs_tile_trds">TRDS</string>
 
+    <string name="qs_dynamic_tile_next_alarm">Next alarm</string>
+    <string name="qs_dynamic_tile_ime_selector">IME selector</string>
+    <string name="qs_dynamic_tile_su">Root access</string>
+    <string name="qs_dynamic_tile_adb" translatable="false">ADB</string>
+
     <string name="qs_main_tiles_title">Enlarge first row</string>
     <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
     <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
@@ -1094,6 +1099,9 @@
     <string name="wifi_ibss_freq_title">Channel / Frequency</string>
     <string name="wifi_channel">Channel</string>
     <string name="wifi_mhz">MHz</string>
+
+    <!-- WiFi auto-configure priorities -->
+    <string name="wifi_auto_config_priorities">Automatic priority</string>
 
     <!-- About phone settings screen, setting option dialog title to show regulatory information [CHAR LIMIT=25] -->
     <string name="regulatory_information_dialog_title" translatable="false">@string/regulatory_information</string>
@@ -1135,9 +1143,11 @@
     <!-- Display & Lights screen, setting options for LCD density -->
     <string name="lcd_density">LCD density</string>
     <string name="dialog_title_lcd_density">LCD density</string>
-    <string name="lcd_density_value_format">%d DPI</string>
-    <string name="lcd_density_default_value_format">%d DPI (default)</string>
+    <string name="lcd_density_value_format">%1$d DPI (default: %2$d DPI)</string>
+    <string name="lcd_density_default_value_format">%1$d DPI (default)</string>
     <string name="restarting_ui">Restarting UI\u2026</string>
+    <string name="lcd_density_error_msg">The value must be between %1$d and %2$d DPI</string>
+    <string name="lcd_density_dialog_title">Enter value between %1$d and %2$d DPI</string>
 
     <!-- Stylus Icon -->
     <string name="stylus_icon_enabled_title">Show icon when using stylus</string>
@@ -1280,6 +1290,15 @@
     <string name="network_traffic_color_style">Color style</string>
     <string name="network_traffic_color_reset">Reset color</string>
     <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+
+    <!-- Partition Info -->
+    <string name="partition_info_title">Partition info</string>
+    <string name="partition_info_system">/system</string>
+    <string name="partition_info_data">/data</string>
+    <string name="partition_info_cache">/cache</string>
+    <string name="partition_info_sdcard">/sdcard (FAT)</string>
+    <string name="partition_info_sdext">/sd-ext (EXT)</string>
+    <string name="partition_info_used_of">/</string>
 
     <!-- MSIM SIM status -->
     <string name="sim_card_status_title">SIM %d status</string>
@@ -1860,20 +1879,22 @@
     <string name="factory_reset_warning_text_reset_now">RESET NOW</string>
     <string name="factory_reset_warning_text_message">All your accounts, apps, app data, and system settings will be removed from this device. This cannot be reversed.</string>
 
-    <!-- StatusBar Clock Font style -->
-    <string name="clock_font_style_title">Clock font style</string>
-    <string name="clock_font_bold">Bold</string>
-    <string name="clock_font_condensed">Condensed</string>
-    <string name="clock_font_light">Light</string>
-    <string name="clock_font_light_italic">Light italic</string>
-    <string name="clock_font_normal">Normal</string>
+    <!-- About device screen, CPU and RAM info. -->
+    <string name="cpu_info">CPU</string>
+    <string name="mem_info">RAM</string>
 
-    <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume key Answer</string>
-    <string name="volume_answer_call_summary">Volume up key Answer</string>
+    <!-- Viper4Android -->
+    <string name="viper_title">Viper4Android</string>
 
-    <!-- Status bar ticker -->
-    <string name="status_bar_ticker_title">Notification Ticker</string>
-    <string name="status_bar_ticker_summary">Scroll notification text in the statusbar.</string>
-    
+    <!-- Captive Portal -->
+    <string name="captive_portal_detection">Captive portal detection</string>
+    <string name="captive_portal_detection_summary">If disabled, a connection to google servers is not required in order to detect data connection.</string>
+
+    <!-- Wi-Fi region code -->
+    <string name="wifi_setting_countrycode_title">Wi\u2011Fi region code</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">Specify the region code for Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
+
 </resources>

@@ -777,9 +777,9 @@
   <string name="navigation_ring_message">Toque no ícone de editar para abrir o anel de navegação para edição.\n\nSelecione um alvo para definir o seu comportamento.\n\nToque o ícone \'\u2713\' para gravar as alterações, ou \'Restaurar padrão\' para repor as definições padrão.</string>
   <string name="lcd_density">Densidade LCD</string>
   <string name="dialog_title_lcd_density">Densidade LCD</string>
-  <string name="lcd_density_value_format">%d DPI</string>
-  <string name="lcd_density_default_value_format">%d DPI (padrão)</string>
-  <string name="restarting_ui">Reiniciar UI\u2026</string>
+  <string name="lcd_density_value_format">%1$d DPI (padrão: %2$d DPI)</string>
+  <string name="lcd_density_default_value_format">%1$d DPI (padrão)</string>
+  <string name="restarting_ui">Reiniciar IU\u2026</string>
   <string name="stylus_icon_enabled_title">Mostrar ícone quando estiver a usar a caneta</string>
   <string name="stylus_icon_enabled_summary">Mostrar o ícone do ponteiro quando flutuar ou desenhar com a caneta</string>
   <string name="gestures_settings_title">Gestos da caneta</string>
@@ -868,4 +868,14 @@
   <string name="sim_card_summary_empty">SIM não inserido</string>
   <string name="sim_mobile_network_settings_category_title">Definições de rede móvel</string>
   <string name="sim_mobile_network_settings_title">Definições do SIM %d</string>
+  <string name="factory_reset_instructions_title">Dados pessoais &amp; aplicações</string>
+  <string name="factory_reset_instructions_summary">Isto irá apagar todas as sua contas, aplicações, dados das aplicações e definições do sistema neste dispositivo</string>
+  <string name="factory_reset_personal_content">Conteúdo pessoal</string>
+  <string name="factory_reset_erase_stored_content">Apagar o conteúdo armazenado</string>
+  <string name="factory_reset_erase_stored_content_summary">Apagar a música, fotos, vídeos e outros dados do utilizador armazenados neste dispositivo</string>
+  <string name="factory_reset_erase_stored_content_summary_forced">Apagar músicas, fotos, vídeos e outros dados do utilizador armazenados neste dispositivo. \n\n <b>O conteúdo não pode ser guardado devido à encriptação do dispositivo.</b></string>
+  <string name="factory_reset_erase_sd_card">Formatar cartão SD</string>
+  <string name="factory_reset_erase_sd_card_summary">Apagar todos os dados no cartão SD, incluindo músicas e fotos</string>
+  <string name="factory_reset_warning_text_reset_now">RESTAURAR AGORA</string>
+  <string name="factory_reset_warning_text_message">Todas as suas contas, aplicações, dados das aplicações e definições do sistema serão removidas deste dispositivo. Isto não pode ser revertido.</string>
 </resources>
