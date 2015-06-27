@@ -27,15 +27,6 @@
                 android:targetPackage="org.cyanogenmod.audiofx"
                 android:targetClass="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
         </PreferenceScreen>
-    
-        <!-- Viper4Android -->
-       	<PreferenceScreen
-                android:key="@+id/viper_settings"
-                android:title="@string/viper_title">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.vipercn.viper4android_v2"
-                    android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" />
-        </PreferenceScreen>
         
         <!-- Live Volume Steps -->        
         <PreferenceScreen
