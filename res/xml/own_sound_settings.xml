@@ -19,6 +19,16 @@
     android:title="@string/sound_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <!-- AudioFX -->
+        <PrefernceScreen
+            android:id="@+id/audiofx_settings"
+            android:title="@string/audiofx_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="org.cyanogenmod.audiofx"
+                android:targetClass="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" 
+                />
+    
         <!-- Viper4Android -->
        	<PreferenceScreen
                 android:key="@+id/viper_settings"
