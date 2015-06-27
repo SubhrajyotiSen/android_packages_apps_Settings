@@ -23,11 +23,10 @@
         <PrefernceScreen
             android:id="@+id/audiofx_settings"
             android:title="@string/audiofx_title">
-            <intent
-                android:action="android.intent.action.MAIN"
+            <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="org.cyanogenmod.audiofx"
                 android:targetClass="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
-        </preferenceScreen>
+        </PreferenceScreen>
     
         <!-- Viper4Android -->
        	<PreferenceScreen
