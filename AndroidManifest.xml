@@ -2220,6 +2220,15 @@
         <!-- Kernel Adiutor -->
         <activity android:name="com.grarak.kerneladiutor.MainActivity"/>
 
+		<!-- AudioFX -->
+		<activity android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL"/>
+		
+		<!-- Viper4Android -->
+		<activity android:name="com.vipercn.viper4android_v2.activity.ViPER4Android"/>
+		
+		<!-- OwnOTA -->
+		<activity android:name="com.own.center.OwnOTACenter"/>
+		
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
