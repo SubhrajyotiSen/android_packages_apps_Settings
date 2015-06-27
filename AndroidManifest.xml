@@ -2219,6 +2219,9 @@
 
         <!-- Kernel Adiutor -->
         <activity android:name="com.grarak.kerneladiutor.MainActivity"/>
+        
+        <!-- AudioFX -->
+        <activity android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
 		
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
