@@ -1257,5 +1257,7 @@
     <string name="qs_four_columns_title">Laat 4 teges per rij zien</string>
     <string name="notification_force_expand_title">Forceer uitgebreide notificaties</string>
     <string name="notification_force_expand_summary">Forceeer uitgebreide notificaties bij alle apps die dit ondersteunen</string>
-
+    <string name="hw_keys_title">Hardware toetsen</string>
+    <string name="hw_keys_summary">Schakel Hardware toetsen in</string>
+    
 </resources>
