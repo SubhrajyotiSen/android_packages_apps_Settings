@@ -20,7 +20,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
         <!-- AudioFX -->
-        <PrefernceScreen
+        <PreferenceScreen
             android:id="@+id/audiofx_settings"
             android:title="@string/audiofx_title">
             <intent android:action="android.intent.action.MAIN"
