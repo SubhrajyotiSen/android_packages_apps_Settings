@@ -19,16 +19,14 @@
     android:title="@string/sound_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <!-- Viper4Android -->
-        <PrefernceScreen
-            android:id="@+id/viper_settings"
-            android:icon="@drawable/ic_settings_viper"
-            android:title="@string/viper_title">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.vipercn.viper4android_v2"
-                android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" 
-                />
+        <!-- AudioFX -->
+        <PreferenceScreen
+            android:id="@+id/audiofx_settings"
+            android:title="@string/audiofx_title">
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="org.cyanogenmod.audiofx"
+                android:targetClass="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
+        </PreferenceScreen>
         
         <!-- Live Volume Steps -->        
         <PreferenceScreen

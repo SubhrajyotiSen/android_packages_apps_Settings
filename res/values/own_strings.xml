@@ -41,6 +41,7 @@
     <string name="recent_panel_settings">Recents Apps Panel</string>
     <string name="updater_title">Update Center</string>
     <string name="own_stats_title">OwnStats</string>
+    <string name="audiofx_title">AudioFX</string>
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">Root access</string>
@@ -1590,6 +1591,25 @@
     <string name="qs_power_menu_tile">Power menu</string>
 	<string name="qs_navbar_tile">Navigation Bar</string>
 
+    <!-- Navigation bar -->
+    <string name="reset">Reset</string>
+    <string name="navbar_enable_bar_title">Enable on-screen nav bar</string>
+    <string name="navbar_enable_bar_summary">Enable on-screen nav bar and disable hardware buttons</string>
+    <string name="navbar_style_dimen_title">Nav bar dimensions</string>
+    <string name="navbar_dimensions_reset_message">Reset all dimensions entries to default?</string>
+    <string name="navigation_bar_height_title">Navigation bar height</string>
+    <string name="navigation_bar_height_summary">Navigation bar height while in portrait</string>
+    <string name="navigation_bar_width_title">Navigation bar width</string>
+    <string name="navigation_bar_width_summary">Navigation bar height if the bar is along a side</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+
     <!-- Pie control -->
     <string name="pie_navigation_title">Pie controls</string>
     <string name="pie_control_title">Pie</string>
@@ -1883,9 +1903,6 @@
     <string name="cpu_info">CPU</string>
     <string name="mem_info">RAM</string>
 
-    <!-- Viper4Android -->
-    <string name="viper_title">Viper4Android</string>
-
     <!-- Captive Portal -->
     <string name="captive_portal_detection">Captive portal detection</string>
     <string name="captive_portal_detection_summary">If disabled, a connection to google servers is not required in order to detect data connection.</string>
@@ -1903,5 +1920,9 @@
     <string name="wifi_setting_countrycode_summary">Specify the region code for Wi\u2011Fi</string>
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
+
+    <!-- Ability to disable hardware keys via nav bar settings -->
+    <string name="hw_keys_title">Hardware keys</string>
+    <string name="hw_keys_summary">Enable hardware keys</string>
 
 </resources>

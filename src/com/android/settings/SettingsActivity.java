@@ -1208,17 +1208,17 @@ public class SettingsActivity extends Activity
                     if (!Utils.updateTileToSpecificActivityFromMetaDataOrRemove(this, tile)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.wifi_settings) {
+        } else if (id == R.id.wifi_settings) {
                     // Remove WiFi Settings if WiFi service is not available.
                     if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_WIFI)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.bluetooth_settings) {
+        } else if (id == R.id.bluetooth_settings) {
                     // Remove Bluetooth Settings if Bluetooth service is not available.
                     if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.mobile_networks) {
+        } else if (id == R.id.mobile_networks) {
                     if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_TELEPHONY)) {
                         removeTile = true;
                     } else if (TelephonyManager.getDefault().getPhoneCount() > 1) {
@@ -1226,7 +1226,7 @@ public class SettingsActivity extends Activity
                     } else if (SystemProperties.getBoolean("ro.radio.noril", false)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.data_usage_settings) {
+        } else if (id == R.id.data_usage_settings) {
                     // Remove data usage when kernel module not enabled
                     final INetworkManagementService netManager = INetworkManagementService.Stub
                             .asInterface(ServiceManager.getService(Context.NETWORKMANAGEMENT_SERVICE));
@@ -1237,17 +1237,17 @@ public class SettingsActivity extends Activity
                     } catch (RemoteException e) {
                         // ignored
                     }
-                } else if (id == R.id.battery_settings) {
+        } else if (id == R.id.battery_settings) {
                     // Remove battery settings when battery is not available. (e.g. TV)
 
                     if (!mBatteryPresent) {
                         removeTile = true;
                     }
-                } else if (id == R.id.home_settings) {
+        } else if (id == R.id.home_settings) {
                     if (!updateHomeSettingTiles(tile)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.user_settings) {
+        } else if (id == R.id.user_settings) {
                     boolean hasMultipleUsers =
                             ((UserManager) getSystemService(Context.USER_SERVICE))
                                     .getUserCount() > 1;
@@ -1257,18 +1257,18 @@ public class SettingsActivity extends Activity
                             || Utils.isMonkeyRunning()) {
                         removeTile = true;
                     }
-                } else if (id == R.id.print_settings) {
+        } else if (id == R.id.print_settings) {
                     boolean hasPrintingSupport = getPackageManager().hasSystemFeature(
                             PackageManager.FEATURE_PRINTING);
                     if (!hasPrintingSupport) {
                         removeTile = true;
                     }
-                } else if (id == R.id.development_settings) {
+        } else if (id == R.id.development_settings) {
                     if (!showDev || um.hasUserRestriction(
                             UserManager.DISALLOW_DEBUGGING_FEATURES)) {
                         removeTile = true;
                     }
-                } else if (id == R.id.supersu_settings) {
+        } else if (id == R.id.supersu_settings) {
                     // Embedding into Settings is supported from SuperSU v1.85 and up
                     boolean supported = false;
                     try {
@@ -1278,25 +1278,23 @@ public class SettingsActivity extends Activity
                     if (!supported) {
                         removeTile = true;
                     }
-                } else if (id == R.id.performance_settings) {
+        } else if (id == R.id.performance_settings) {
                     final boolean forceHide =
                             getResources().getBoolean(R.bool.config_hidePerformanceSettings);
                     if (forceHide ||
                             !(pm.hasPowerProfiles() || (showDev && !Build.TYPE.equals("user")))) {
                         removeTile = true;
                     }
-		} else if (id == R.id.viper_settings) {
-                    // Embedding into Settings only if app exists (user could manually remove it)
+		} else if (id == R.id.audiofx_settings) {
                     boolean supported = false;
                     try {
-                        supported = (getPackageManager().getPackageInfo("com.vipercn.viper4android_v2", 0).versionCode >= 18);
+                        supported = (getPackageManager().getPackageInfo("org.cyanogenmod.audiofx", 0).versionCode >= 18);
                     } catch (PackageManager.NameNotFoundException e) {
                     }
                     if (!supported) {
                         removeTile = true;
                     }
-                } else if (id == R.id.own_stats_settings) {
-                    // Embedding own stats into Settings using the SuperSU method
+         } else if (id == R.id.own_stats_settings) {
                     boolean supported = false;
                     try {
                         supported = (getPackageManager().getPackageInfo("android.romstats", 0).versionCode >= 185);
