@@ -30,17 +30,17 @@
         
         <!-- Live Volume Steps -->        
         <PreferenceScreen
-            android:key="volume_steps"
-            android:fragment="com.android.settings.own.VolumeSteps"
-            android:title="@string/volume_steps_title" 
-            />
+                android:key="volume_steps"
+                android:fragment="com.android.settings.own.VolumeSteps"
+                android:title="@string/volume_steps_title" 
+                />
 
-	<!-- Camera Shutter Sound -->
-	<SwitchPreference
-	    android:key="camera_sounds"
-	    android:title="@string/camera_sounds_title"
-	    android:summary="@string/camera_sounds_summary"
-	    android:defaultValue="true" 
-	    />
+		<!-- Camera Shutter Sound -->
+		<SwitchPreference
+				android:key="camera_sounds"
+				android:title="@string/camera_sounds_title"
+				android:summary="@string/camera_sounds_summary"
+				android:defaultValue="true" 
+				/>
 
 </PreferenceScreen>
