@@ -29,5 +29,15 @@
         android:key="wakelock_blocker"
         android:fragment="com.android.settings.own.WakeLockBlocker"
         android:title="@string/wakelock_blocker_title" />    
+  <!-- Kernel Adiutor -->
+    <PreferenceScreen 
+        android:id="@+id/kernel_adiutor"
+        android:title="@string/kernel_adiutor_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                        android:targetPackage="com.grarak.kerneladiutor"
+                android:targetClass="com.grarak.kerneladiutor.MainActivity" />
+    </PreferenceScreen>
+
         
 </PreferenceScreen>

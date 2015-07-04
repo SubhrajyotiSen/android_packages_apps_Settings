@@ -1278,22 +1278,6 @@ public class SettingsActivity extends Activity
                     if (!supported) {
                         removeTile = true;
                     }
-        } else if (id == R.id.performance_settings) {
-                    final boolean forceHide =
-                            getResources().getBoolean(R.bool.config_hidePerformanceSettings);
-                    if (forceHide ||
-                            !(pm.hasPowerProfiles() || (showDev && !Build.TYPE.equals("user")))) {
-                        removeTile = true;
-                    }
-		} else if (id == R.id.audiofx_settings) {
-                    boolean supported = false;
-                    try {
-                        supported = (getPackageManager().getPackageInfo("org.cyanogenmod.audiofx", 0).versionCode >= 18);
-                    } catch (PackageManager.NameNotFoundException e) {
-                    }
-                    if (!supported) {
-                        removeTile = true;
-                    }
          } else if (id == R.id.own_stats_settings) {
                     boolean supported = false;
                     try {

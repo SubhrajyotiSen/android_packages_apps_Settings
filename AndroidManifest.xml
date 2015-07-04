@@ -1238,6 +1238,7 @@
         <activity android:name="ChooseLockPatternSize" android:exported="false"/>
 
         <activity android:name="ChooseLockPattern" android:exported="false"/>
+        <activity android:name="ManageFingerprints" android:exported="false"/>
 
         <activity android:name="SetupChooseLockPassword"
             android:exported="false"
@@ -2220,9 +2221,6 @@
         <!-- Kernel Adiutor -->
         <activity android:name="com.grarak.kerneladiutor.MainActivity"/>
         
-        <!-- AudioFX -->
-        <activity android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
-		
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
