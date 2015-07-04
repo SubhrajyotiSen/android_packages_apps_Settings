@@ -1300,4 +1300,7 @@
     <string name="selinux_title">Selinux Mode</string>
     <string name="selinux_permissive_title">Tolerant</string>
     <string name="selinux_enforcing_title">Afgedwongen</string>  
+    <string name="slim_action_floats">Slim Actions and Pie</string>
+    <string name="slim_action_floats_summary">Start Slim en Pie Akties in een Floating Window op</string>
+
 </resources>

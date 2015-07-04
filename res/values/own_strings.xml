@@ -1554,6 +1554,7 @@
     <string name="qs_notifications_tile">Notifications</string>
     <string name="qs_power_menu_tile">Power menu</string>
 	<string name="qs_navbar_tile">Navigation Bar</string>
+	<string name="qs_tile_slim_floats">Slim Floats</string>
 
     <!-- Navigation bar -->
     <string name="reset">Reset</string>
@@ -1920,5 +1921,9 @@
     <string name="selinux_title">Selinux Mode</string>
     <string name="selinux_permissive_title">Permissive</string>
     <string name="selinux_enforcing_title">Enforcing</string>
+
+    <!-- Floating Windows -->
+    <string name="slim_action_floats">Slim Actions and Pie</string>
+    <string name="slim_action_floats_summary">Launch Slim and Pie Actions in Floating Window Mode</string>
 
 </resources>
