@@ -1555,6 +1555,7 @@
     <string name="qs_power_menu_tile">Power menu</string>
 	<string name="qs_navbar_tile">Navigation Bar</string>
 	<string name="qs_tile_slim_floats">Slim Floats</string>
+    <string name="qs_pie_tile">Pie</string>
 
     <!-- Navigation bar -->
     <string name="reset">Reset</string>

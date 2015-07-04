@@ -113,6 +113,7 @@ import com.android.settings.notification.NotificationAccessSettings;
 import com.android.settings.notification.NotificationStation;
 import com.android.settings.notification.ZenModeSettings;
 import com.android.settings.own.MainSettings;
+import com.android.settings.own.PieControl;
 import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.sim.SimSettings;
@@ -330,6 +331,7 @@ public class SettingsActivity extends Activity
             NotificationManagerSettings.class.getName(),
             LockScreenSettings.class.getName(),
             LiveDisplay.class.getName(),
+            PieControl.class.getName(),
             DisplayRotation.class.getName(),
             HeadsUpSettings.class.getName()
     };
