@@ -706,7 +706,7 @@
                 android:resource="@id/security_settings" />
         </activity>
 
-        <activity-alias android:name="com.android.settings.rr.PieControl"
+        <activity-alias android:name="com.android.settings.own.PieControl"
                 android:taskAffinity="com.android.settings"
                 android:label="@string/pie_control_title"
                 android:targetActivity="Settings$PieControl"
