@@ -109,7 +109,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private void updateRecentsLocation(int value) {
         ContentResolver resolver = getContentResolver();
         Resources res = getResources();
-        int summary = -1;
+        int summary = -5;
 
         Settings.System.putInt(resolver, Settings.System.RECENTS_CLEAR_ALL_LOCATION, value);
 
@@ -126,7 +126,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(resolver, Settings.System.RECENTS_CLEAR_ALL_LOCATION, 3);
             summary = R.string.recents_clear_all_location_bottom_left;
         }
-        if (mRecentsClearAllLocation != null && summary != -1) {
+        if (mRecentsClearAllLocation != null && summary != -5) {
             mRecentsClearAllLocation.setSummary(res.getString(summary));
         }
      }

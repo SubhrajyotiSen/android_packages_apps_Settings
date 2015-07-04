@@ -16,19 +16,6 @@
     android:title="@string/extra_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-      <PreferenceScreen
-        android:key="lock_clock"
-        android:title="@string/lock_clock_title"
-        android:summary="@string/lock_clock_summary">
-        <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="com.cyanogenmod.lockclock"
-            android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
-        </PreferenceScreen>
-	
-	<PreferenceScreen
-        android:key="wakelock_blocker"
-        android:fragment="com.android.settings.own.WakeLockBlocker"
-        android:title="@string/wakelock_blocker_title" />    
   <!-- Kernel Adiutor -->
     <PreferenceScreen 
         android:id="@+id/kernel_adiutor"
@@ -39,5 +26,26 @@
                 android:targetClass="com.grarak.kerneladiutor.MainActivity" />
     </PreferenceScreen>
 
-        
+    <!-- SELinux -->
+        <SwitchPreference
+            android:key="selinux"
+            android:title="@string/selinux_title"
+            android:defaultValue="false" />
+
+		<!-- Clock Widget -->
+		<PreferenceScreen
+			android:key="lock_clock"
+			android:title="@string/lock_clock_title"
+			android:summary="@string/lock_clock_summary">
+				<intent android:action="android.intent.action.MAIN"
+					android:targetPackage="com.cyanogenmod.lockclock"
+					android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
+        </PreferenceScreen>
+	
+		<!-- Wakelock Blocker -->
+		<PreferenceScreen
+			android:key="wakelock_blocker"
+			android:fragment="com.android.settings.own.WakeLockBlocker"
+			android:title="@string/wakelock_blocker_title" />    
+
 </PreferenceScreen>

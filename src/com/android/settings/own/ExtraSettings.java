@@ -33,6 +33,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.preference.SeekBarPreference;
+import android.preference.SwitchPreference;
 import android.provider.MediaStore;
 import android.provider.Settings;
 import android.view.Display;
@@ -40,18 +41,24 @@ import android.view.Window;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
+import com.android.settings.util.AbstractAsyncSuCMDProcessor;
+import com.android.settings.util.CMDProcessor;
+import com.android.settings.util.Helpers;
 
 import java.io.File;
 import java.io.IOException;
 
-public class ExtraSettings extends SettingsPreferenceFragment {
+public class ExtraSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "ExtraSettings";
+    
+    private static final String SELINUX = "selinux";
 
-      
     private final Configuration mCurConfig = new Configuration();
     private Context mContext;
-
+	private SwitchPreference mSelinux;
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +69,32 @@ public class ExtraSettings extends SettingsPreferenceFragment {
 
        mContext = getActivity();
 
+        //SELinux
+        mSelinux = (SwitchPreference) findPreference(SELINUX);
+        mSelinux.setOnPreferenceChangeListener(this);
+
+        if (CMDProcessor.runSuCommand("getenforce").getStdout().contains("Enforcing")) {
+            mSelinux.setChecked(true);
+            mSelinux.setSummary(R.string.selinux_enforcing_title);
+        } else {
+            mSelinux.setChecked(false);
+            mSelinux.setSummary(R.string.selinux_permissive_title);
+        }
+
     }
 
+     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+         if (preference == mSelinux) {
+            if (newValue.toString().equals("true")) {
+                CMDProcessor.runSuCommand("setenforce 1");
+                mSelinux.setSummary(R.string.selinux_enforcing_title);
+            } else if (newValue.toString().equals("false")) {
+                CMDProcessor.runSuCommand("setenforce 0");
+                mSelinux.setSummary(R.string.selinux_permissive_title);
+            }
+            return true;
+          }
+         return false;
+      }
 }
