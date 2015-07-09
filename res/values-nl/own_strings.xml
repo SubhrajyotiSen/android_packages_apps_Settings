@@ -1406,4 +1406,6 @@
   <string name="trigger_bottom_title">Trigger hoogte</string>
   <string name="trigger_bottom_summary">Stel de hoogte in</string>
   <string name="extra_navigation_title">Extra Navigatie Opties</string>
+  <string name="heads_up_floating_window_summary">Lange druk om te openen in een Floating Window</string> 
+
 </resources>
