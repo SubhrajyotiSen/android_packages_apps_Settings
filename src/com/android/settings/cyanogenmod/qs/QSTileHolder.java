@@ -177,10 +177,16 @@ public class QSTileHolder {
                 stringId = R.string.qs_navbar_tile;
                 break;
        	    case QSConstants.TILE_TRDS:
-		resourceName = "ic_qs_trds_on";
-		stringId = R.string.qs_tile_trds;
-		break;
-// Dynamic tiles
+				resourceName = "ic_qs_trds_on";
+				stringId = R.string.qs_tile_trds;
+				break;
+            case QSConstants.TILE_SLIM_FLOATS:
+                resourceName = "ic_qs_floating_on";
+                stringId = R.string.qs_tile_slim_floats;
+                break;
+
+
+			// Dynamic tiles
             case QSConstants.DYNAMIC_TILE_NEXT_ALARM:
                 resourceName = "ic_dynamic_qs_next_alarm";
                 stringId = R.string.qs_dynamic_tile_next_alarm;
