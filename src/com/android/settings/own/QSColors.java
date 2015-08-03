@@ -190,7 +190,7 @@ public class QSColors extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.QS_COLOR_SWITCH, value ? 1 : 0);
             refreshSettings();
-            recreateStatusBar();
+            return true;
         }
         return false;
     }
@@ -253,7 +253,7 @@ public class QSColors extends SettingsPreferenceFragment implements
                                     SWAG_TEAL);
                             Settings.System.putInt(getOwner().mResolver,
                                     Settings.System.QS_TRANSPARENT_SHADE, 0);
-                            getOwner().refreshSettings();
+							getOwner().refreshSettings();
                         }
                     })
                     .create();

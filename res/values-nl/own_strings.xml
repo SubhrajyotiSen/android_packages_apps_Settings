@@ -1407,5 +1407,14 @@
   <string name="trigger_bottom_summary">Stel de hoogte in</string>
   <string name="extra_navigation_title">Extra Navigatie Opties</string>
   <string name="heads_up_floating_window_summary">Lange druk om te openen in een Floating Window</string> 
-
+  <string name="notification_color_settings_title">Notificatie kleur</string>
+  <string name="notification_media_bg_mode_title">Stel kleur van Media achtergrond in</string>
+  <string name="notification_app_icon_bg_mode_title">Stel kleur van App Icoon in</string>
+  <string name="notification_app_icon_color_mode_title">Kleur app icon</string>
+  <string name="notification_bg_guts_color_title">Achtergrond bij lang indrukken</string>
+  <string name="notification_app_icon_bg_color_title">App icoon achtergrond</string>
+  <string name="notification_color_mode_never_title">Nooit</string>
+  <string name="notification_icon_color_mode_greyscale_title">Als de icoon een GrayScale icoon is</string>
+  <string name="notification_bg_color_mode_no_color_title">Als de icoon geen eigen kleur heeft</string>
+  <string name="notification_color_mode_always_title">Altijd</string>
 </resources>
