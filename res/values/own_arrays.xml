@@ -37,7 +37,7 @@
         <item>@string/profile_networkmode_4g</item>
         <item>@string/profile_networkmode_2g3g</item>
         <item>@string/profile_networkmode_2g3g4g</item>
-        <item>@string/profile_action_none</item>
+        <item>@string/profile_action_system</item>
     </string-array>
 
     <!-- Profile lock mode summaries. Do not translate. -->
