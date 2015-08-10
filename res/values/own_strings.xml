@@ -2052,7 +2052,8 @@
     <string name="trigger_top_summary">Adjust the vertical postion of the trigger area</string>
     <string name="trigger_bottom_title">Trigger height</string>
     <string name="trigger_bottom_summary">Adjust the height of the trigger area</string>
-
+	<string name="icons_title">Icons</string>
+	
     <!-- Notification color settings -->
     <string name="notification_color_settings_title">Notification colors</string>
     <string name="notification_media_bg_mode_title">Colorize the media background</string>
@@ -2065,5 +2066,6 @@
     <string name="notification_bg_color_mode_no_color_title">If the notification doesn\`t include an own color</string>
     <string name="notification_color_mode_always_title">Always</string>
     <string name="notification_drawer_clear_all_icon_color_title">Clear all icon</string>
+    <string name="cat_colors_title">Colors</string>
 
 </resources>

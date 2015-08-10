@@ -1,18 +1,18 @@
 /*
-* Copyright (C) 2014 The CyanogenMod Project
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
+ * Copyright (C) 2014 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
 package com.android.settings.own;
 
@@ -32,9 +32,10 @@ import android.os.Handler;
 import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.text.TextUtils;
@@ -48,12 +49,11 @@ import android.widget.Switch;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.cm.ScreenType;
 import com.android.settings.cyanogenmod.PackageListAdapter;
 import com.android.settings.cyanogenmod.PackageListAdapter.PackageItem;
 import com.android.settings.SettingsActivity;
 import com.android.settings.cyanogenmod.BaseSystemSettingSwitchBar;
-
-import com.android.internal.util.cm.ScreenType;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -71,8 +71,10 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
     private static final String PREF_HEADS_UP_FLOATING = "heads_up_floating";
     private static final String PREF_HEADS_UP_TIME_OUT = "heads_up_time_out";
 
+
     private SwitchPreference mHeadsUpFloatingWindow;
-    private SeekBarPreference mHeadsUpTimeOut;
+    private ListPreference mHeadsUpTimeOut;
+    private ListPreference mHeadsUpSnoozeTime;
 
     private PackageListAdapter mPackageAdapter;
     private PackageManager mPackageManager;
@@ -95,6 +97,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         // Get launch-able applications
         addPreferencesFromResource(R.xml.heads_up_settings);
         mPackageManager = getPackageManager();
@@ -109,8 +112,17 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
         mHeadsUpFloatingWindow = (SwitchPreference) findPreference(PREF_HEADS_UP_FLOATING);
         mHeadsUpFloatingWindow.setChecked(Settings.System.getIntForUser(getContentResolver(),
-                Settings.System.HEADS_UP_FLOATING, 1, UserHandle.USER_CURRENT) == 1);
+                Settings.System.HEADS_UP_FLOATING, 0, UserHandle.USER_CURRENT) == 1);
         mHeadsUpFloatingWindow.setOnPreferenceChangeListener(this);
+
+        int defaultTimeOut = systemUiResources.getInteger(systemUiResources.getIdentifier(
+                    "com.android.systemui:integer/heads_up_notification_decay", null, null));
+        mHeadsUpTimeOut = (ListPreference) findPreference(PREF_HEADS_UP_TIME_OUT);
+        mHeadsUpTimeOut.setOnPreferenceChangeListener(this);
+        int headsUpTimeOut = Settings.System.getInt(getContentResolver(),
+                Settings.System.HEADS_UP_NOTIFCATION_DECAY, defaultTimeOut);
+        mHeadsUpTimeOut.setValue(String.valueOf(headsUpTimeOut));
+        updateHeadsUpTimeOutSummary(headsUpTimeOut);
 
         mDndPrefList = (PreferenceGroup) findPreference("dnd_applications_list");
         mDndPrefList.setOrderingAsAdded(false);
@@ -127,21 +139,6 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         mAddDndPref.setOnPreferenceClickListener(this);
         mAddBlacklistPref.setOnPreferenceClickListener(this);
 
-        Resources systemUiResources;
-        try {
-            systemUiResources = mPackageManager.getResourcesForApplication("com.android.systemui");
-        } catch (Exception e) {
-            return;
-        }
-
-        int defaultTimeOut = systemUiResources.getInteger(systemUiResources.getIdentifier(
-                    "com.android.systemui:integer/heads_up_notification_decay", null, null));
-        mHeadsUpTimeOut = (ListPreference) findPreference(PREF_HEADS_UP_TIME_OUT);
-        mHeadsUpTimeOut.setOnPreferenceChangeListener(this);
-        int headsUpTimeOut = Settings.System.getInt(getContentResolver(),
-                Settings.System.HEADS_UP_NOTIFCATION_DECAY, defaultTimeOut);
-        mHeadsUpTimeOut.setValue(String.valueOf(headsUpTimeOut));
-        updateHeadsUpTimeOutSummary(headsUpTimeOut);
     }
 
     @Override
@@ -161,7 +158,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         View prefs = super.onCreateView(inflater, mPrefsContainer, savedInstanceState);
         mPrefsContainer.addView(prefs);
 
-      return v;
+        return v;
     }
 
     @Override
@@ -225,26 +222,26 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
         switch (id) {
             case DIALOG_DND_APPS:
-            list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent,
-                View view, int position, long id) {
-                    PackageItem info = (PackageItem) parent.getItemAtPosition(position);
-                    addCustomApplicationPref(info.packageName, mDndPackages);
-                    dialog.cancel();
-                }
-            });
-            break;
+                list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent,
+                            View view, int position, long id) {
+                        PackageItem info = (PackageItem) parent.getItemAtPosition(position);
+                        addCustomApplicationPref(info.packageName, mDndPackages);
+                        dialog.cancel();
+                    }
+                });
+                break;
             case DIALOG_BLACKLIST_APPS:
-            list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent,
-                View view, int position, long id) {
-                    PackageItem info = (PackageItem) parent.getItemAtPosition(position);
-                    addCustomApplicationPref(info.packageName, mBlacklistPackages);
-                    dialog.cancel();
-                }
-           });
+                list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent,
+                            View view, int position, long id) {
+                        PackageItem info = (PackageItem) parent.getItemAtPosition(position);
+                        addCustomApplicationPref(info.packageName, mBlacklistPackages);
+                        dialog.cancel();
+                    }
+                });
         }
         return dialog;
     }
@@ -255,10 +252,10 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
      */
     private static class Package {
         public String name;
-       /**
-        * Stores all the application values in one call
-        * @param name
-        */
+        /**
+         * Stores all the application values in one call
+         * @param name
+         */
         public Package(String name) {
             this.name = name;
         }
@@ -282,7 +279,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
             }
         }
 
-    };
+    }
 
     private void refreshCustomApplicationPrefs() {
         if (!parsePackageList()) {
@@ -323,17 +320,17 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mHeadsUpTimeOut) {
+        if (preference == mHeadsUpFloatingWindow) {
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.HEADS_UP_FLOATING,
+            (Boolean) newValue ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mHeadsUpTimeOut) {
             int headsUpTimeOut = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.HEADS_UP_NOTIFCATION_DECAY,
                     headsUpTimeOut);
             updateHeadsUpTimeOutSummary(headsUpTimeOut);
-            return true;
-       } else if (preference == mHeadsUpFloatingWindow) {
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.HEADS_UP_FLOATING,
-            (Boolean) newValue ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
@@ -385,9 +382,9 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         boolean parsed = false;
 
         final String dndString = Settings.System.getString(getContentResolver(),
-        Settings.System.HEADS_UP_CUSTOM_VALUES);
+                Settings.System.HEADS_UP_CUSTOM_VALUES);
         final String blacklistString = Settings.System.getString(getContentResolver(),
-        Settings.System.HEADS_UP_BLACKLIST_VALUES);
+                Settings.System.HEADS_UP_BLACKLIST_VALUES);
 
         if (!TextUtils.equals(mDndPackageList, dndString)) {
             mDndPackageList = dndString;
@@ -423,8 +420,8 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
     private void savePackageList(boolean preferencesUpdated, Map<String,Package> map) {
         String setting = map == mDndPackages
-            ? Settings.System.HEADS_UP_CUSTOM_VALUES
-            : Settings.System.HEADS_UP_BLACKLIST_VALUES;
+                ? Settings.System.HEADS_UP_CUSTOM_VALUES
+                : Settings.System.HEADS_UP_BLACKLIST_VALUES;
 
         List<String> settings = new ArrayList<String>();
         for (Package app : map.values()) {
@@ -443,7 +440,8 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
     private void updateEnabledState() {
         boolean enabled = Settings.System.getInt(getContentResolver(),
-                Settings.System.HEADS_UP_USER_ENABLED, Settings.System.HEADS_UP_USER_ON) != 0;
+                Settings.System.HEADS_UP_USER_ENABLED,
+                Settings.System.HEADS_UP_USER_ON) != 0;
         mPrefsContainer.setVisibility(enabled ? View.VISIBLE : View.GONE);
         mDisabledText.setVisibility(enabled ? View.GONE : View.VISIBLE);
     }
@@ -451,7 +449,8 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
     @Override
     public void onEnablerChanged(boolean isEnabled) {
         mLastEnabledState = Settings.System.getInt(getContentResolver(),
-                Settings.System.HEADS_UP_USER_ENABLED, Settings.System.HEADS_UP_USER_ON) != 0;
+                Settings.System.HEADS_UP_USER_ENABLED,
+                Settings.System.HEADS_UP_USER_ON) != 0;
         updateEnabledState();
     }
 
@@ -469,22 +468,21 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
             return false;
         }
 
-
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity())
                 .setTitle(R.string.dialog_delete_title)
                 .setMessage(R.string.dialog_delete_message)
                 .setIconAttribute(android.R.attr.alertDialogIcon)
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    if (mBlacklistPrefList.findPreference(pref.getKey()) == pref) {
-                        removeApplicationPref(pref.getKey(), mBlacklistPackages);
-                    } else if (mDndPrefList.findPreference(pref.getKey()) == pref) {
-                        removeApplicationPref(pref.getKey(), mDndPackages);
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        if (mBlacklistPrefList.findPreference(pref.getKey()) == pref) {
+                            removeApplicationPref(pref.getKey(), mBlacklistPackages);
+                        } else if (mDndPrefList.findPreference(pref.getKey()) == pref) {
+                            removeApplicationPref(pref.getKey(), mDndPackages);
+                        }
                     }
-                }
-        })
-        .setNegativeButton(android.R.string.cancel, null);
+                })
+                .setNegativeButton(android.R.string.cancel, null);
 
         builder.show();
         return true;

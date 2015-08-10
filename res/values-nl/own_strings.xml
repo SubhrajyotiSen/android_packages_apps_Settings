@@ -1418,4 +1418,6 @@
   <string name="notification_bg_color_mode_no_color_title">Als de icoon geen eigen kleur heeft</string>
   <string name="notification_color_mode_always_title">Altijd</string>
   <string name="notification_drawer_clear_all_icon_color_title">Verwijder alles icoon</string>
+  <string name="cat_colors_title">Kleuren</string>
+  <string name="icons_title">Iconen</string>
 </resources>
