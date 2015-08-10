@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources>
+	
     <dimen name="profile_instruction_padding">8dp</dimen>
     <dimen name="shortcut_picker_left_padding">40dip</dimen>
 
@@ -31,4 +32,7 @@
     <dimen name="edit_text_inset_top_material">10dp</dimen>
     <dimen name="edit_text_inset_bottom_material">7dp</dimen>
     
+    <!-- Dashboard Category Margin Bottom -->
+    <dimen name="dashboard_category_margin_bottom">8dip</dimen>
+
 </resources>
