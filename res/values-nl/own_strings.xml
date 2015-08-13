@@ -1534,4 +1534,10 @@
       <string name="camera_sounds_title">Camera sluiter geluid</string>
       <string name="camera_sounds_summary">Schakel systeem camera geluid in/uit</string>
       <string name="camera_sound_warning_dialog_text">Pas op! Dit geluid uitschakelen kan verboden zijn in sommige landen.</string>
+      <!-- Scrolling Cache -->
+      <string name="pref_scrollingcache_summary">Scrolling cache kan scroll prestaties verbeteren tegenover verlies van RAM geheugen</string>
+      <string name="pref_scrollingcache_force_enable">Forceer inschakeling</string>
+      <string name="pref_scrollingcache_default_enable">Standaard inschakaling</string>
+      <string name="pref_scrollingcache_default_disable">Standaard uitschakeling</string>
+      <string name="pref_scrollingcache_force_disable">Forceer uitschakeling</string>
 </resources>
