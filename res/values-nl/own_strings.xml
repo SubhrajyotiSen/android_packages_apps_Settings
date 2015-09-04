@@ -1043,10 +1043,17 @@
       <string name="status_bar_clock_style_reset">Reset kleur</string>
       <string name="status_bar_clock_style_reset_message">Klok kleur resetten?</string> 
       <string name="clock_font_style_title">Lettertype</string>
-      <string name="clock_font_bold">Dikgedrukt</string>
-      <string name="clock_font_condensed">Geconcentreerd</string>
-      <string name="clock_font_light">Light</string>
-      <string name="clock_font_light_italic">Ligt schuin</string>
       <string name="clock_font_normal">Normaal</string>
-      <string name="status_bar_show_clock_second_title">Seconden</string>
+      <string name="clock_font_italic">Schuin</string>
+      <string name="clock_font_bold">Dik</string>
+      <string name="clock_font_bold_italic">Dik/Schuin</string>
+      <string name="clock_font_light">Licht</string>
+      <string name="clock_font_light_italic">Licht/Schuin</string>
+      <string name="clock_font_thin">Dun</string>
+      <string name="clock_font_thin_italic">Dun/Schuin</string>
+      <string name="clock_font_condensed">Concentreerd</string>
+      <string name="clock_font_condensed_italic">Geconcentreed/Schuin</string>
+      <string name="clock_font_condensed_bold">Geconcentreerd/Dik</string>
+      <string name="clock_font_condensed_bold_italic">Geconcetreerd/Dik/Schuin</string>
+      <string name="clock_font_medium_italic">Medium/Schuin</string>
 </resources>
