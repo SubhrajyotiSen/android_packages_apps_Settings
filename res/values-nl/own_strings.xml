@@ -1282,4 +1282,9 @@
       <string name="select_custom_app_title">Selecteer app</string>
       <string name="select_custom_activity_title">Selecteer activiteit</string>
       <string name="profile_applist_title">Applicaties</string>
+      <!-- Color picker -->
+      <string name="dialog_color_picker_title">Kleuren kiezer</string>
+      <string name="press_color_to_apply">Tik op de nieuwe kleur om te bevestigen</string>
+      <string name="reset_android_title">Android standaard</string>
+      <string name="reset_own_title">OwnROM standaard</string>
 </resources>
