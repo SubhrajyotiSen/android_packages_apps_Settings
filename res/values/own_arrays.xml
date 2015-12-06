@@ -1561,4 +1561,9 @@
         <item>3</item>
     </string-array>
 
+    <string-array name="slimsizer_profile_array">
+        <item >@string/load_profile</item>
+        <item >@string/save_profile</item>
+    </string-array>
+
 </resources>

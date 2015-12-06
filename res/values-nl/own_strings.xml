@@ -1582,4 +1582,25 @@
       <string name="wakelock_blocker_reload">Herlaad</string>
       <string name="wakelock_blocker_warning_title">Ga voorzichtig te werk</string>
       <string name="wakelock_blocker_warning">Het blokkeren van wakelocks kan tot instabilliteit, crashes of data verlies leiden</string>
+      <!-- SlimSizer  -->
+      <string name="listsystem">Lijst</string>
+      <string name="sizer_title">App verwijderaar</string>
+      <string name="caution">Let op!</string>
+      <string name="sizer_message_startup">Dit programma laat u systeem apps verwijderen. Ga voorzichtig te werk, verwijder alleen apps waarvan u zeker bent dat het geen kwaad kan.</string>
+      <string name="cancel">Annuleer</string>
+      <string name="sizer_message_delete">Weet u zeker dat u deze app(s) wil verwijderen?</string>
+      <string name="btn_delete">Geselecteerde apps nu verwijderen!</string>
+      <string name="delete_progress_title">Verwijderen</string>
+      <string name="delete_progress">Geselecteerde bestanden aan het verwijderen...</string>
+      <string name="delete_success">Bestanden succesvol verwijderd</string>
+      <string name="delete_fail">Verwijderen niet mogelijk</string>
+      <string name="btn_profile">Profiel</string>
+      <string name="sizer_message_sdnowrite">Kan niet schrijven naar SD kaart.</string>
+      <string name="sizer_message_sdnoread">Kan niet lezen van SD kaart.</string>
+      <string name="sizer_message_filesuccess">Profiel aangemaakt.</string>
+      <string name="sizer_message_filefail">Profiel aanmaken mislukt.</string>
+      <string name="sizer_message_noselect">Niks geselecteerd.</string>
+      <string name="system_app_remover">Systeem App Verwijderaar</string>
+      <string name="load_profile">Laad profiel</string>
+      <string name="save_profile">Sla Profiel op</string>
 </resources>
