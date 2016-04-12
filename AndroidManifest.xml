@@ -2740,6 +2740,22 @@
                 android:resource="@id/sim_settings" />
         </activity>
 
+        
+        <!-- OwnSettings -->
+        <activity android:name="Settings$MainSettingsActivity"
+             android:label="@string/own_settings_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.own.MainSettings" />
+        </activity>
+
+         <activity
+              android:name=".own.MainSettings" />
+    
         <activity android:name=".sim.SimPreferenceDialog"
             android:theme="@style/Theme.SettingsDialog"
             android:excludeFromRecents="true">

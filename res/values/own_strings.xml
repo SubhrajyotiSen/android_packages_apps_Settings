@@ -1189,4 +1189,8 @@
 
     <!-- Label for settings shortcut: carrier selection -->
     <string name="shortcut_carrier_title">Network operators</string>
+    
+	<!-- OwnStrings -->
+	<string name="own_settings_title">OwnSettings</string>
+	
 </resources>

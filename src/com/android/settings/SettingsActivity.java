@@ -100,6 +100,7 @@ import com.android.settings.livedisplay.LiveDisplay;
 import com.android.settings.notification.NotificationManagerSettings;
 import com.android.settings.notification.OtherSoundSettings;
 import com.android.settings.notification.SoundSettings;
+import com.android.settings.own.MainSettings;
 import com.android.settings.profiles.NFCProfileTagCallback;
 import com.android.settings.profiles.ProfilesSettings;
 import com.android.settings.search.DynamicIndexableContentMonitor;
@@ -295,6 +296,7 @@ public class SettingsActivity extends Activity
             R.id.accessibility_settings,
             R.id.print_settings,
             R.id.home_settings,
+            R.id.main_settings,
             R.id.dashboard,
             R.id.privacy_settings_cyanogenmod,
             R.id.button_settings
@@ -317,6 +319,7 @@ public class SettingsActivity extends Activity
             UserDictionaryList.class.getName(),
             UserDictionarySettings.class.getName(),
             HomeSettings.class.getName(),
+            MainSettings.class.getName(),
             DisplaySettings.class.getName(),
             DeviceInfoSettings.class.getName(),
             ManageApplications.class.getName(),

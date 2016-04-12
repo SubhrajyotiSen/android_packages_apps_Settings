@@ -99,6 +99,14 @@
             android:key="@string/category_key_device"
             android:title="@string/header_category_device" >
 
+        <!-- OwnSettings -->
+        <dashboard-tile
+                android:id="@+id/main_settings"
+                android:title="@string/own_settings_title"
+                android:fragment="com.android.settings.own.MainSettings"
+                android:icon="@drawable/ic_ownsettings"
+                />        
+
         <!-- Sound -->
         <dashboard-tile
                 android:id="@+id/sound_settings"
