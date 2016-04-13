@@ -1191,6 +1191,9 @@
     <string name="shortcut_carrier_title">Network operators</string>
     
 	<!-- OwnStrings -->
+	<string name="ownrom_section_key">OwnROM</string>
+	<string name="ownrom_section">OwnROM</string>
 	<string name="own_settings_title">OwnSettings</string>
+	<string name="recents_settings_title">Recents</string>
 	
 </resources>
