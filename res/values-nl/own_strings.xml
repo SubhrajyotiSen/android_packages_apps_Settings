@@ -998,4 +998,20 @@
   <!-- Weather -->
   <!-- OwnStrings-->
   <string name="recents_settings_title">Recente apps scherm</string>
+  <!-- Recents panel -->
+  <string name="recents_panel_category">Recents apps</string>
+  <string name="show_clear_all_recents_button_title">Sluit all apps knop</string>
+  <string name="show_clear_all_recents_button_summary">Laat knop zien</string>
+  <string name="recents_clear_all_location_title">Locatie</string>
+  <string name="recents_clear_all_location_top_right">Boven rechts</string>
+  <string name="recents_clear_all_location_top_left">Boven links</string>
+  <string name="recents_clear_all_location_top_center">Boven midden</string>
+  <string name="recents_clear_all_location_bottom_right">Onder rechts</string>
+  <string name="recents_clear_all_location_bottom_left">Onder links</string>
+  <string name="recents_clear_all_location_bottom_center">Onder midden</string>
+  <string name="recents_clear_all_dismiss_all_title">Sluit alle apps</string>
+  <string name="recents_clear_all_dismiss_all_summary">Ook de huide app sluiten</string>
+  <string name="recents_searchbar_title">Zoekbalk</string>
+  <string name="recents_searchbar_summary">Laat Google zoekbalk zien in recente apps scherm</string>
+
 </resources>
