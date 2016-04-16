@@ -1009,4 +1009,9 @@
 	  <string name="recents_searchbar_summary">Laat Google zoekbalk zien in recente apps scherm</string>
       <string name="recents_show_membar_title">RAM Balk</string>
       <string name="recents_show_membar_summary">Laat een balk zien met beschikbare RAM</string>	
+      <!-- Superuser indicator on status bar -->
+      <string name="su_indicator">Superuser icoon</string>
+      <string name="su_indicator_summary_on">Superuser icoon is zichtbaar wanneer er roottoegang word verleend aan app</string>
+      <string name="su_indicator_summary_off">Zet dit uit om het icoon te verbergen</string>
+
 </resources>
