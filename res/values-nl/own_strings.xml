@@ -1013,5 +1013,6 @@
       <string name="su_indicator">Superuser icoon</string>
       <string name="su_indicator_summary_on">Superuser icoon is zichtbaar wanneer er roottoegang word verleend aan app</string>
       <string name="su_indicator_summary_off">Zet dit uit om het icoon te verbergen</string>
-
+      <!-- Toast Icons -->
+      <string name="toast_icon_title">Toast icoon</string>
 </resources>
