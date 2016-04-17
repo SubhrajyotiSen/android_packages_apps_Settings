@@ -15,6 +15,15 @@
 */
 package com.android.settings.cyanogenmod;
 
+import android.content.ContentResolver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.preference.ListPreference;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+
 import android.os.Bundle;
 
 import com.android.internal.logging.MetricsLogger;
@@ -22,16 +31,58 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import cyanogenmod.providers.CMSettings;
+
 public class NotificationDrawerSettings extends SettingsPreferenceFragment {
+
+    private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
+
+    private ListPreference mQuickPulldown;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.notification_drawer_settings);
+        
+        mQuickPulldown = (ListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
+
+        int quickPulldown = CMSettings.System.getInt(resolver,
+                CMSettings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1);
+        mQuickPulldown.setValue(String.valueOf(quickPulldown));
+        updatePulldownSummary(quickPulldown);
+        mQuickPulldown.setOnPreferenceChangeListener(this);
+        
     }
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.NOTIFICATION_DRAWER_SETTINGS;
+        return MetricsLogger.DEVELOPMENT;
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mQuickPulldown) {
+            int quickPulldown = Integer.valueOf((String) newValue);
+            CMSettings.System.putInt(
+                    resolver, CMSettings.System.STATUS_BAR_QUICK_QS_PULLDOWN, quickPulldown);
+            updatePulldownSummary(quickPulldown);
+            return true;
+        }
+        return false;
+    }
+    
+    private void updatePulldownSummary(int value) {
+        Resources res = getResources();
+
+        if (value == 0) {
+            // quick pulldown deactivated
+            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_off));
+        } else {
+            String direction = res.getString(value == 2
+                    ? R.string.status_bar_quick_qs_pulldown_summary_left
+                    : R.string.status_bar_quick_qs_pulldown_summary_right);
+            mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
+        }
     }
 }
