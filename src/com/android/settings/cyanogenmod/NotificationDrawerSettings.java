@@ -33,7 +33,8 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import cyanogenmod.providers.CMSettings;
 
-public class NotificationDrawerSettings extends SettingsPreferenceFragment {
+public class NotificationDrawerSettings extends SettingsPreferenceFragment
+				implements OnPreferenceChangeListener {
 
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
 
@@ -43,6 +44,8 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.notification_drawer_settings);
+        
+        ContentResolver resolver = getActivity().getContentResolver();
         
         mQuickPulldown = (ListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
 
