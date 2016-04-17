@@ -30,13 +30,13 @@ import java.util.List;
 
 import com.android.internal.logging.MetricsLogger;
 
-public class MainSettings extends SettingsPreferenceFragment {
+public class InterfaceSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.own_main_settings);
+        addPreferencesFromResource(R.xml.own_interface_settings);
     }
 
     protected int getMetricsCategory()

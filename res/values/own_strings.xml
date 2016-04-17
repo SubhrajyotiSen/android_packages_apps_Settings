@@ -1194,6 +1194,8 @@
 	<string name="own_settings_title">OwnSettings</string>
 	<string name="recents_settings_title">Recents</string>
 	<string name="notification_drawer_title">Notification Drawer</string>
+	<string name="own_interface_title">Interface</string>
+	<string name="own_categories_title">Categories</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>
