@@ -989,6 +989,9 @@
 	  <string name="battery_info_status_charging_dock_usb">Opladen via dock (USB)</string>
 	  <string name="privacy_guard_internet_category">Internet</string>
 	  <!-- Weather -->
+	  <!-- General -->
+	  <string name="reset">Resetten</string>
+	  <string name="default_string">Standaard</string>
 	  <!-- OwnStrings-->
 	  <string name="recents_settings_title">Recente apps scherm</string>
 	  <string name="notification_drawer_title">Notificatie Tray</string>
@@ -1057,6 +1060,7 @@
       <string name="clock_font_condensed_bold_italic">Geconcetreerd/Dik/Schuin</string>
       <string name="clock_font_medium_italic">Medium/Schuin</string>
       <string name="clock_font_size_title">Letter grote</string>
+      <string name="status_bar_show_clock_second_title">Senconden klok</string>
       <!-- Network traffic -->
       <string name="network_traffic_title">Netwerk verkeer</string>
       <string name="show_network_traffic_state">Status balk verkeer monitor</string>
