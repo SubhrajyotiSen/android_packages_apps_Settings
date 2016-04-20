@@ -1056,4 +1056,21 @@
       <string name="clock_font_condensed_bold">Geconcentreerd/Dik</string>
       <string name="clock_font_condensed_bold_italic">Geconcetreerd/Dik/Schuin</string>
       <string name="clock_font_medium_italic">Medium/Schuin</string>
+      <!-- Network traffic -->
+      <string name="network_traffic_title">Netwerk verkeer</string>
+      <string name="show_network_traffic_state">Status balk verkeer monitor</string>
+      <string name="network_traffic_summary">Schakel verschillende netwerkverkeers opties in statusbalk in</string>
+      <string name="show_network_traffic_unit">Eenheden laten zien</string>
+      <string name="show_network_traffic_disable">Uitgeschakeld</string>
+      <string name="show_network_traffic_up">Uitgaand</string>
+      <string name="show_network_traffic_down">Binnenkomend</string>
+      <string name="show_network_traffic_all">Uitgaand en binnenkomend</string>
+      <string name="show_network_traffic_bit">Bits per seconde</string>
+      <string name="show_network_traffic_byte">Bytes per seconde</string>
+      <string name="network_traffic_autohide">Verberg automatisch</string>
+      <string name="network_traffic_autohide_summary">Verberg monitor als er geen activiteit is</string>
+      <string name="network_traffic_autohide_threshold">Inactiviteits interval</string>
+      <string name="network_traffic_color_style">Kleur styl</string>
+      <string name="network_traffic_color_reset">Reset Kleur</string>
+      <string name="network_traffic_color_reset_message">Kleuren resetten?</string>
 </resources>
