@@ -1016,4 +1016,8 @@
       <string name="su_indicator_summary_off">Zet dit uit om het icoon te verbergen</string>
       <!-- Toast Icons -->
       <string name="toast_icon_title">Toast icoon</string>
+     <!-- Battery saver color -->
+     <string name="battery_saver_color_title">Waarschuwings kleur</string>
+     <string name="battery_saver_color_summary">Schakel oranje kleur in op navigatie en statusbalk als besparings modes zijn ingeschakeld</string>
+
 </resources>
