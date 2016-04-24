@@ -112,12 +112,22 @@
                 android:id="@+id/theme_settings"
                 android:title="@string/themes_settings_title"
                 android:icon="@drawable/ic_settings_themes">
-            <intent
+				<intent
                     android:action="android.intent.action.MAIN" >
-                <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
-            </intent>
+					<categories android:name="cyanogenmod.intent.category.APP_THEMES" />
+					</intent>
         </dashboard-tile>
-        
+
+		<dashboard-tile
+				android:id="@+id/kernel_adiutor"
+                android:title="@string/kernel_aduitor"
+				android:icon="@drawable/ic_own_performance_tint">
+					<intent
+						android:action="android.intent.action.MAIN"
+						android:targetPackage="com.grarak.kerneladiutor"
+						android:targetClass="com.grarak.kerneladiutor.MainActivity" />
+		</dashboard-tile>        
+
     </dashboard-category>
     
     <!-- DEVICE -->

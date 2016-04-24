@@ -1339,6 +1339,15 @@ public class SettingsActivity extends Activity
                             CMContextConstants.Features.WEATHER_SERVICES)) {
                         removeTile = true;
                     }
+		 }else if (id == R.id.kernel_adiutor) {
+                    boolean supported = false;
+                    try {
+                        supported = (getPackageManager().getPackageInfo("com.grarak.kerneladiutor", 0).versionCode > 0);
+                    } catch (PackageManager.NameNotFoundException e) {
+                    }
+                    if (!supported) {
+                        removeTile = true;
+                   }
                 }
 
                 if (UserHandle.MU_ENABLED && UserHandle.myUserId() != 0

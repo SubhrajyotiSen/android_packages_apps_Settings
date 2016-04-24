@@ -1204,7 +1204,7 @@
 	<string name="own_statusbar_clock_date_title">Clock and Date</string>
 	<string name="own_statusbar_battery_icon_title">Battery icon</string>
 	<string name="own_statusbar_other_title">Others</string>
-
+    <string name="kernel_aduitor">Kernel Settings</string>
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>
     <string name="show_clear_all_recents_button_title">Clear all button</string>
