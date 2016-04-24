@@ -996,6 +996,10 @@
 	  <string name="recents_settings_title">Recente apps scherm</string>
 	  <string name="notification_drawer_title">Notificatie Tray</string>
 	  <string name="own_categories_title">Categorien</string>
+      <string name="own_statusbar_icons_title">Statusbalk Iconen</string>
+      <string name="own_statusbar_clock_date_title">Klok and Datum</string>
+      <string name="own_statusbar_battery_icon_title">Batterij icoon</string>
+      <string name="own_statusbar_other_title">Andere</string>
 	  <!-- Recents panel -->
 	  <string name="recents_panel_category">Recents apps</string>
 	  <string name="show_clear_all_recents_button_title">Sluit alle apps knop</string>

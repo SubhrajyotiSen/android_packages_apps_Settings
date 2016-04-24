@@ -1200,6 +1200,10 @@
 	<string name="notification_drawer_title">Notification Drawer</string>
 	<string name="own_interface_title">Interface</string>
 	<string name="own_categories_title">Categories</string>
+	<string name="own_statusbar_icons_title">Statusbar Icons</string>
+	<string name="own_statusbar_clock_date_title">Clock and Date</string>
+	<string name="own_statusbar_battery_icon_title">Battery icon</string>
+	<string name="own_statusbar_other_title">Others</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>
