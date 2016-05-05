@@ -126,7 +126,7 @@
 		<PreferenceScreen
 			android:key="battery_bar"
 			android:fragment="com.android.settings.own.BatteryBar"
-			android:title="@string/battery_bar"
+			android:title="@string/battery_bar" />
 
 	</PreferenceCategory>
 	
