@@ -1010,7 +1010,7 @@
     <string name="pa_pattern_or_fingerprint_header">Must draw pattern or use fingerprint to unlock</string>
 
     <!-- Contributors cloud activity -->
-    <string name="contributors_cloud_fragment_title">Contributors</string>
+    <string name="contributors_cloud_fragment_title">CyanogenMod Contributors</string>
     <string name="contributors_cloud_loading_message">Loading contributors data\u2026</string>
     <string name="contributors_cloud_failed_message">Cannot load contributors data</string>
     <string name="contributor_info_menu">Contributor info</string>
@@ -1202,7 +1202,7 @@
 	<string name="own_categories_title">Categories</string>
 	<string name="own_statusbar_icons_title">Statusbar Icons</string>
 	<string name="own_statusbar_clock_date_title">Clock and Date</string>
-	<string name="own_statusbar_battery_icon_title">Battery icon</string>
+	<string name="own_statusbar_battery_icon">Battery options</string>
 	<string name="own_statusbar_other_title">Others</string>
     <string name="kernel_aduitor">Kernel Settings</string>
 
@@ -1325,5 +1325,17 @@
     <string name="network_traffic_color_style">Color style</string>
     <string name="network_traffic_color_reset">Reset color</string>
     <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_icon">Battery icon style</string>
+    <string name="battery_not_title">Battery icon in notifications</string>
+    <string name="battery_not_summary">Battery icon will show up where the clear all button shows up</string>
+    <string name="battery_bar_location">Battery bar location</string>
+    <string name="battery_bar_color">Battery bar color</string>
+    <string name="battery_bar">Battery bar options</string>
+    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
     
 </resources>

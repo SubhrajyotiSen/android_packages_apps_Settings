@@ -997,8 +997,8 @@
 	  <string name="notification_drawer_title">Notificatie Tray</string>
 	  <string name="own_categories_title">Categorien</string>
       <string name="own_statusbar_icons_title">Statusbalk Iconen</string>
-      <string name="own_statusbar_clock_date_title">Klok and Datum</string>
-      <string name="own_statusbar_battery_icon_title">Batterij icoon</string>
+      <string name="own_statusbar_clock_date_title">Klok en Datum</string>
+      <string name="own_statusbar_battery_title">Batterij opties</string>
       <string name="own_statusbar_other_title">Andere</string>
 	  <!-- Recents panel -->
 	  <string name="recents_panel_category">Recents apps</string>
@@ -1082,4 +1082,15 @@
       <string name="network_traffic_color_style">Kleur styl</string>
       <string name="network_traffic_color_reset">Reset Kleur</string>
       <string name="network_traffic_color_reset_message">Kleuren resetten?</string>
+      <!-- Battery Bar -->
+      <string name="battery_icon">Batterij icon styl</string>
+      <string name="battery_not_title">Batterij icoon in notificatie gebied</string>
+      <string name="battery_not_summary">Icoon zal zich laten zien waar de "verwijder alle notificaties" knop is</string>
+      <string name="battery_bar_location">Batterij balk locatie</string>
+      <string name="battery_bar_color">Batterij balk kleur</string>
+      <string name="battery_bar">Batterij balk opties</string>
+      <string name="battery_bar_style_title">Batterij balk styl</string>
+      <string name="battery_bar_thickness_title">Batterij balk dikte</string>
+      <string name="battery_bar_animate_title">Oplaad animatie</string>
+      <string name="battery_bar_animate_summary">Dit kan lijden tot trage systeem animaties, schakel op eigen risico in.</string>
 </resources>
