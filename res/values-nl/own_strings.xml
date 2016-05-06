@@ -1093,4 +1093,10 @@
       <string name="battery_bar_thickness_title">Batterij balk dikte</string>
       <string name="battery_bar_animate_title">Oplaad animatie</string>
       <string name="battery_bar_animate_summary">Dit kan lijden tot trage systeem animaties, schakel op eigen risico in.</string>
+      <string name="battery_bar_hide">Verbergen</string>
+      <string name="battery_bar_above_statusbar">Boven de statusbalk</string>
+      <string name="top_of_navbar">Boven de navigatiebalk</string>
+      <string name="bottom _of_navbar">Onder de navigatiebalk</string>
+      <string name="battery_bar_style_regular">Normaal</string>
+      <string name="battery_bar_style_center_mirrored">Gespiegeld vanuit midden</string>
 </resources>

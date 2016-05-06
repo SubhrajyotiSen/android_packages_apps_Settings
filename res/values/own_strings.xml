@@ -1337,5 +1337,10 @@
     <string name="battery_bar_thickness_title">Battery bar thickness</string>
     <string name="battery_bar_animate_title">Charging animation</string>
     <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-    
+	<string name="battery_bar_hide">Hide</string>
+	<string name="battery_bar_above_statusbar">Above statusbar</string>
+	<string name="top_of_navbar">Top of navigationbar</string>
+	<string name="bottom _of_navbar">Bottom of navigationbar</string>
+	<string name="battery_bar_style_regular">Regular</string>
+	<string name="battery_bar_style_center_mirrored">Center-mirrored</string>
 </resources>
