@@ -1099,4 +1099,6 @@
       <string name="bottom _of_navbar">Onder de navigatiebalk</string>
       <string name="battery_bar_style_regular">Normaal</string>
       <string name="battery_bar_style_center_mirrored">Gespiegeld vanuit midden</string>
+      <!-- Changelog -->
+      <string name="changelog_ownrom_error">Kan changelog niet laden</string>
 </resources>
