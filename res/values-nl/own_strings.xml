@@ -1096,7 +1096,7 @@
       <string name="battery_bar_hide">Verbergen</string>
       <string name="battery_bar_above_statusbar">Boven de statusbalk</string>
       <string name="top_of_navbar">Boven de navigatiebalk</string>
-      <string name="bottom _of_navbar">Onder de navigatiebalk</string>
+      <string name="bottom_of_navbar">Onder de navigatiebalk</string>
       <string name="battery_bar_style_regular">Normaal</string>
       <string name="battery_bar_style_center_mirrored">Gespiegeld vanuit midden</string>
       <!-- Changelog -->

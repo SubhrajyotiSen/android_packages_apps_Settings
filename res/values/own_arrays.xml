@@ -791,7 +791,7 @@
         <item>@string/battery_bar_hide</item>
         <item>@string/battery_bar_above_statusbar</item>
         <item>@string/top_of_navbar</item>
-        <item>@string/bottom _of_navbar</item>
+        <item>@string/bottom_of_navbar</item>
     </string-array>
 
     <string-array name="battery_bar_values" translatable="false">
