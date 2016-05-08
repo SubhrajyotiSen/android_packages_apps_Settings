@@ -1388,4 +1388,7 @@
     <string name="hw_keys_title">Hardware keys</string>
     <string name="hw_keys_summary">Enable hardware keys</string>
 
+    <!-- Navigation bar button color -->
+    <string name="navbar_button_tint_title">Navigation button color</string>
+
 </resources>
