@@ -1216,7 +1216,7 @@
 	<string name="own_categories_title">Categories</string>
 	<string name="own_statusbar_icons_title">Statusbar Icons</string>
 	<string name="own_statusbar_clock_date_title">Clock and Date</string>
-	<string name="own_statusbar_battery_icon">Battery options</string>
+	<string name="own_statusbar_battery_title">Battery options</string>
 	<string name="own_statusbar_other_title">Others</string>
     <string name="kernel_aduitor">Kernel Settings</string>
 
