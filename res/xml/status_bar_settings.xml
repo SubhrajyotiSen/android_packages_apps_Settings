@@ -40,6 +40,11 @@
         android:summaryOff="@string/su_indicator_summary_off"
         android:defaultValue="true" />
 
+     <PreferenceScreen
+        android:key="own_logo"
+        android:fragment="com.android.settings.own.fragments.Logo"
+        android:title="@string/status_bar_own_logo_title" />
+            
 	</PreferenceCategory>
 	
     <PreferenceCategory

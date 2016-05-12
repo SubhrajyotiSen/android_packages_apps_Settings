@@ -1143,4 +1143,7 @@
       <string name="dim_nav_buttons_animate_summary">Animeer de intensiteits vervaging</string>
       <string name="dim_nav_buttons_animate_duration_title">Animatie duur</string>
       <string name="dim_nav_buttons_animate_duration_summary">Animatie duur (in miliseconden) van de intensiteits vervaging</string>
+      <!-- Statusbar OwnROM logo -->
+      <string name="status_bar_own_logo_summary">Schakel in om het OwnROM logo aan de linker kant van de statusbalk te laten zien</string>
+      <string name="status_bar_own_logo_color">OwnROM logo kleur</string>
 </resources>
