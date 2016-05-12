@@ -1132,4 +1132,15 @@
       <string name="hw_keys_summary">Schakel hardware knoppen in</string>
       <!-- Navigation bar button color -->
       <string name="navbar_button_tint_title">Navigatie balk knoppen kleur</string>
+      <!-- SlimDim -->
+      <string name="dim_nav_buttons_title">Dim knoppen na inactiviteit</string>
+      <string name="dim_nav_buttons_summary">Dim navigatie balk knoppen na ingegeven inactiviteit</string>
+      <string name="dim_nav_buttons_timeout_title">Timeout voor knoppen dimming</string>
+      <string name="dim_nav_buttons_timeout_summary">Tijd (in milliseconden) voordat de knoppen dimmen</string>
+      <string name="dim_nav_buttons_alpha_title">Dim intensiteit</string>
+      <string name="dim_nav_buttons_alpha_summary">Intensiteit waarden waar de knoppen op dimmen</string>
+      <string name="dim_nav_buttons_animate_title">Dim animatie</string>
+      <string name="dim_nav_buttons_animate_summary">Animeer de intensiteits vervaging</string>
+      <string name="dim_nav_buttons_animate_duration_title">Animatie duur</string>
+      <string name="dim_nav_buttons_animate_duration_summary">Animatie duur (in miliseconden) van de intensiteits vervaging</string>
 </resources>
