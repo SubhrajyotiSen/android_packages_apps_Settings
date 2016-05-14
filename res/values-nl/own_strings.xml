@@ -1146,4 +1146,12 @@
       <!-- Statusbar OwnROM logo -->
       <string name="status_bar_own_logo_summary">Schakel in om het OwnROM logo aan de linker kant van de statusbalk te laten zien</string>
       <string name="status_bar_own_logo_color">OwnROM logo kleur</string>
+    <!-- UBER GCC version info -->
+    <string name="uber_android_default">Onbekend</string>
+    <string name="uber_kernel_default">Onbekend</string>
+
+    <!-- UBER GCC build flags info -->
+    <string name="uber_flags">Optimizaties</string>
+    <string name="uber_flags_default">Geen</string>
+    
 </resources>

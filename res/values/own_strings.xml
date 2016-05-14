@@ -1419,4 +1419,15 @@
     <string name="status_bar_own_logo_color">OwnROM logo color</string>
     <string name="own_logo_cat">OwnROM</string>
     <string name="own_logo_cat_default">OwnROM Logo</string>
+    
+    <!-- UBER GCC version info -->
+    <string name="uber_android">GCC android</string>
+    <string name="uber_android_default">Unknown</string>
+    <string name="uber_kernel">GCC kernel</string>
+    <string name="uber_kernel_default">Unknown</string>
+
+    <!-- UBER GCC build flags info -->
+    <string name="uber_flags">Optimizations</string>
+    <string name="uber_flags_default">None</string>
+
 </resources>
