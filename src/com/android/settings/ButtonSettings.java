@@ -28,7 +28,8 @@ import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.Handler;
-import android.preference.ListPrefimport com.android.internal.util.slim.Action;erence;
+import android.preference.ListPreference;
+import com.android.internal.util.slim.Action;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
@@ -655,9 +656,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         mEnableNavigationBar.setChecked(enableNavigationBar);
 
         updateNavbarPreferences(enableNavigationBar);
-    }
-
-    private void updateNavbarPreferences(boolean show) {
     }
 
     @Override

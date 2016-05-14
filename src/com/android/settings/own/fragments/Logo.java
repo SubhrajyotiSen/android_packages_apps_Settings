@@ -79,7 +79,7 @@ public class Logo extends SettingsPreferenceFragment implements OnPreferenceChan
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DIRTYTWEAKS;
+        return MetricsLogger.APPLICATION;
     }
 
     @Override
