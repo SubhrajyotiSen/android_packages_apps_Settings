@@ -1157,4 +1157,6 @@
       <!-- Time-context headers in notification header -->
       <string name="status_bar_custom_header_title">Aangepaste afbeelding</string>
       <string name="status_bar_custom_header_summary">Schakel op tijdgebasseerde afbeelding in op de notificatie header</string>
+      <string name="status_bar_custom_header_default_title">Gebruik PolyHD afbeeldingen</string>
+      <string name="status_bar_custom_header_default_summary">Schakel in voor PolyHD, schakel uit voor orginele afbeeldingen.</string>
 </resources>
