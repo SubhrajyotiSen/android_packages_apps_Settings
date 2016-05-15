@@ -139,7 +139,7 @@
         android:title="@string/status_bar_toggle_brightness"
         android:summary="@string/status_bar_toggle_brightness_summary"
         android:defaultValue="false" />
-
+    
    <PreferenceScreen
         android:key="network_traffic_state"
         android:fragment="com.android.settings.own.NetworkTraffic"

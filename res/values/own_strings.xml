@@ -1219,6 +1219,7 @@
 	<string name="own_statusbar_battery_title">Battery options</string>
 	<string name="own_statusbar_other_title">Others</string>
     <string name="kernel_aduitor">Kernel Settings</string>
+    <string name="own_pulldown_title">Pull down options</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>
@@ -1437,5 +1438,4 @@
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
     <string name="status_bar_custom_header_default_title">Use poly HD images</string>
     <string name="status_bar_custom_header_default_summary">Enable for poly hd images. Disable for original images.</string>
-
 </resources>

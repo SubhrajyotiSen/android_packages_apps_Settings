@@ -27,6 +27,7 @@ import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
@@ -217,8 +218,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     @Override
     protected int getMetricsCategory() {
-        // todo add a constant in MetricsLogger.java
-        return MetricsLogger.MAIN_SETTINGS;
+        return MetricsLogger.OWN;
     }
 
     @Override

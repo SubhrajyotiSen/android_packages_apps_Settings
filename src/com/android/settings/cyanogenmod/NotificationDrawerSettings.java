@@ -24,9 +24,10 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.SwitchPreference;
+import android.preference.PreferenceScreen;
+import android.provider.Settings;
 
 import android.os.Bundle;
-import android.os.UserHandle;
 
 import com.android.internal.logging.MetricsLogger;
 
@@ -39,40 +40,46 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
 				implements OnPreferenceChangeListener {
 
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
+    private static final String PREF_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String PREF_CUSTOM_HEADER_DEFAULT = "status_bar_custom_header_default";
- 
+
     private ListPreference mQuickPulldown;
-    private ListPreference mCustomHeaderDefault;
+    private SwitchPreference mCustomHeader;
+    private SwitchPreference mCustomHeaderDefault;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.notification_drawer_settings);
         
+        PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
         
         // Quick Pulldown
         mQuickPulldown = (ListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
-
         int quickPulldown = CMSettings.System.getInt(resolver,
                 CMSettings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1);
         mQuickPulldown.setValue(String.valueOf(quickPulldown));
         updatePulldownSummary(quickPulldown);
         mQuickPulldown.setOnPreferenceChangeListener(this);
+        
+        // Status bar custom header
+        mCustomHeader = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER);
+        mCustomHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1));
+        mCustomHeader.setOnPreferenceChangeListener(this);
 
         // Status bar custom header default
-        mCustomHeaderDefault = (ListPreference) findPreference(PREF_CUSTOM_HEADER_DEFAULT);
+        mCustomHeaderDefault = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER_DEFAULT);
+        mCustomHeaderDefault.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, 0) == 1));
         mCustomHeaderDefault.setOnPreferenceChangeListener(this);
-        int customHeaderDefault = Settings.System.getInt(getActivity()
-                .getContentResolver(), Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, 0);
-        mCustomHeaderDefault.setValue(String.valueOf(customHeaderDefault));
-        mCustomHeaderDefault.setSummary(mCustomHeaderDefault.getEntry());
- 
+        
     }
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DEVELOPMENT;
+        return MetricsLogger.OWN;
     }
 
     @Override
@@ -84,13 +91,21 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
                     resolver, CMSettings.System.STATUS_BAR_QUICK_QS_PULLDOWN, quickPulldown);
             updatePulldownSummary(quickPulldown);
             return true;
+        } else if (preference == mCustomHeader) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER,
+                    (Boolean) newValue ? 1 : 0);
+            return true;
         } else if (preference == mCustomHeaderDefault) {
-            int customHeaderDefault = Integer.valueOf((String) newValue);
-            int index = mCustomHeaderDefault.findIndexOfValue((String) newValue);
-            Settings.System.putInt(getActivity().getContentResolver(), 
-                Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, customHeaderDefault);
-            mCustomHeaderDefault.setSummary(mCustomHeaderDefault.getEntries()[index]);
-            createCustomView();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT,
+                    (Boolean) newValue ? 1 : 0);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER,
+                    0);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER,
+                    1);
             return true;
         }
         return false;

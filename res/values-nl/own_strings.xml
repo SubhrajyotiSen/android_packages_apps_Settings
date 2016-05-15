@@ -1004,6 +1004,7 @@
       <string name="own_statusbar_clock_date_title">Klok en Datum</string>
       <string name="own_statusbar_battery_title">Batterij opties</string>
       <string name="own_statusbar_other_title">Andere</string>
+      <string name="own_pulldown_title">Open opties</string>
 	  <!-- Recents panel -->
 	  <string name="recents_panel_category">Recents apps</string>
 	  <string name="recents_searchbar_title">Zoekbalk</string>
@@ -1157,6 +1158,6 @@
       <!-- Time-context headers in notification header -->
       <string name="status_bar_custom_header_title">Aangepaste afbeelding</string>
       <string name="status_bar_custom_header_summary">Schakel op tijdgebasseerde afbeelding in op de notificatie header</string>
-      <string name="status_bar_custom_header_default_title">Gebruik PolyHD afbeeldingen</string>
-      <string name="status_bar_custom_header_default_summary">Schakel in voor PolyHD, schakel uit voor orginele afbeeldingen.</string>
+      <string name="status_bar_custom_header_default_title">Gebruik Poly HD afbeeldingen</string>
+      <string name="status_bar_custom_header_default_summary">Schakel in voor poly hd afbeeldingen. Schakel uit voor orginele afbeeldingen</string>
 </resources>
