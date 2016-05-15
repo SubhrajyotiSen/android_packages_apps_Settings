@@ -1068,7 +1068,6 @@
       <string name="clock_font_condensed_bold_italic">Geconcetreerd/Dik/Schuin</string>
       <string name="clock_font_medium_italic">Medium/Schuin</string>
       <string name="clock_font_size_title">Letter grote</string>
-      <string name="status_bar_show_clock_second_title">Senconden klok</string>
       <!-- Network traffic -->
       <string name="network_traffic_title">Netwerk verkeer</string>
       <string name="show_network_traffic_state">Status balk verkeer monitor</string>
