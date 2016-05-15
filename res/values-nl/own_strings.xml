@@ -1142,15 +1142,17 @@
       <string name="dim_nav_buttons_animate_summary">Animeer de intensiteits vervaging</string>
       <string name="dim_nav_buttons_animate_duration_title">Animatie duur</string>
       <string name="dim_nav_buttons_animate_duration_summary">Animatie duur (in miliseconden) van de intensiteits vervaging</string>
+      <string name="dim_nav_buttons_touch_anywhere_title">Reageer op tikken van het hele scherm</string>
+      <string name="dim_nav_buttons_touch_anywhere_summary_on">Tikken op het hele scherm zal de knoppen oplichten</string>
+      <string name="dim_nav_buttons_touch_anywhere_summary_off">Tikken op alleen de navigatiebalk zal de knoppen oplichten</string>
       <!-- Statusbar OwnROM logo -->
       <string name="status_bar_own_logo_summary">Schakel in om het OwnROM logo aan de linker kant van de statusbalk te laten zien</string>
       <string name="status_bar_own_logo_color">OwnROM logo kleur</string>
-    <!-- UBER GCC version info -->
-    <string name="uber_android_default">Onbekend</string>
-    <string name="uber_kernel_default">Onbekend</string>
-
-    <!-- UBER GCC build flags info -->
-    <string name="uber_flags">Optimizaties</string>
-    <string name="uber_flags_default">Geen</string>
+      <!-- UBER GCC version info -->
+      <string name="uber_android_default">Onbekend</string>
+      <string name="uber_kernel_default">Onbekend</string>
+      <!-- UBER GCC build flags info -->
+      <string name="uber_flags">Optimizaties</string>
+      <string name="uber_flags_default">Geen</string>
     
 </resources>
