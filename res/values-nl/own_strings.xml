@@ -1154,5 +1154,7 @@
       <!-- UBER GCC build flags info -->
       <string name="uber_flags">Optimizaties</string>
       <string name="uber_flags_default">Geen</string>
-    
+      <!-- Time-context headers in notification header -->
+      <string name="status_bar_custom_header_title">Aangepaste afbeelding</string>
+      <string name="status_bar_custom_header_summary">Schakel op tijdgebasseerde afbeelding in op de notificatie header</string>
 </resources>

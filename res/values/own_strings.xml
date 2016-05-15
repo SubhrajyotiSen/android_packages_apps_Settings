@@ -1432,4 +1432,8 @@
     <string name="uber_flags">Optimizations</string>
     <string name="uber_flags_default">None</string>
 
+    <!-- Time-context headers in notification header -->
+    <string name="status_bar_custom_header_title">Custom header image</string>
+    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
+
 </resources>
