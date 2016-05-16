@@ -44,7 +44,12 @@
         android:key="own_logo"
         android:fragment="com.android.settings.own.fragments.Logo"
         android:title="@string/status_bar_own_logo_title" />
-            
+
+   <PreferenceScreen
+        android:key="carrierlabel"
+        android:fragment="com.android.settings.own.CarrierLabel"
+        android:title="@string/carrier_options" />
+
 	</PreferenceCategory>
 	
     <PreferenceCategory

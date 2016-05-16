@@ -1160,4 +1160,15 @@
       <string name="status_bar_custom_header_summary">Schakel op tijdgebasseerde afbeelding in op de notificatie header</string>
       <string name="status_bar_custom_header_default_title">Gebruik Poly HD afbeeldingen</string>
       <string name="status_bar_custom_header_default_summary">Schakel in voor poly hd afbeeldingen. Schakel uit voor orginele afbeeldingen</string>
+      <!-- Show carrier label and custom -->
+      <string name="carrier_options">Provider Label</string>
+      <string name="custom_carrier_label_title">Provider label opties</string>
+      <string name="custom_carrier_label_explain">Geef een nieuwe label in, laat leeg voor standaard label.</string>
+      <string name="custom_carrier_label_notset">Label niet opgeslagen</string>
+      <string name="status_bar_carrier_color">Label kleur</string>
+      <string name="show_carrier_title">Provider label</string>
+      <string name="show_carrier_disabled">Uitgeschakeld</string>
+      <string name="show_carrier_keyguard">Vergrendel scherm provider label</string>
+      <string name="show_carrier_statusbar">Status balk provider label</string>
+      <string name="show_carrier_enabled">Ingeschakeld</string>
 </resources>
