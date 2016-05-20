@@ -1082,6 +1082,8 @@
       <string name="show_network_traffic_byte">Bytes per seconde</string>
       <string name="network_traffic_autohide">Verberg automatisch</string>
       <string name="network_traffic_autohide_summary">Verberg monitor als er geen activiteit is</string>
+      <string name="network_traffic_hidearrow">Verberg pijlen</string>
+      <string name="network_traffic_hidearrow_summary">Verberg de pijlen in de monitor</string>
       <string name="network_traffic_autohide_threshold">Inactiviteits interval</string>
       <string name="network_traffic_color_style">Kleur styl</string>
       <string name="network_traffic_color_reset">Reset Kleur</string>
