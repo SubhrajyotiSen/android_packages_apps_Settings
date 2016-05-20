@@ -33,7 +33,7 @@ import com.android.settings.own.animation.AnimBarPreference;
 import com.android.settings.R;
 
 import com.android.internal.logging.MetricsLogger;
-import com.android.internal.util.benzo.AwesomeAnimationHelper;
+import com.android.internal.util.own.AwesomeAnimationHelper;
 
 import java.util.Arrays;
 
