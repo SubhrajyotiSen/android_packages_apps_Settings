@@ -1228,5 +1228,11 @@
       <!-- Force expanded notifications -->
       <string name="force_expanded_notifications_title">Forceer uitgebreide notificaties</string>
       <string name="force_expanded_notifications_summary">Alleen voor apps die dit ondersteunen</string>
-
+      <!-- OmniSwitch -->
+      <string name="recents_use_omniswitch_title">Gebruik als recente apps scherm</string>
+      <string name="recents_use_omniswitch_summary">Gebruik OmniSwitch ipv normale recente apps</string>
+      <string name="omniswitch_start_settings_title">Instellingen</string>
+      <string name="omniswitch_start_settings_summary">Open OmniSwitch intellingen</string>
+      <string name="omniswitch_first_time_title">Informatie</string>
+      <string name="omniswitch_first_time_message">Let op schakel OmniSwitch in. Je kan dit doen door naar \"Instellingen\" te gaan</string>
 </resources>
