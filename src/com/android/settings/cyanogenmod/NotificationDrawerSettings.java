@@ -28,6 +28,13 @@ import android.preference.PreferenceScreen;
 import android.provider.Settings;
 
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.preference.ListPreference;
+import android.preference.Preference;
+import android.preference.PreferenceScreen;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.SwitchPreference;
+import android.provider.Settings;
 
 import com.android.internal.logging.MetricsLogger;
 
@@ -42,10 +49,12 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
     private static final String STATUS_BAR_QUICK_QS_PULLDOWN = "qs_quick_pulldown";
     private static final String PREF_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String PREF_CUSTOM_HEADER_DEFAULT = "status_bar_custom_header_default";
+    private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
 
     private ListPreference mQuickPulldown;
     private SwitchPreference mCustomHeader;
     private SwitchPreference mCustomHeaderDefault;
+    private SwitchPreference mForceExpanded;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -75,11 +84,21 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
                 Settings.System.STATUS_BAR_CUSTOM_HEADER_DEFAULT, 0) == 1));
         mCustomHeaderDefault.setOnPreferenceChangeListener(this);
         
+        // Force expanded notifications
+        mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
+        mForceExpanded.setChecked((Settings.System.getInt(resolver, Settings.System.FORCE_EXPANDED_NOTIFICATIONS, 0) == 1));
+
+        
     }
 
     @Override
     protected int getMetricsCategory() {
         return MetricsLogger.OWN;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
     }
 
     @Override
@@ -110,7 +129,18 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
         }
         return false;
     }
-    
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if  (preference == mForceExpanded) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FORCE_EXPANDED_NOTIFICATIONS, checked ? 1:0);
+            return true;
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
+    }
+        
     private void updatePulldownSummary(int value) {
         Resources res = getResources();
 

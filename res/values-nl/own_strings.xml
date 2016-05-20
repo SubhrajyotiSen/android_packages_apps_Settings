@@ -1223,4 +1223,8 @@
       <string name="listview_overshoot_interpolator">Overschieten</string>
       <string name="listview_anticipate_overshoot_interpolator">Loop vooruit en overschiet</string>
       <string name="listview_bounce_interpolator">Stuiter</string>
+      <!-- Force expanded notifications -->
+      <string name="force_expanded_notifications_title">Forceer uitgebreide notificaties</string>
+      <string name="force_expanded_notifications_summary">Alleen voor apps die dit ondersteunen</string>
+
 </resources>
