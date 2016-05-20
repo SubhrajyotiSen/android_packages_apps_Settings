@@ -1171,4 +1171,21 @@
       <string name="show_carrier_keyguard">Vergrendel scherm provider label</string>
       <string name="show_carrier_statusbar">Status balk provider label</string>
       <string name="show_carrier_enabled">Ingeschakeld</string>
+      <!-- AOKP custom system animations -->
+      <string name="animation_title">Animaties</string>  
+      <string name="system_animation_title">Systeem animaties</string>
+      <string name="activity_open_title">Activiteit open animatie</string>
+      <string name="activity_close_title">Activiteit sluiten animatie</string>
+      <string name="task_open_title">Taak open animatie</string>
+      <string name="task_close_title">Taak sluiten animatie</string>
+      <string name="task_move_to_front_title">Naar voorgrond animatie</string>
+      <string name="task_move_to_back_title">Naar achtergrond animatie</string>
+      <string name="wallpaper_open_title">Wallpaper open animatie</string>
+      <string name="wallpaper_close_title">Wallpaper sluiten animatie</string>
+      <string name="wallpaper_intra_open_title">Wallpaper intra open animatie</string>
+      <string name="wallpaper_intra_close_title">Wallpaper intra sluiten animatie</string>
+      <string name="animation_duration_title">Animatie duur</string>
+      <string name="title_animation_no_override">Voorkom app overschrijvingen</string>
+      <string name="summary_animation_no_override">Voorkomt dat apps de animaities overschrijven</string>
+      <string name="animation_duration_default">standaard</string>
 </resources>
