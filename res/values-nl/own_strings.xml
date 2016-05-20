@@ -1202,4 +1202,25 @@
       <string name="toast_Translucent_animation">Doorzichtig</string>
       <string name="toast_SlideLeftRight_animation">Schuif in van links naar rechts</string>
       <string name="toast_SlideRightLeft_animation">Schuif in van rechts naar links</string>
+      <!-- ListView animation -->
+      <string name="listview_animation_title">ListView animaties</string>
+      <string name="listview_off">Standaard</string>
+      <string name="listview_wave_left">Golven (links)</string>
+      <string name="listview_wave_right">Golven (rechts)</string>
+      <string name="listview_scale">Schaal</string>
+      <string name="listview_stack_top">Stapel (van boven)</string>
+      <string name="listview_stack_bottom">Stapel (van onder)</string>
+      <string name="listview_unfold">Vouw uit</string>
+      <string name="listview_fold">Vouw</string>
+      <string name="listview_translate_left">Veplaats (links)</string>
+      <string name="listview_translate_right">Verplaats (rechts)</string>  
+      <!-- ListView interpolator -->
+      <string name="listview_interpolator_title">ListView interpolator</string>
+      <string name="listview_accelerate_interpolator">Versnel</string>
+      <string name="listview_decelerate_interpolator">Vertraag</string>
+      <string name="listview_accelerate_decelerate_interpolator">Versnel en vertraag</string>
+      <string name="listview_anticipate_interpolator">Loop vooruit</string>
+      <string name="listview_overshoot_interpolator">Overschieten</string>
+      <string name="listview_anticipate_overshoot_interpolator">Loop vooruit en overschiet</string>
+      <string name="listview_bounce_interpolator">Stuiter</string>
 </resources>
