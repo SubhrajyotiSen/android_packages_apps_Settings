@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.rr.gestureanywhere;
+package com.android.settings.own.gestureanywhere;
 
 import android.app.ActionBar;
 import android.content.Intent;
@@ -28,7 +28,7 @@ import android.provider.Settings;
 import android.view.Gravity;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.rr.SeekBarPreference;
+import com.android.settings.own.SeekBarPreference;
 
 import com.android.internal.logging.MetricsLogger;
 
