@@ -128,4 +128,8 @@ limitations under the License.
     <color name="custom_screencolor_buttons_text_color">@color/text_color_white</color>
 
     <color name="weather_settings_icon_tint">#B4B9BA</color>
+    
+    <!-- Gesture Anywhere -->
+    <color name="ga_gesture_color">@android:color/holo_blue_light</color>
+
 </resources>

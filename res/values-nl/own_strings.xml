@@ -1235,4 +1235,56 @@
       <string name="omniswitch_start_settings_summary">Open OmniSwitch intellingen</string>
       <string name="omniswitch_first_time_title">Informatie</string>
       <string name="omniswitch_first_time_message">Let op schakel OmniSwitch in. Je kan dit doen door naar \"Instellingen\" te gaan</string>
+      <!-- Gesture Anywhere -->
+      <string name="gesture_anywhere_enabled_summary">Schakel "Gebaar Overal" in</string>
+      <string name="gesture_anywhere_position_title">Loctie</string>
+      <string name="gesture_anywhere_position_left">Linker kant</string>
+      <string name="gesture_anywhere_position_right">Rechter kant</string>
+      <string name="gesture_anywhere_gestures_title">Gebaren</string>
+      <string name="gesture_anywhere_gestures_summary">Voeg toe, verwijder of pas gebaren aan</string>
+      <!-- Label, button used to add a gesture -->
+      <string name="ga_button_add">Voeg gebaar toe</string>
+      <!-- Label, button used to reload all gestures -->
+      <string name="ga_button_reload">Herladen</string>
+      <!-- Label, button used to cancel the operation of adding a gesture -->
+      <string name="ga_button_discard">Verwijderen</string>
+      <!-- Label, button used to save a gesture newly created -->
+      <string name="ga_button_done">Klaar</string>
+      <!-- Label, prompt asking the user to enter the name of the gesture -->
+      <string name="ga_prompt_gesture_name">Geef naam</string>
+      <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+      <string name="ga_error_missing_name">U moet een naam ingeven</string>
+      <!-- success message, tells the user where the gesture was saved -->
+      <string name="ga_save_success">Gebaar opgeslagen in %s</string>
+      <!-- Buttons in Rename gesture dialog box -->
+      <string name="ga_cancel_action">Annuleer</string>
+      <!-- Message displayed when the user opens the gestures settings screen -->
+      <string name="ga_gestures_loading">Gebaren laden...</string>
+      <!-- Message displayed when the user has no gestures -->
+      <string name="ga_gestures_empty">Geen gebaren</string>
+      <!-- Title of the screen used to view/manage gestures -->
+      <string name="ga_gestures_activity">Gebaren</string>
+      <!-- Noun, menu item used to edit a gesture -->
+      <string name="ga_gestures_edit">Pas aan</string>
+      <!-- Noun, menu item used to remove a gesture -->
+      <string name="ga_gestures_delete">Verwijderen</string>
+      <!-- Message displayed when a gesture is successfully deleted -->
+      <string name="ga_gestures_delete_success">Gebaar verwijderd</string>
+      <!-- Title of dialog box -->
+      <string name="ga_gestures_rename_title">Hernoem gebaar</string>
+      <!-- Label of gesture name field in Rename gesture dialog box -->
+      <string name="ga_gestures_rename_label">Gebaar naam</string>
+      <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+      <string name="ga_gestures_error_loading">Kan %s niet laden. Heeft u genoeg opslag ruimte beschikbaar?</string>
+      <string name="trigger_category">Trigger positie</string>
+      <string name="trigger_width_title">Trigger Breedte</string>
+      <string name="trigger_width_summary">Stel de breedte in van de trigger positie</string>
+      <string name="trigger_top_title">Verticale trigger positie</string>
+      <string name="trigger_top_summary">Stel de verticale positie trigger positie in</string>
+      <string name="trigger_bottom_title">Trigger hoogte</string>
+      <string name="trigger_bottom_summary">Stel de hoogte in van de trigger posite</string>
+      <string name="picker_activities">activiteiten</string>
+      <string name="select_custom_app_title">Selecteer app</string>
+      <string name="select_custom_activity_title">Selecteer activiteit</string>
+      <string name="profile_applist_title">Applicaties</string>
 </resources>

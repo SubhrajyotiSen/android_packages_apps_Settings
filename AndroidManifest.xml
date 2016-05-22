@@ -1937,6 +1937,8 @@
                 android:value="com.android.settings.wfd.WifiDisplaySettings" />
         </activity>
 
+        <activity android:name=".own.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name=".own.gestureanywhere.GestureAnywhereCreateGestureActivity" />  
 
         <!-- Development settings -->
 
