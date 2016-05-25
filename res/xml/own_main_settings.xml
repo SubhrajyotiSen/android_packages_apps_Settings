@@ -52,6 +52,12 @@
             android:title="@string/recents_settings_title"
             />
 
+        <!-- Lockscreen Settings -->
+        <PreferenceScreen
+            android:key="own_lockscreen_settings"
+            android:fragment="com.android.settings.own.LockscreenSettings"
+            android:title="@string/own_lockscreen_settings_title" />
+
         <!-- Animation Settings -->
         <PreferenceScreen
             android:key="animation_settings"

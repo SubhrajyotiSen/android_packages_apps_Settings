@@ -1220,6 +1220,7 @@
 	<string name="own_statusbar_other_title">Others</string>
     <string name="kernel_aduitor">Kernel Settings</string>
     <string name="own_pulldown_title">Pull down options</string>
+    <string name="own_lockscreen_settings_title">Lockscreen</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>

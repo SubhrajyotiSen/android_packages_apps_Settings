@@ -1005,6 +1005,7 @@
       <string name="own_statusbar_battery_title">Batterij opties</string>
       <string name="own_statusbar_other_title">Andere</string>
       <string name="own_pulldown_title">Open opties</string>
+      <string name="own_lockscreen_settings_title">Vergrendelings scherm</string>
 	  <!-- Recents panel -->
 	  <string name="recents_panel_category">Recents apps</string>
 	  <string name="recents_searchbar_title">Zoekbalk</string>
