@@ -18,8 +18,19 @@
         android:title="@string/own_lockscreen_settings_title">
 
         <PreferenceScreen
+                 android:key="slim_lockscreen_shortcuts"
+                 android:fragment="com.android.settings.slim.dslv.ActionListViewSettings"
+                 android:title="@string/lockscreen_shortcuts_middle_title">
+             <extra android:name="actionMode" android:value="4" />
+             <extra android:name="maxAllowedActions" android:value="5" />
+             <extra android:name="disableLongpress" android:value="true" />
+             <extra android:name="useAppPickerOnly" android:value="true" />
+             <extra android:name="fragment" android:value="com.android.settings.slim.fragments.LockscreenShortcutFragment" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
             android:key="lockscreen_shortcuts_settings"
-            android:title="@string/lockscreen_targets_message" >
+            android:title="@string/lockscreen_shortcuts_corner_title" >
             <intent
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />

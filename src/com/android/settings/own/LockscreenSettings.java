@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015-2016 OwnROM Android
+ * Copyright (C) 2015-2016 OwnROM
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,14 +24,13 @@ import android.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.util.Helpers;
 
 import com.android.internal.logging.MetricsLogger;
 
-public class LockScreenSettings extends SettingsPreferenceFragment
+public class LockscreenSettings extends SettingsPreferenceFragment
         implements OnSharedPreferenceChangeListener {
 
-    private static final String TAG = "LockScreenSettings";
+    private static final String TAG = "LockscreenSettings";
 
     @Override
     protected int getMetricsCategory() {

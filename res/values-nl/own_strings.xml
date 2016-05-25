@@ -1006,6 +1006,7 @@
       <string name="own_statusbar_other_title">Andere</string>
       <string name="own_pulldown_title">Open opties</string>
       <string name="own_lockscreen_settings_title">Vergrendelings scherm</string>
+      <string name="own_gesture_settings">Gebaren</string>
 	  <!-- Recents panel -->
 	  <string name="recents_panel_category">Recents apps</string>
 	  <string name="recents_searchbar_title">Zoekbalk</string>
@@ -1356,7 +1357,8 @@
       <string name="pictures2">Fotos2</string>
       <string name="settings">Instellingen</string>
       <!-- Lockscreen shortcuts -->
-      <string name="lockscreen_shortcuts_title">Snelkoppelingen</string>
+      <string name="lockscreen_shortcuts_middle_title">Slims Snelkoppelingen</string>
+      <string name="lockscreen_shortcuts_corner_title">CMs Snelkoppelingen in hoek</string>
       <string name="lockscreen_shortcuts_summary">Verander de knoppelingen op het vergrendelscherm in alles wat u wilt</string>
       <string name="lockscreen_shorcuts_longpress_title">Lange tik</string>
       <string name="lockscreen_shorcuts_longpress_summary">Open andere acties met een lange tik</string>
@@ -1374,5 +1376,34 @@
       <string name="shortcut_action_media_next">Muziek - Volgend nummer</string>
       <string name="shortcut_action_media_play_pause">Muziek - play/pauze</string>
       <string name="shortcut_action_media_previous">Muziek - Vorig nummer</string>
-      <string name="shortcut_action_wake_device">Ontwaak toestel</string> 
+      <string name="shortcut_action_wake_device">Ontwaak toestel</string>
+      <!-- App sidebar -->
+      <string name="app_sidebar_title">Appbalk</string>
+      <string name="app_sidebar_enable_title">Schakel appbalk in/uit</string>
+      <string name="app_sidebar_enable_summaryOn">Ingeschakeld</string>
+      <string name="app_sidebar_enable_summaryOff">Uitgeschakeld</string>
+      <string name="app_sidebar_setup_items_title">Stel inhoud in</string>
+      <string name="app_sidebar_setup_items_summary">Voeg toe, verwijder of verander volgorde van items</string>
+      <string name="app_sidebar_transparency_title">Transparantheid</string>
+      <string name="app_sidebar_transparency_summary">Stel de transparantheid in</string>
+      <string name="app_sidebar_position_title">Positie</string>
+      <string name="app_sidebar_position_summary">Positie van de appbalk aan de linker of rechter kant</string>
+      <string name="app_sidebar_position_left">Links</string>
+      <string name="app_sidebar_position_right">Rechts</string>
+      <string name="app_sidebar_hide_labels_title">Verberg icoon lables</string>
+      <string name="app_sidebar_hide_labels_summary">Geen tekst onder iconen</string>
+      <string name="tab_category">Zichtbare tab</string>
+      <string name="use_tab_title">Geef tab weer</string>
+      <string name="use_tab_summary">Geef een tab weer waar de appbar open geschoven kan worden.</string>
+      <string name="tab_position_title">Tab locatie</string>
+      <string name="tab_position_summary">Geef de tab boven, onder, links of recht van het scherm weer.</string>
+      <string name="tab_size_title">Tab grote</string>
+      <string name="tab_size_summary">Verander de grote van de tab.</string>
+      <string name="trigger_category">Trigger regio</string>
+      <string name="trigger_width_title">Trigger Dikte</string>
+      <string name="trigger_width_summary">Stel de dikte van de trigger in</string>
+      <string name="trigger_top_title">Trigger positie</string>
+      <string name="trigger_top_summary">Stel de verticale positie van de trigger in</string>
+      <string name="trigger_bottom_title">Trigger hoogte</string>
+      <string name="trigger_bottom_summary">Stel de hoogte van de trigger in</string>     
 </resources>
