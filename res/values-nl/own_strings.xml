@@ -1405,5 +1405,13 @@
       <string name="trigger_top_title">Trigger positie</string>
       <string name="trigger_top_summary">Stel de verticale positie van de trigger in</string>
       <string name="trigger_bottom_title">Trigger hoogte</string>
-      <string name="trigger_bottom_summary">Stel de hoogte van de trigger in</string>     
+      <string name="trigger_bottom_summary">Stel de hoogte van de trigger in</string>
+      <!-- App Circle sidebar -->
+      <string name="category_app_circle_bar_title">App cirkel zij balk</string>
+      <string name="app_circle_bar_title">App cirkel balk</string>
+      <string name="app_circle_bar_summary">Laat cirkel balk zien nadat u de rechterkant van het scherm heeft aangeraakt.</string>
+      <string name="app_circle_bar_included_apps_title">Ingesloten apps</string>
+      <string name="app_circle_bar_included_apps_summary">Deze apps zijn zichtbaar in de cirkel balk</string>   
+      <!-- Restart SystemUI -->
+      <string name="restart_systemui">Herstart SystemUI</string>
 </resources>
