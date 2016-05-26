@@ -1414,4 +1414,7 @@
       <string name="app_circle_bar_included_apps_summary">Deze apps zijn zichtbaar in de cirkel balk</string>   
       <!-- Restart SystemUI -->
       <string name="restart_systemui">Herstart SystemUI</string>
+      <!-- Quick unlock -->
+      <string name="unlock_quick_unlock_control_title">Snel ontgrendelen</string>
+      <string name="unlock_quick_unlock_control_summary">Ontgrendel automatisch als de juiste pin/wachtwoord is ingevoerd</string>
 </resources>
