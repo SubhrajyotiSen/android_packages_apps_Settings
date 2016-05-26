@@ -113,6 +113,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="pie_category"
+        android:title="@string/pie_category" >
+
+		<!-- Pie Control -->
+		<PreferenceScreen
+			 android:key="pa_pie_control"
+			 android:title="@string/pa_pie_control_title"
+			 android:fragment="com.android.settings.own.PieControl" />
+
+    </PreferenceCategory>
+            
+    <PreferenceCategory
         android:key="hw_keys"
         android:title="@string/hw_keys_title" >
 
