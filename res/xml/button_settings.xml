@@ -151,7 +151,7 @@
             android:summary="@string/camera_double_tap_power_gesture_desc"
             android:persistent="false" />
             
-    </PrefernceCategory>
+    </PreferenceCategory>
     
         <com.android.settings.cyanogenmod.ButtonBacklightBrightness
 		android:key="button_backlight"
