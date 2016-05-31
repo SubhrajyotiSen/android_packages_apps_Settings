@@ -1121,6 +1121,7 @@
         <item>@string/shortcuts_icon_picker_tv</item>
         <item>@string/shortcuts_icon_picker_twitter</item>
         <item>@string/shortcuts_icon_picker_unlock</item>
+        <item>@string/shortcuts_icon_picker_whatsapp</item>
         <item>@string/airplay</item>
         <item>@string/android</item>
         <item>@string/badoo</item>
@@ -1272,6 +1273,7 @@
         <item>@*android:drawable/ic_shortcut_tv</item>
         <item>@*android:drawable/ic_shortcut_twitter</item>
         <item>@*android:drawable/ic_shortcut_unlock</item>
+        <item>@*android:drawable/ic_shortcut_whatsapp</item>
         <item>@*android:drawable/airplay</item>
         <item>@*android:drawable/android</item>
         <item>@*android:drawable/badoo</item>
