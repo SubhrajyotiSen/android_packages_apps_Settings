@@ -49,7 +49,7 @@ import com.android.internal.util.slim.DeviceUtils;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
-public class RecentsPanelSettings extends SettingsPreferenceFragment implements
+public class RecentsSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     @Override
@@ -57,7 +57,7 @@ public class RecentsPanelSettings extends SettingsPreferenceFragment implements
         return MetricsLogger.DEVELOPMENT;
     }
 
-    private static final String TAG = "RecentPanelSettings";
+    private static final String TAG = "RecentSettings";
 
     private static final String SHOW_RECENTS_SEARCHBAR = "recents_show_search_bar";
     private static final String SHOW_MEMBAR_RECENTS = "systemui_recents_mem_display";

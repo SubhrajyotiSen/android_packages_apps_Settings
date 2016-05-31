@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013-2016 SlimRoms
+<!-- Copyright (C) 2015 Slimroms Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -10,12 +10,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <SwitchPreference
-        android:key="lockscreen_shortcuts_longpress"
-        android:title="@string/lockscreen_shortcuts_longpress"
-        android:summary="@string/lockscreen_shorcuts_longpress_summary" />
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:fragment="com.android.settings.own.RecentAppSidebar"
+        android:key="recent_app_sidebar"
+        android:title="@string/recent_app_sidebar_style_title"
+        android:summary="@string/recent_app_sidebar_style_summary" />
 
 </PreferenceScreen>

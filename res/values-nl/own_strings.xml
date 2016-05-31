@@ -1364,6 +1364,7 @@
       <string name="lockscreen_shortcuts_single_tap">Tik</string>
       <string name="lockscreen_shortcuts_double_tap">Dubbel tik</string>
       <string name="lockscreen_shortcuts_longpress">Lange tik</string>
+      <string name="lockscreen_shorcuts_longpress_summary">Lange tik om app te starten</string>
       <string name="shortcut_action_app">App</string>
       <string name="shortcut_action_home">Thuis</string>
       <string name="shortcut_action_back">Terug</string>
@@ -1519,4 +1520,14 @@
       <!-- ATTENTION: RTL languages need to replace left with right -->
       <string name="recent_panel_lefty_mode_title">Linker kant</string>
       <string name="recent_panel_lefty_mode_summary">Laat de recente apps aan linker kant zien</string>
+      <!-- Slim Recent App Sidebar  -->
+      <string name="recent_app_sidebar_title">App Balk</string>
+      <string name="recent_app_sidebar_summary">Laat app snelkoppelingen zien aan de andere kant</string>
+      <string name="recent_app_sidebar_style_title">Balk style</string>
+      <string name="recent_app_sidebar_style_summary">Pas de style aan na eigen smaak</string>
+      <string name="recent_app_sidebar_hide_labels_title">Verberg icoon labels</string>
+      <string name="recent_app_sidebar_label_color_title">Label kleur</string>
+      <string name="recent_app_sidebar_bg_color_title">Achtergrond kleur</string>
+      <string name="recent_app_sidebar_scale_title">Grote</string>
+ 
 </resources>
