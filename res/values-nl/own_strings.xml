@@ -1501,4 +1501,22 @@
       <!-- Task Manager -->
       <string name="enable_task_manager_title">Taak Beheer</string>
       <string name="enable_task_manager_summary">Schakel een knop in/uit in de uitgebreide notificatie header om taak beheer te starten.</string>
+      <!-- Slim Recents -->
+      <string name="use_slim_recents_title">Slims recente apps scherm</string>
+      <string name="show_running_tasks_title">Laat alleen geopende apps zien</string>
+      <string name="recents_max_apps_title">Maximale toegestaande apps</string>
+      <string name="recent_panel_scale_title">Grote</string>
+      <string name="recent_panel_expanded_mode_title">Uitgebreide modes</string>
+      <string name="recent_panel_expanded_mode_summary">Recente taken in uitgebreide voorbeeld laten zien</string>
+      <string name="recent_panel_expanded_mode_auto">Automatisch (Standaard)</string>
+      <string name="recent_panel_expanded_mode_always">Altijd</string>
+      <string name="recent_panel_expanded_mode_never">Nooit</string>
+      <string name="recent_panel_show_topmost_title">Laat huidig geopende app zien</string>
+      <string name="recent_panel_show_topmost_summary">Laat huidig geopende app niet zien</string>
+      <string name="recent_panel_bg_color_title">Paneel achtergrond kluer</string>
+      <string name="recent_card_bg_color_title">Kaart achtergrond kluer</string>
+      <string name="recent_card_text_color_title">Kaart text kluer</string>
+      <!-- ATTENTION: RTL languages need to replace left with right -->
+      <string name="recent_panel_lefty_mode_title">Linker kant</string>
+      <string name="recent_panel_lefty_mode_summary">Laat de recente apps aan linker kant zien</string>
 </resources>
