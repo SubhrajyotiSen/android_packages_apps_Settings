@@ -1496,4 +1496,7 @@
       <string name="doze_schedule_summary_off">Doze zal alleen eens per notificatie getriggerd worden</string>
       <string name="doze_brightness_title">Doze helderheid</string>
       <string name="doze_brightness_summary">Helderheid van Doze notificatie scherm (% van max toegestaande helderheid)</string>
+      <!-- Task Manager -->
+      <string name="enable_task_manager_title">Taak Beheer</string>
+      <string name="enable_task_manager_summary">Schakel een knop in/uit in de uitgebreide notificatie header om taak beheer te starten.</string>
 </resources>

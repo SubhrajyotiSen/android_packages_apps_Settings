@@ -50,12 +50,14 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
     private static final String PREF_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String PREF_CUSTOM_HEADER_DEFAULT = "status_bar_custom_header_default";
     private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
+    private static final String PREF_ENABLE_TASK_MANAGER = "enable_task_manager";
 
     private ListPreference mQuickPulldown;
     private SwitchPreference mCustomHeader;
     private SwitchPreference mCustomHeaderDefault;
     private SwitchPreference mForceExpanded;
-
+    private SwitchPreference mEnableTaskManager;
+    
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -88,7 +90,11 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
         mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
         mForceExpanded.setChecked((Settings.System.getInt(resolver, Settings.System.FORCE_EXPANDED_NOTIFICATIONS, 0) == 1));
 
-        
+        // Task manager
+        mEnableTaskManager = (SwitchPreference) prefSet.findPreference(PREF_ENABLE_TASK_MANAGER);
+        mEnableTaskManager.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.ENABLE_TASK_MANAGER, 0) == 1));
+
     }
 
     @Override
@@ -137,6 +143,11 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FORCE_EXPANDED_NOTIFICATIONS, checked ? 1:0);
             return true;
+        } else if  (preference == mEnableTaskManager) {
+            boolean enabled = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.ENABLE_TASK_MANAGER, enabled ? 1:0);
+            return true; 
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
