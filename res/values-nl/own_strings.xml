@@ -1360,7 +1360,7 @@
       <string name="lockscreen_shortcuts_middle_title">Slims Snelkoppelingen</string>
       <string name="lockscreen_shortcuts_corner_title">CMs Snelkoppelingen in hoek</string>
       <string name="lockscreen_shortcuts_summary">Verander de knoppelingen op het vergrendelscherm in alles wat u wilt</string>
-      <string name="lockscreen_shorcuts_launch_type_title">Shortcut click type</string>
+      <string name="lockscreen_shorcuts_launch_type_title">Slims snelkoppeling start actie</string>
       <string name="lockscreen_shortcuts_single_tap">Tik</string>
       <string name="lockscreen_shortcuts_double_tap">Dubbel tik</string>
       <string name="lockscreen_shortcuts_longpress">Lange tik</string>
