@@ -1114,6 +1114,7 @@
         <item>@string/shortcuts_icon_picker_rss</item>
         <item>@string/shortcuts_icon_picker_sdcard</item>
         <item>@string/shortcuts_icon_picker_search</item>
+        <item>@string/shortcuts_icon_picker_slack</item>
         <item>@string/shortcuts_icon_picker_sms</item>
         <item>@string/shortcuts_icon_picker_tasks</item>
         <item>@string/shortcuts_icon_picker_terminal</item>
@@ -1266,6 +1267,7 @@
         <item>@*android:drawable/ic_shortcut_rss</item>
         <item>@*android:drawable/ic_shortcut_sdcard</item>
         <item>@*android:drawable/ic_shortcut_search</item>
+        <item>@*android:drawable/ic_shortcut_slack</item>
         <item>@*android:drawable/ic_shortcut_sms</item>
         <item>@*android:drawable/ic_shortcut_tasks</item>
         <item>@*android:drawable/ic_shortcut_terminal</item>

@@ -1663,6 +1663,7 @@
     <string name="shortcuts_icon_picker_rss">RSS Feed</string>
     <string name="shortcuts_icon_picker_sdcard">SDCard</string>
     <string name="shortcuts_icon_picker_search">Search</string>
+    <string name="shortcuts_icon_picker_slack">Slack</string>
     <string name="shortcuts_icon_picker_sms">Messaging</string>
     <string name="shortcuts_icon_picker_tasks">Tasks</string>
     <string name="shortcuts_icon_picker_terminal">Terminal</string>
