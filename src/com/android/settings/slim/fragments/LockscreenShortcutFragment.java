@@ -48,8 +48,6 @@ public class LockscreenShortcutFragment extends SettingsPreferenceFragment imple
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.lockscreen_shortcut_fragment);
-
         PreferenceScreen prefSet = getPreferenceScreen();
 
         mLockscreenShortcutsLongpress = (SwitchPreference) findPreference(
