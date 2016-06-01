@@ -529,6 +529,13 @@
                 android:value="true" />
         </activity>
 
+        <receiver android:name=".DateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
         <activity android:name="DateTimeSettingsSetupWizard"
                   android:label="@string/date_and_time"
                   android:theme="@style/Theme.DateTimeSettingsSetupWizard"
@@ -2496,7 +2503,7 @@
                        android:resource="@id/sound_settings" />
         </activity>
 
-        <activity android:name="Settings$SoundSettingsActivity"
+        <activity android:name="Settings$CMSoundSettingsActivity"
                 android:label="@string/notification_settings"
                 android:exported="true"
                 android:taskAffinity="">
@@ -2521,7 +2528,7 @@
         <activity-alias android:name="Settings$SoundSettingsActivity"
                 android:label="@string/notification_settings"
                 android:taskAffinity=""
-                android:targetActivity="Settings$SoundSettingsActivity">
+                android:targetActivity="Settings$CMSoundSettingsActivity">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.SOUND_SETTINGS" />
                 <action android:name="android.settings.SOUND_SETTINGS" />

@@ -1526,5 +1526,6 @@
       <string name="recent_app_sidebar_label_color_title">Label kleur</string>
       <string name="recent_app_sidebar_bg_color_title">Achtergrond kleur</string>
       <string name="recent_app_sidebar_scale_title">Grote</string>
- 
+
+      <string name="lockscreen_blur_enabled_title">Vergrendel sherm vervaging</string> 
 </resources>
