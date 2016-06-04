@@ -126,10 +126,10 @@ public class AnimationSettings extends SettingsPreferenceFragment
             mListViewInterpolator.setSummary(mListViewInterpolator.getEntries()[index]);
             return true;
         } else if (preference == mScrollingCachePref) {
-            if (objValue != null) {
-                SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String)objValue);
-            return true;
+            if (newValue != null) {
+                SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String) newValue);
             }
+            return true;
         }
         return false;
     }
