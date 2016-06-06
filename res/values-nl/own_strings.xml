@@ -1540,4 +1540,24 @@
       <string name="pref_scrollingcache_default_enable">Standaard inschakaling</string>
       <string name="pref_scrollingcache_default_disable">Standaard uitschakeling</string>
       <string name="pref_scrollingcache_force_disable">Forceer uitschakeling</string>
+      <!-- Per app controls for LP keyguard notifications -->
+      <string name="app_notification_show_on_keyguard_title">Laat zien op vergrendelingsscherm</string>
+      <string name="app_notification_show_on_keyguard_summary">Laat notificaties zien van deze app op vergrendelingsscherm</string>
+      <string name="app_notification_no_ongoing_on_keyguard_title">Schakel persistente notificaties op vergrendelings scherm uit</string>
+      <string name="app_notification_no_ongoing_on_keyguard_summary">Laat geen persistente notificaties van deze app zien op vergrendelingsscherm</string>
+      <!-- CmRadioInfo -->
+      <string name="cm_radio_info_label">Geafanceerde radio instellingen</string>
+      <!-- Radio Control (IMS/MBN etc.) -->
+      <string name="cm_radio_info_mbn_auto_load_on_label">Schakel MBN auto load in</string>
+      <string name="cm_radio_info_mbn_auto_load_off_label">Schakel MBN auto load uit</string>
+      <string name="cm_radio_info_volte_avail_ovr_on_label">Schakel VoLTE dbg in</string>
+      <string name="cm_radio_info_volte_avail_ovr_off_label">Schakel VoLTE dbg uit</string>
+      <string name="cm_radio_info_vt_avail_ovr_on_label">Schakel VT dbg uit</string>
+      <string name="cm_radio_info_vt_avail_ovr_off_label">Schakel VT dbg in</string>
+      <string name="cm_radio_info_wfc_avail_ovr_on_label">Schakel WFC dbg uit</string>
+      <string name="cm_radio_info_wfc_avail_ovr_off_label">Schakel WFC dbg in</string>
+      <string name="cm_radio_info_adb_log_on_label">Schakel ADB radio log uit</string>
+      <string name="cm_radio_info_adb_log_off_label">Schakel ADB radio log in</string>
+      <string name="cm_radio_info_diag_log_on_label">Schakel Diag log uit</string>
+      <string name="cm_radio_info_diag_log_off_label">Schakel Diag log in</string>
 </resources>
