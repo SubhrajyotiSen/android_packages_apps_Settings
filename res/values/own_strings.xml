@@ -1240,6 +1240,7 @@
     <string name="own_lockscreen_settings_title">Lockscreen</string>
     <string name="own_gesture_settings">Gestures</string>
     <string name="pie_category">PIE</string>
+    <string name="own_updater_title">Updates</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>
