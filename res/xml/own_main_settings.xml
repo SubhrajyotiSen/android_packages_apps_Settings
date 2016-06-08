@@ -71,13 +71,22 @@
             android:title="@string/animation_title"
             android:fragment="com.android.settings.own.animation.AnimationSettings" 
             />
+        
+        <!-- OwnROM Updates -->
+       	<PreferenceScreen
+                android:key="update_settings"
+                android:title="@string/own_updater_title">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.own.ota"
+                    android:targetClass="com.own.center.OwnOTACenter" />
+        </PreferenceScreen>
             
-		<!-- Changelog -->
+		<!-- Changelog 
         <PreferenceScreen 
          	android:key="translator"
          	android:title="@string/changelog_ownrom_title"
          	android:fragment="com.android.settings.own.Changelog" 
-         	/>        
+         	/>    -->    
 
 	</PreferenceCategory>
 	
