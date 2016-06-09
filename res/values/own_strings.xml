@@ -1241,6 +1241,8 @@
     <string name="own_gesture_settings">Gestures</string>
     <string name="pie_category">PIE</string>
     <string name="own_updater_title">Updates</string>
+    <string name="own_lockscreen_shortcuts">Shortcuts</string>
+    <string name="own_lockscreen_wallpaper">Wallpaper</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>
@@ -2022,5 +2024,13 @@
     <string name="cm_radio_info_adb_log_off_label">Turn on ADB radio log</string>
     <string name="cm_radio_info_diag_log_on_label">Turn off Diag log</string>
     <string name="cm_radio_info_diag_log_off_label">Turn on Diag log</string>
+
+    <!-- Lockscreen wallpaper -->
+    <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_title">Clear lockscreen wallpaper</string>
+    <string name="reset_lockscreen_wallpaper">Set to default</string>
+    <string name="lockscreen_options_title">Options</string>
+    <string name="lockscreen_wallpaper_summary_warning">Reboot Might Be needed For Changes To Take Effect</string>	
 
 </resources>

@@ -1007,6 +1007,8 @@
       <string name="own_pulldown_title">Open opties</string>
       <string name="own_lockscreen_settings_title">Vergrendelings scherm</string>
       <string name="own_gesture_settings">Gebaren</string>
+      <string name="own_lockscreen_shortcuts">Snelkoppelingen</string>
+      <string name="own_lockscreen_wallpaper">Achtergrond</string>
 	  <!-- Recents panel -->
 	  <string name="recents_panel_category">Recents apps</string>
 	  <string name="recents_searchbar_title">Zoekbalk</string>
@@ -1559,5 +1561,12 @@
       <string name="cm_radio_info_adb_log_on_label">Schakel ADB radio log uit</string>
       <string name="cm_radio_info_adb_log_off_label">Schakel ADB radio log in</string>
       <string name="cm_radio_info_diag_log_on_label">Schakel Diag log uit</string>
-      <string name="cm_radio_info_diag_log_off_label">Schakel Diag log in</string>
+      <string name="cm_radio_info_diag_log_off_label">Schakel Diag log in</string>     
+      <!-- Lockscreen wallpaper -->
+      <string name="lockscreen_wallpaper_title">Vergrendel scherm achtergrond</string>
+      <string name="lockscreen_wallpaper_set_title">Stel eigen achtergrond in</string>
+      <string name="lockscreen_wallpaper_clear_title">Verwijder achtergrond</string>
+      <string name="reset_lockscreen_wallpaper">Standaard achtergrond herstellen</string>
+      <string name="lockscreen_options_title">Opties</string>
+      <string name="lockscreen_wallpaper_summary_warning">Herstart is misschien nodig voordat veranderingen zichtbaar zijn</string>
 </resources>

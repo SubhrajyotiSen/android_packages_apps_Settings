@@ -17,6 +17,23 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/own_lockscreen_settings_title">
 
+    <PreferenceCategory
+        android:key="own_lockscreen_wallpaper"
+        android:title="@string/own_lockscreen_wallpaper" >
+
+		<PreferenceScreen
+			android:key="lockscreen_wallpaper"
+			android:title="@string/lockscreen_wallpaper_title"
+			android:persistent="false"
+			android:fragment="com.android.settings.own.LockscreenWallpaper">
+		</PreferenceScreen>
+
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="own_lockscreen_shortcuts"
+        android:title="@string/own_lockscreen_shortcuts" >
+        	
         <PreferenceScreen
                  android:key="slim_lockscreen_shortcuts"
                  android:fragment="com.android.settings.slim.dslv.ActionListViewSettings"
@@ -36,4 +53,6 @@
                 android:targetClass="com.android.systemui.cm.LockscreenShortcutsActivity" />
         </PreferenceScreen>
 
+	</PreferenceCategory>
+	
 </PreferenceScreen>
