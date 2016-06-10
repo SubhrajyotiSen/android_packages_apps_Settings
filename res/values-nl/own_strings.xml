@@ -1569,4 +1569,8 @@
       <string name="reset_lockscreen_wallpaper">Standaard achtergrond herstellen</string>
       <string name="lockscreen_options_title">Opties</string>
       <string name="lockscreen_wallpaper_summary_warning">Herstart is misschien nodig voordat veranderingen zichtbaar zijn</string>
+      <!-- Lockscreen see through -->
+      <string name="lockscreen_see_through_title">Vergrendel scherm vervaging</string>
+      <string name="lockscreen_see_through_summary">Vervaagd en laat content achter je vergrendelscherm zien.</string>
+      <string name="lockscreen_blur_radius">Intensieteit van vervaging</string>
 </resources>

@@ -28,6 +28,20 @@
 			android:fragment="com.android.settings.own.LockscreenWallpaper">
 		</PreferenceScreen>
 
+		<com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+			android:key="lockscreen_see_through"
+			android:title="@string/lockscreen_see_through_title"
+			android:summary="@string/lockscreen_see_through_summary"
+			android:defaultValue="false" />
+
+		  <com.android.settings.own.SeekBarPreference
+			android:key="lockscreen_blur_radius"
+			android:title="@string/lockscreen_blur_radius"
+			android:max="25"
+			settings:min="0"
+			android:defaultValue="14"
+			android:dependency="lockscreen_see_through" />
+
 	</PreferenceCategory>
 
     <PreferenceCategory
