@@ -18,6 +18,18 @@
         android:title="@string/own_lockscreen_settings_title">
 
     <PreferenceCategory
+        android:key="own_lockscreen_weather"
+        android:title="@string/own_lockscreen_weather" >
+        
+        <com.android.settings.cyanogenmod.CMSecureSettingSwitchPreference
+            android:key="lock_screen_weather_enabled"
+            android:title="@string/lockscreen_weather_enabled_title"
+            android:summary="@string/lockscreen_weather_summary"
+            android:defaultValue="false"/>
+
+	</PreferenceCategory>
+	
+    <PreferenceCategory
         android:key="own_lockscreen_wallpaper"
         android:title="@string/own_lockscreen_wallpaper" >
 

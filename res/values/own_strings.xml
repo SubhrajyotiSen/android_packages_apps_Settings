@@ -1243,6 +1243,8 @@
     <string name="own_updater_title">Updates</string>
     <string name="own_lockscreen_shortcuts">Shortcuts</string>
     <string name="own_lockscreen_wallpaper">Wallpaper</string>
+    <string name="own_lockscreen_weather">Weather</string>
+    <string name="lockscreen_weather_summary">Enable weather info on lockscreen</string>
 
     <!-- Recents panel -->
     <string name="recents_panel_category">Recents panel</string>
