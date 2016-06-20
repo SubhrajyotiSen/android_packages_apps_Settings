@@ -1604,4 +1604,7 @@
       <string name="system_app_remover">Systeem App Verwijderaar</string>
       <string name="load_profile">Laad profiel</string>
       <string name="save_profile">Sla Profiel op</string>
+      <!-- Three-fingers-swipe to screenshot -->
+      <string name="three_finger_gesture">Drie vingers gebaar</string>
+      <string name="three_finger_gesture_summary">Veeg met 3 vingers over het scherm om een screenshot te triggeren</string>
 </resources>
