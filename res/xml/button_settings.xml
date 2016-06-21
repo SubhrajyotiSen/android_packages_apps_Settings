@@ -124,6 +124,12 @@
 			 android:fragment="com.android.settings.own.PieControl" />
 
     </PreferenceCategory>
+
+        <com.android.settings.cyanogenmod.ButtonBacklightBrightness
+		android:key="button_backlight"
+		android:title="@string/button_backlight_title"
+		android:dialogTitle="@string/button_backlight_title"
+		android:persistent="false" />
             
     <PreferenceCategory
         android:key="hw_keys"
@@ -135,6 +141,12 @@
             android:summary="@string/hw_keys_summary"
             android:defaultValue="true"/>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="power_key"
+        android:title="@string/hardware_keys_power_key_title" >
+    
         <PreferenceScreen
             android:key="power_menu"
             android:title="@string/power_menu_title"
@@ -151,15 +163,9 @@
             android:title="@string/camera_double_tap_power_gesture_title"
             android:summary="@string/camera_double_tap_power_gesture_desc"
             android:persistent="false" />
-            
+
     </PreferenceCategory>
     
-        <com.android.settings.cyanogenmod.ButtonBacklightBrightness
-		android:key="button_backlight"
-		android:title="@string/button_backlight_title"
-		android:dialogTitle="@string/button_backlight_title"
-		android:persistent="false" />
-
     <PreferenceCategory
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >
