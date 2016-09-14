@@ -15,8 +15,14 @@
 	<!-- OwnSettings -->
 	<string name="header_category_personal_settings">OwnROM</string>
 	<string name="themes_title">Thema\'s</string>
+	<string name="default_string">Standaard</string>
+
 	
 	<!-- Changelog -->
 	<string name="changelog_ownrom_error">Kan changelog niet laden</string>
+
+    <!-- About device screen, CPU and RAM info. -->
+    <string name="cpu_info">CPU</string>
+    <string name="mem_info">RAM</string>
 
 </resources>

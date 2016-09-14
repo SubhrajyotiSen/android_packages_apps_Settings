@@ -16,6 +16,7 @@
 	<string name="header_category_personal_settings">OwnROM</string>
 	<string name="own_settings_title">OwnSettings</string>
 	<string name="themes_title">Themes</string>
+	<string name="default_string">Default</string>
    
 	<!-- Magisk -->
     <string name="magisk_title">Magisk Manager</string>
