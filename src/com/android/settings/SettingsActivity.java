@@ -137,6 +137,11 @@ import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
 import com.own.settings.OwnSettings;
 
+import com.own.settings.button.tabs.NavigationButton;
+import com.own.settings.javas.FlingSettings;
+import com.own.settings.javas.SmartbarSettings;
+import com.own.settings.javas.PulseSettings;
+
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
@@ -376,6 +381,10 @@ public class SettingsActivity extends SettingsDrawerActivity
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
             OwnSettings.class.getName()
+            NavigationButton.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 
