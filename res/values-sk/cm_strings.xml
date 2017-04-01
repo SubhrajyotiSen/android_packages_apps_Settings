@@ -40,8 +40,8 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Spravovať prístupy root</string>
   <string name="root_appops_summary">Zobraziť a spravovať pravidlá prístupu root</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">Verzia LineageOS</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">Verzia OwnROM</string>
   <string name="mod_version_default">Neznáme</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model zariadenia</string>
@@ -52,8 +52,6 @@
   <string name="mod_api_level_default">Neznáme</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Dátum zostavy</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Aktualizácie LineageOS</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Poloha</string>
   <string name="app_ops_categories_personal">Osobné</string>

@@ -37,7 +37,7 @@
   <string name="root_access_adb">କେବଳ ADB</string>
   <string name="root_access_all">ଆପ୍ଲିକେସନ୍‍ଗୁଡିକ ଓ ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
+  <!-- About phone screen, OwnROM version -->
   <string name="mod_version">ସିଆନୋଜେନ୍‍ମୋଡ୍‍ ସଂସ୍କରଣ</string>
   <string name="mod_version_default">ଅଜ୍ଞାତ</string>
   <!-- About phone screen, Device model -->
@@ -49,8 +49,6 @@
   <string name="mod_api_level_default">ଅଜ୍ଞାତ</string>
   <!-- About phone screen, build date -->
   <string name="build_date">ତାରିଖ ତିଆରି କରନ୍ତୁ</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">ସିଆନୋଜେନ୍‍ମୋଡ୍‍ ଅଦ୍ୟତନ</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">ଅବସ୍ଥାନ</string>
   <string name="app_ops_categories_personal">ବ୍ୟକ୍ତିଗତ</string>

@@ -41,8 +41,8 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">ניהול גישות שורש</string>
   <string name="root_appops_summary">הצג ושלוט בחוקי גישת השורש</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">גרסת LineageOS</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">גרסת OwnROM</string>
   <string name="mod_version_default">לא ידוע</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">דגם המכשיר</string>
@@ -53,8 +53,6 @@
   <string name="mod_api_level_default">לא ידוע</string>
   <!-- About phone screen, build date -->
   <string name="build_date">תאריך בנייה</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">עדכוני LineageOS</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">מיקום</string>
   <string name="app_ops_categories_personal">אישי</string>

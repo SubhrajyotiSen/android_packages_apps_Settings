@@ -41,8 +41,8 @@
   <string name="root_access_adb">لـADB فقط</string>
   <string name="root_access_all">التطبيقات وADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">إصدار LineageOS</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">إصدار OwnROM</string>
   <string name="mod_version_default">مجهول</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">طراز الجهاز</string>
@@ -53,8 +53,6 @@
   <string name="mod_api_level_default">مجهول</string>
   <!-- About phone screen, build date -->
   <string name="build_date">تاريخ إنشاء</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">تحديثات LineageOS</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">الموقع</string>
   <string name="app_ops_categories_personal">شخصي</string>
@@ -321,7 +319,7 @@
   <string name="nfc_title_category">الاتصال بالحقل القريب</string>
   <!-- Notification importance -->
   <!-- CM Legal -->
-  <string name="cmlicense_title">قانون LineageOS</string>
+  <string name="cmlicense_title">قانون مستوى LineageOS</string>
   <!-- Format string for fingerprint location message -->
   <!-- Fingerprint sensor locations -->
   <!-- Wi-Fi region code -->

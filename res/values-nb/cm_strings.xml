@@ -39,8 +39,8 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Administrer root tilganger</string>
   <string name="root_appops_summary">Se over og endre root reglene</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS versjon</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">OwnROM versjon</string>
   <string name="mod_version_default">Ukjent</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Enhetsmodell</string>
@@ -51,8 +51,6 @@
   <string name="mod_api_level_default">Ukjent</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Build-dato</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS oppdateringer</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Posisjon</string>
   <string name="app_ops_categories_personal">Personlig</string>

@@ -39,8 +39,8 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Hallitse root-oikeuksia</string>
   <string name="root_appops_summary">Tarkastele ja hallinnoi root-sääntöjä</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS-versio</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">OwnROM-versio</string>
   <string name="mod_version_default">Tuntematon</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Laitteen malli</string>
@@ -51,8 +51,6 @@
   <string name="mod_api_level_default">Tuntematon</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Luontipäivä</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS-päivitykset</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Sijainti</string>
   <string name="app_ops_categories_personal">Henkilökohtainen</string>

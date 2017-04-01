@@ -37,8 +37,8 @@
   <string name="root_access_adb">Yalnız ADB</string>
   <string name="root_access_all">Tətbiqetmələr və ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS versiyası</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">OwnROM versiyası</string>
   <string name="mod_version_default">Bilinməyən</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Cihaz modeli</string>
@@ -48,8 +48,6 @@
   <string name="mod_api_level_default">Bilinməyən</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Quruluş tarixi</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS yeniləmələri</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Yer</string>
   <string name="app_ops_categories_personal">Şəxsi</string>

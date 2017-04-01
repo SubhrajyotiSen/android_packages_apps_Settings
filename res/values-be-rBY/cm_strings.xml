@@ -38,8 +38,8 @@
   <string name="root_access_adb">Толькі для ADB</string>
   <string name="root_access_all">Для дадаткаў і ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">Версія LineageOS</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">Версія OwnROM</string>
   <string name="mod_version_default">Невядома</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Мадэль прылады</string>
@@ -50,8 +50,6 @@
   <string name="mod_api_level_default">Невядома</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Дата зборкі</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Абнаўленні сістэмы</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Месцазнаходжанне</string>
   <string name="app_ops_categories_personal">Асабістыя дадзеныя</string>

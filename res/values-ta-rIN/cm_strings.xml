@@ -37,8 +37,8 @@
   <string name="root_access_adb">ADB மட்டும்</string>
   <string name="root_access_all">ஆப்கள் மற்றும் ADB</string>
   <!-- Preference link for root appops -->
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">LineageOS பதிப்பு</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">OwnROM பதிப்பு</string>
   <string name="mod_version_default">தெரியாதது</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">கருவி மாதிரி</string>
@@ -49,8 +49,6 @@
   <string name="mod_api_level_default">தெரியாதது</string>
   <!-- About phone screen, build date -->
   <string name="build_date">கட்டிய தேதி</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">LineageOS புதுப்பித்தல்கள்</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">இருப்பிடம்</string>
   <string name="app_ops_categories_personal">தனிப்பட்டவை</string>

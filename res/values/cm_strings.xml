@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2012-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+			   (C) 2017 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -42,8 +42,8 @@
     <string name="root_appops_title">Manage root accesses</string>
     <string name="root_appops_summary">View and control the root rules</string>
 
-    <!-- About phone screen, LineageOS version -->
-    <string name="mod_version">LineageOS version</string>
+    <!-- About phone screen, OwnROM version -->
+    <string name="mod_version">OwnROM version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- About phone screen, Device model -->
@@ -58,9 +58,6 @@
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
     <string name="build_date_default" translatable="false">2017-01-01-0000</string>
-
-    <!-- CM Updater -->
-    <string name="cmupdate_settings_title">LineageOS updates</string>
 
     <!-- Names of categories of app ops tabs - extension of AOSP -->
     <string name="app_ops_categories_location">Location</string>

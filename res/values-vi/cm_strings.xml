@@ -38,8 +38,8 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Quản lý truy cập root</string>
   <string name="root_appops_summary">Xem và kiểm soát các truy cập root</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">Phiên bản LineageOS</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">Phiên bản OwnROM</string>
   <string name="mod_version_default">Không rõ</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Mẫu thiết bị</string>
@@ -50,8 +50,6 @@
   <string name="mod_api_level_default">Không rõ</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Ngày dựng</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Các cập nhật LineageOS</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
   <string name="app_ops_categories_location">Vị trí</string>
   <string name="app_ops_categories_personal">Cá nhân</string>

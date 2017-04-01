@@ -39,8 +39,8 @@
   <!-- Preference link for root appops -->
   <string name="root_appops_title">Gestionar acceso administrativo (root)</string>
   <string name="root_appops_summary">Ver y controlar las reglas administrativas</string>
-  <!-- About phone screen, LineageOS version -->
-  <string name="mod_version">Versión de LineageOS</string>
+  <!-- About phone screen, OwnROM version -->
+  <string name="mod_version">Versión de OwnROM</string>
   <string name="mod_version_default">Desconocido</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Modelo de dispositivo</string>
