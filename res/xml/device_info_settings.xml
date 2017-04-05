@@ -76,9 +76,11 @@
                 android:title="@string/device_feedback">
         </PreferenceScreen>
 
-        <!-- Contributors cloud -->
-        <org.cyanogenmod.internal.cmparts.CMPartsPreference
-                android:key="contributors" />
+		<!-- Changelog -->
+        <PreferenceScreen 
+         	android:key="translator"
+         	android:title="@string/changelog_ownrom_title"
+         	android:fragment="com.android.settings.own.Changelog" />     
 
         <!-- Device name -->
         <Preference android:key="device_name"
