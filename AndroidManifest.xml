@@ -130,7 +130,7 @@
 
         <activity android:name=".Settings$WirelessSettings"
             android:label="@string/header_category_wireless_networks">
-            <intent-filter android:priority="4">
+            <intent-filter android:priority="5">
                 <action android:name="com.android.settings.category.wireless" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -138,8 +138,16 @@
 
         <activity android:name=".Settings$DeviceSettings"
             android:label="@string/header_category_device">
-            <intent-filter android:priority="3">
+            <intent-filter android:priority="4">
                 <action android:name="com.android.settings.category.device" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Settings$OwnSettings"
+            android:label="@string/header_category_own_settings">
+            <intent-filter android:priority="3">
+                <action android:name="com.android.settings.category.own" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -955,6 +963,33 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.notification.ZenModeExternalRuleSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+       <!-- OwnSettings  -->
+        <activity android:name="Settings$OwnSettingsActivity"
+                android:label="@string/own_settings_title"
+                android:icon="@drawable/ic_own_settings"
+                android:taskAffinity="">
+            <intent-filter android:priority="1">
+                <action android:name="com.own.settings.OwnSettings" />
+                <action android:name="own.settings.OwnSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.own" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.own.settings.OwnSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>

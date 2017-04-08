@@ -12,6 +12,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- OwnSettings -->
+   <string name="header_category_own_settings">OwnSettings</string>
+   <string name="own_settings_title">OwnSettings</string>
+   
 	<!-- Magisk -->
     <string name="magisk_title">Magisk Manager</string>
     <string name="magisk_summary">Root management</string>
