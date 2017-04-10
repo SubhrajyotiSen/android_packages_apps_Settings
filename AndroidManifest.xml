@@ -145,6 +145,34 @@
             </intent-filter>
         </activity>
 
+       <!-- OwnSettings  -->
+        <activity android:name="Settings$OwnSettingsActivity"
+                android:label="@string/own_settings_title"
+                android:icon="@drawable/ic_own_settings"
+                android:taskAffinity="">
+            <intent-filter android:priority="3">
+                <action android:name="com.own.settings.OwnSettings" />
+                <action android:name="own.settings.OwnSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="9">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.own" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.own.settings.OwnSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+		<!-- Substratum Shortcut -->
         <activity android:name="Settings$ThemesActivity"
                 android:label="@string/themes_title"
                 android:icon="@drawable/ic_settings_themes"
@@ -154,7 +182,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
-            <intent-filter android:priority="1">
+            <intent-filter android:priority="2">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -162,7 +190,8 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.Themes" />
         </activity>
-        
+
+		<!-- Magisk Shortcut -->
         <activity android:name="Settings$MagiskActivity"
             android:label="@string/magisk_title"
             android:icon="@drawable/ic_settings_magisk"
@@ -181,7 +210,8 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.MagiskManager" />
         </activity>  
-
+		<!-- End OwnROM Additions -->
+		
         <activity android:name=".Settings$DeviceSettings"
             android:label="@string/header_category_device">
             <intent-filter android:priority="3">
@@ -1001,33 +1031,6 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.notification.ZenModeExternalRuleSettings" />
-            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
-                android:value="true" />
-        </activity>
-
-       <!-- OwnSettings  -->
-        <activity android:name="Settings$OwnSettingsActivity"
-                android:label="@string/own_settings_title"
-                android:icon="@drawable/ic_own_settings"
-                android:taskAffinity="">
-            <intent-filter android:priority="1">
-                <action android:name="com.own.settings.OwnSettings" />
-                <action android:name="own.settings.OwnSettings" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.VOICE_LAUNCH" />
-                <category android:name="com.android.settings.SHORTCUT" />
-            </intent-filter>
-            <intent-filter android:priority="-1">
-                <action android:name="com.android.settings.action.SETTINGS" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.own" />
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.own.settings.OwnSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
@@ -2094,7 +2097,7 @@
                 <action android:name="com.android.settings.APPLICATION_DEVELOPMENT_SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <intent-filter android:priority="2">
+            <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -2560,7 +2563,7 @@
             android:launchMode="singleTop"
             android:theme="@style/CryptKeeperBlankTheme"
         />
-
+        
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
                 android:label="@string/crypt_keeper_encrypt_title">
