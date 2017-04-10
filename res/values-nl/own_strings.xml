@@ -12,7 +12,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-      <!-- Changelog -->
-      <string name="changelog_ownrom_error">Kan changelog niet laden</string>
+	<!-- OwnSettings -->
+	<string name="header_category_personal_settings">OwnROM</string>
+	<string name="themes_title">Thema\'s</string>
+	
+	<!-- Changelog -->
+	<string name="changelog_ownrom_error">Kan changelog niet laden</string>
 
 </resources>

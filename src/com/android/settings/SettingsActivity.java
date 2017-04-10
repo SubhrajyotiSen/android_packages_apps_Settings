@@ -236,6 +236,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String ACTION_TIMER_SWITCH = "qualcomm.intent.action.TIMER_SWITCH";
 
+	private static final String THEMES_FRAGMENT = "com.android.settings.Themes";
+
     private static final String MAGISK_FRAGMENT = "com.android.settings.MagiskManager";
 
     private String mFragmentClass;
@@ -1048,7 +1050,13 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
-         if (MAGISK_FRAGMENT.equals(fragmentName)) {
+        if (THEMES_FRAGMENT.equals(fragmentName)) {
+            Intent themesIntent = new Intent();
+            themesIntent.setClassName("projekt.substratum", "projekt.substratum.LaunchActivity");
+            startActivity(themesIntent);
+            finish();
+            return null;
+         } else if (MAGISK_FRAGMENT.equals(fragmentName)) {
             Intent magiskIntent = new Intent();
             magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
             startActivity(magiskIntent);
@@ -1147,6 +1155,15 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                         Settings.DevelopmentSettingsActivity.class.getName()),
                 showDev, isAdmin, pm);
+
+        boolean themesSupported = false;
+        try {
+            themesSupported = (getPackageManager().getPackageInfo("projekt.substratum", 0).versionCode > 0);
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.ThemesActivity.class.getName()),
+                themesSupported, isAdmin, pm);
 
         // Reveal development-only quick settings tiles
         DevelopmentTiles.setTilesEnabled(this, showDev);
