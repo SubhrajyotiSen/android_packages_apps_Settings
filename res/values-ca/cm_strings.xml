@@ -50,7 +50,7 @@
   <string name="mod_api_level">Nivell de l\'API de LineageOS</string>
   <string name="mod_api_level_default">Desconegut</string>
   <!-- About phone screen, build date -->
-  <string name="build_date">Data d\'elaboració</string>
+  <string name="build_date">Data de compilació</string>
   <!-- CM Updater -->
   <string name="cmupdate_settings_title">Actualitzacions LineageOS</string>
   <!-- Names of categories of app ops tabs - extension of AOSP -->
