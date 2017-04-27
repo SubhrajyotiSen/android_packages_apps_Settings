@@ -213,6 +213,9 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.MagiskManager" />
         </activity>  
+        
+		<activity android:name="com.own.settings.javas.HAFRAppListActivity" />
+		
 		<!-- End OwnROM Additions -->
 		
         <activity android:name=".Settings$DeviceSettings"
