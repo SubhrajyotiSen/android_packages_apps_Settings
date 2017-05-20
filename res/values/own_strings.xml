@@ -26,4 +26,9 @@
     <string name="changelog_ownrom_title">OwnROM changelog</string>
     <string name="changelog_ownrom_error">Unable to load changelog</string>
 
+
+    <!-- About device screen, CPU and RAM info. -->
+    <string name="cpu_info">CPU</string>
+    <string name="mem_info">RAM</string>
+    
 </resources>

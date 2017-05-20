@@ -21,8 +21,4 @@
 	<!-- Changelog -->
 	<string name="changelog_ownrom_error">Kan changelog niet laden</string>
 
-    <!-- About device screen, CPU and RAM info. -->
-    <string name="cpu_info">CPU</string>
-    <string name="mem_info">RAM</string>
-
 </resources>
