@@ -380,7 +380,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            OwnSettings.class.getName()
+            OwnSettings.class.getName(),
             NavigationButton.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
