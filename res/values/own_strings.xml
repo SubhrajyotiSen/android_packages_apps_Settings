@@ -17,10 +17,6 @@
 	<string name="own_settings_title">OwnSettings</string>
 	<string name="themes_title">Themes</string>
 	<string name="default_string">Default</string>
-   
-	<!-- Magisk -->
-    <string name="magisk_title">Magisk Manager</string>
-    <string name="magisk_summary">Root management</string>
 	
     <!-- Changelog -->
     <string name="changelog_ownrom_title">OwnROM changelog</string>
