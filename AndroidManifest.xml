@@ -242,6 +242,14 @@
             </intent-filter>
         </activity>
 
+		<!-- SeLinux Switch -->
+        <receiver android:name="com.own.settings.javas.OnBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+       
         <!-- Wireless Controls -->
 
         <activity android:name="Settings$WirelessSettingsActivity"

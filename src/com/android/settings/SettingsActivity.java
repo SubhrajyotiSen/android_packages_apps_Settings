@@ -1063,6 +1063,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             startActivity(themesIntent);
             finish();
             return null;
+        }
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
