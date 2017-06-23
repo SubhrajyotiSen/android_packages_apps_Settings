@@ -31,6 +31,13 @@
         settings:animation="@raw/gesture_fingerprint_swipe"
         settings:preview="@drawable/gesture_fingerprint_swipe"/>
 
+    <!--<com.android.settings.gestures.GesturePreference
+        android:key="gesture_double_tap_power"
+        android:title="@string/double_tap_power_for_camera_title"
+        android:summary="@string/double_tap_power_for_camera_summary"
+        settings:animation="@raw/gesture_double_tap"
+        settings:preview="@drawable/gesture_double_tap"/> -->
+
     <com.android.settings.gestures.GesturePreference
         android:key="gesture_double_twist"
         android:title="@string/double_twist_for_camera_mode_title"
@@ -51,5 +58,12 @@
         android:summary="@string/ambient_display_pickup_summary"
         settings:animation="@raw/gesture_ambient_lift"
         settings:preview="@drawable/gesture_ambient_lift"/>
+
+    <!-- Double tap to sleep
+    <cyanogenmod.preference.CMSystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/status_bar_double_tap_to_sleep_title"
+        android:summary="@string/status_bar_double_tap_to_sleep_summary"
+        android:defaultValue="true" />  -->
 
 </PreferenceScreen>
